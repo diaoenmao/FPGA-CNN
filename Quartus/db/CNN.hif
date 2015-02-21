@@ -1,7 +1,7 @@
 Quartus II
 Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-43
-3250
+11
+980
 OFF
 OFF
 OFF
@@ -20,30 +20,10 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-CNN
-# storage
-db|CNN.(0).cnf
-db|CNN.(0).cnf
-# case_insensitive
-# source_file
-cnn.bdf
-19a6e731c02ddefb1c964d2ac8189f3
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 Naive_EQ2
 # storage
-db|CNN.(1).cnf
-db|CNN.(1).cnf
+db|CNN.(2).cnf
+db|CNN.(2).cnf
 # case_insensitive
 # source_file
 naive_eq2.bdf
@@ -54,15 +34,15 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Naive_EQ2:inst10
-Naive_EQ2:inst6
-Naive_EQ2:inst2
-Naive_EQ2:inst3
-Naive_EQ2:inst4
-Naive_EQ2:inst7
-Naive_EQ2:inst9
-Naive_EQ2:inst5
-Naive_EQ2:inst8
+3by3:inst|Naive_EQ2:inst10
+3by3:inst|Naive_EQ2:inst6
+3by3:inst|Naive_EQ2:inst2
+3by3:inst|Naive_EQ2:inst3
+3by3:inst|Naive_EQ2:inst4
+3by3:inst|Naive_EQ2:inst7
+3by3:inst|Naive_EQ2:inst9
+3by3:inst|Naive_EQ2:inst5
+3by3:inst|Naive_EQ2:inst8
 }
 # macro_sequence
 
@@ -70,8 +50,8 @@ Naive_EQ2:inst8
 # entity
 divideby2
 # storage
-db|CNN.(2).cnf
-db|CNN.(2).cnf
+db|CNN.(3).cnf
+db|CNN.(3).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -92,15 +72,15 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Naive_EQ2:inst10|divideby2:inst10
-Naive_EQ2:inst6|divideby2:inst10
-Naive_EQ2:inst2|divideby2:inst10
-Naive_EQ2:inst3|divideby2:inst10
-Naive_EQ2:inst4|divideby2:inst10
-Naive_EQ2:inst7|divideby2:inst10
-Naive_EQ2:inst9|divideby2:inst10
-Naive_EQ2:inst5|divideby2:inst10
-Naive_EQ2:inst8|divideby2:inst10
+3by3:inst|Naive_EQ2:inst10|divideby2:inst10
+3by3:inst|Naive_EQ2:inst6|divideby2:inst10
+3by3:inst|Naive_EQ2:inst2|divideby2:inst10
+3by3:inst|Naive_EQ2:inst3|divideby2:inst10
+3by3:inst|Naive_EQ2:inst4|divideby2:inst10
+3by3:inst|Naive_EQ2:inst7|divideby2:inst10
+3by3:inst|Naive_EQ2:inst9|divideby2:inst10
+3by3:inst|Naive_EQ2:inst5|divideby2:inst10
+3by3:inst|Naive_EQ2:inst8|divideby2:inst10
 }
 # lmf
 |quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
@@ -111,8 +91,8 @@ a36c8ec425c8a2589af98b2d4daabc3
 # entity
 addsub16bits
 # storage
-db|CNN.(3).cnf
-db|CNN.(3).cnf
+db|CNN.(4).cnf
+db|CNN.(4).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -133,15 +113,15 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Naive_EQ2:inst10|addsub16bits:inst6
-Naive_EQ2:inst6|addsub16bits:inst6
-Naive_EQ2:inst2|addsub16bits:inst6
-Naive_EQ2:inst3|addsub16bits:inst6
-Naive_EQ2:inst4|addsub16bits:inst6
-Naive_EQ2:inst7|addsub16bits:inst6
-Naive_EQ2:inst9|addsub16bits:inst6
-Naive_EQ2:inst5|addsub16bits:inst6
-Naive_EQ2:inst8|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst10|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst6|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst2|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst3|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst4|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst7|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst9|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst5|addsub16bits:inst6
+3by3:inst|Naive_EQ2:inst8|addsub16bits:inst6
 }
 # lmf
 |quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
@@ -152,8 +132,8 @@ a36c8ec425c8a2589af98b2d4daabc3
 # entity
 absolutor
 # storage
-db|CNN.(4).cnf
-db|CNN.(4).cnf
+db|CNN.(5).cnf
+db|CNN.(5).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -174,24 +154,24 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Naive_EQ2:inst10|absolutor:inst4
-Naive_EQ2:inst10|absolutor:inst5
-Naive_EQ2:inst6|absolutor:inst4
-Naive_EQ2:inst6|absolutor:inst5
-Naive_EQ2:inst2|absolutor:inst4
-Naive_EQ2:inst2|absolutor:inst5
-Naive_EQ2:inst3|absolutor:inst4
-Naive_EQ2:inst3|absolutor:inst5
-Naive_EQ2:inst4|absolutor:inst4
-Naive_EQ2:inst4|absolutor:inst5
-Naive_EQ2:inst7|absolutor:inst4
-Naive_EQ2:inst7|absolutor:inst5
-Naive_EQ2:inst9|absolutor:inst4
-Naive_EQ2:inst9|absolutor:inst5
-Naive_EQ2:inst5|absolutor:inst4
-Naive_EQ2:inst5|absolutor:inst5
-Naive_EQ2:inst8|absolutor:inst4
-Naive_EQ2:inst8|absolutor:inst5
+3by3:inst|Naive_EQ2:inst10|absolutor:inst4
+3by3:inst|Naive_EQ2:inst10|absolutor:inst5
+3by3:inst|Naive_EQ2:inst6|absolutor:inst4
+3by3:inst|Naive_EQ2:inst6|absolutor:inst5
+3by3:inst|Naive_EQ2:inst2|absolutor:inst4
+3by3:inst|Naive_EQ2:inst2|absolutor:inst5
+3by3:inst|Naive_EQ2:inst3|absolutor:inst4
+3by3:inst|Naive_EQ2:inst3|absolutor:inst5
+3by3:inst|Naive_EQ2:inst4|absolutor:inst4
+3by3:inst|Naive_EQ2:inst4|absolutor:inst5
+3by3:inst|Naive_EQ2:inst7|absolutor:inst4
+3by3:inst|Naive_EQ2:inst7|absolutor:inst5
+3by3:inst|Naive_EQ2:inst9|absolutor:inst4
+3by3:inst|Naive_EQ2:inst9|absolutor:inst5
+3by3:inst|Naive_EQ2:inst5|absolutor:inst4
+3by3:inst|Naive_EQ2:inst5|absolutor:inst5
+3by3:inst|Naive_EQ2:inst8|absolutor:inst4
+3by3:inst|Naive_EQ2:inst8|absolutor:inst5
 }
 # lmf
 |quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
@@ -202,8 +182,8 @@ a36c8ec425c8a2589af98b2d4daabc3
 # entity
 addsub1
 # storage
-db|CNN.(5).cnf
-db|CNN.(5).cnf
+db|CNN.(6).cnf
+db|CNN.(6).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -224,93 +204,24 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Naive_EQ2:inst10|addsub1:inst
-Naive_EQ2:inst10|addsub1:inst2
-Naive_EQ2:inst6|addsub1:inst
-Naive_EQ2:inst6|addsub1:inst2
-Naive_EQ2:inst2|addsub1:inst
-Naive_EQ2:inst2|addsub1:inst2
-Naive_EQ2:inst3|addsub1:inst
-Naive_EQ2:inst3|addsub1:inst2
-Naive_EQ2:inst4|addsub1:inst
-Naive_EQ2:inst4|addsub1:inst2
-Naive_EQ2:inst7|addsub1:inst
-Naive_EQ2:inst7|addsub1:inst2
-Naive_EQ2:inst9|addsub1:inst
-Naive_EQ2:inst9|addsub1:inst2
-Naive_EQ2:inst5|addsub1:inst
-Naive_EQ2:inst5|addsub1:inst2
-Naive_EQ2:inst8|addsub1:inst
-Naive_EQ2:inst8|addsub1:inst2
-}
-# lmf
-|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
-a36c8ec425c8a2589af98b2d4daabc3
-# macro_sequence
-
-# end
-# entity
-Naive_EQ1
-# storage
-db|CNN.(6).cnf
-db|CNN.(6).cnf
-# case_insensitive
-# source_file
-naive_eq1.bdf
-a01502e496d483e4a647ff417704d
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-Naive_EQ1:Naive9
-Naive_EQ1:Naive5
-Naive_EQ1:Naive1
-Naive_EQ1:Naive2
-Naive_EQ1:Naive3
-Naive_EQ1:Naive6
-Naive_EQ1:Naive8
-Naive_EQ1:Naive4
-Naive_EQ1:Naive7
-}
-# macro_sequence
-
-# end
-# entity
-adder3
-# storage
-db|CNN.(7).cnf
-db|CNN.(7).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-adder3.vhd
-1ebb6bcab4d916e115dd1483ad268d
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-Naive_EQ1:Naive9|adder3:inst5
-Naive_EQ1:Naive5|adder3:inst5
-Naive_EQ1:Naive1|adder3:inst5
-Naive_EQ1:Naive2|adder3:inst5
-Naive_EQ1:Naive3|adder3:inst5
-Naive_EQ1:Naive6|adder3:inst5
-Naive_EQ1:Naive8|adder3:inst5
-Naive_EQ1:Naive4|adder3:inst5
-Naive_EQ1:Naive7|adder3:inst5
+3by3:inst|Naive_EQ2:inst10|addsub1:inst
+3by3:inst|Naive_EQ2:inst10|addsub1:inst2
+3by3:inst|Naive_EQ2:inst6|addsub1:inst
+3by3:inst|Naive_EQ2:inst6|addsub1:inst2
+3by3:inst|Naive_EQ2:inst2|addsub1:inst
+3by3:inst|Naive_EQ2:inst2|addsub1:inst2
+3by3:inst|Naive_EQ2:inst3|addsub1:inst
+3by3:inst|Naive_EQ2:inst3|addsub1:inst2
+3by3:inst|Naive_EQ2:inst4|addsub1:inst
+3by3:inst|Naive_EQ2:inst4|addsub1:inst2
+3by3:inst|Naive_EQ2:inst7|addsub1:inst
+3by3:inst|Naive_EQ2:inst7|addsub1:inst2
+3by3:inst|Naive_EQ2:inst9|addsub1:inst
+3by3:inst|Naive_EQ2:inst9|addsub1:inst2
+3by3:inst|Naive_EQ2:inst5|addsub1:inst
+3by3:inst|Naive_EQ2:inst5|addsub1:inst2
+3by3:inst|Naive_EQ2:inst8|addsub1:inst
+3by3:inst|Naive_EQ2:inst8|addsub1:inst2
 }
 # lmf
 |quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
@@ -321,8 +232,8 @@ a36c8ec425c8a2589af98b2d4daabc3
 # entity
 adder
 # storage
-db|CNN.(8).cnf
-db|CNN.(8).cnf
+db|CNN.(9).cnf
+db|CNN.(9).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -343,24 +254,24 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Naive_EQ1:Naive9|adder:inst
-Naive_EQ1:Naive9|adder:inst4
-Naive_EQ1:Naive5|adder:inst
-Naive_EQ1:Naive5|adder:inst4
-Naive_EQ1:Naive1|adder:inst
-Naive_EQ1:Naive1|adder:inst4
-Naive_EQ1:Naive2|adder:inst
-Naive_EQ1:Naive2|adder:inst4
-Naive_EQ1:Naive3|adder:inst
-Naive_EQ1:Naive3|adder:inst4
-Naive_EQ1:Naive6|adder:inst
-Naive_EQ1:Naive6|adder:inst4
-Naive_EQ1:Naive8|adder:inst
-Naive_EQ1:Naive8|adder:inst4
-Naive_EQ1:Naive4|adder:inst
-Naive_EQ1:Naive4|adder:inst4
-Naive_EQ1:Naive7|adder:inst
-Naive_EQ1:Naive7|adder:inst4
+3by3:inst|Naive_EQ1:Naive9|adder:inst
+3by3:inst|Naive_EQ1:Naive9|adder:inst4
+3by3:inst|Naive_EQ1:Naive5|adder:inst
+3by3:inst|Naive_EQ1:Naive5|adder:inst4
+3by3:inst|Naive_EQ1:Naive1|adder:inst
+3by3:inst|Naive_EQ1:Naive1|adder:inst4
+3by3:inst|Naive_EQ1:Naive2|adder:inst
+3by3:inst|Naive_EQ1:Naive2|adder:inst4
+3by3:inst|Naive_EQ1:Naive3|adder:inst
+3by3:inst|Naive_EQ1:Naive3|adder:inst4
+3by3:inst|Naive_EQ1:Naive6|adder:inst
+3by3:inst|Naive_EQ1:Naive6|adder:inst4
+3by3:inst|Naive_EQ1:Naive8|adder:inst
+3by3:inst|Naive_EQ1:Naive8|adder:inst4
+3by3:inst|Naive_EQ1:Naive4|adder:inst
+3by3:inst|Naive_EQ1:Naive4|adder:inst4
+3by3:inst|Naive_EQ1:Naive7|adder:inst
+3by3:inst|Naive_EQ1:Naive7|adder:inst4
 }
 # lmf
 |quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
@@ -371,8 +282,8 @@ a36c8ec425c8a2589af98b2d4daabc3
 # entity
 signed_mult
 # storage
-db|CNN.(9).cnf
-db|CNN.(9).cnf
+db|CNN.(10).cnf
+db|CNN.(10).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -393,172 +304,1318 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Naive_EQ1:Naive9|signed_mult:MAC-A1
-Naive_EQ1:Naive9|signed_mult:MAC-A2
-Naive_EQ1:Naive9|signed_mult:MAC-A3
-Naive_EQ1:Naive9|signed_mult:MAC-A4
-Naive_EQ1:Naive9|signed_mult:MAC-A5
-Naive_EQ1:Naive9|signed_mult:MAC-A6
-Naive_EQ1:Naive9|signed_mult:MAC-A7
-Naive_EQ1:Naive9|signed_mult:MAC-A8
-Naive_EQ1:Naive9|signed_mult:MAC-A9
-Naive_EQ1:Naive9|signed_mult:MAC-B1
-Naive_EQ1:Naive9|signed_mult:MAC-B2
-Naive_EQ1:Naive9|signed_mult:MAC-B3
-Naive_EQ1:Naive9|signed_mult:MAC-B4
-Naive_EQ1:Naive9|signed_mult:MAC-B5
-Naive_EQ1:Naive9|signed_mult:MAC-B6
-Naive_EQ1:Naive9|signed_mult:MAC-B7
-Naive_EQ1:Naive9|signed_mult:MAC-B8
-Naive_EQ1:Naive9|signed_mult:MAC-B9
-Naive_EQ1:Naive5|signed_mult:MAC-A1
-Naive_EQ1:Naive5|signed_mult:MAC-A2
-Naive_EQ1:Naive5|signed_mult:MAC-A3
-Naive_EQ1:Naive5|signed_mult:MAC-A4
-Naive_EQ1:Naive5|signed_mult:MAC-A5
-Naive_EQ1:Naive5|signed_mult:MAC-A6
-Naive_EQ1:Naive5|signed_mult:MAC-A7
-Naive_EQ1:Naive5|signed_mult:MAC-A8
-Naive_EQ1:Naive5|signed_mult:MAC-A9
-Naive_EQ1:Naive5|signed_mult:MAC-B1
-Naive_EQ1:Naive5|signed_mult:MAC-B2
-Naive_EQ1:Naive5|signed_mult:MAC-B3
-Naive_EQ1:Naive5|signed_mult:MAC-B4
-Naive_EQ1:Naive5|signed_mult:MAC-B5
-Naive_EQ1:Naive5|signed_mult:MAC-B6
-Naive_EQ1:Naive5|signed_mult:MAC-B7
-Naive_EQ1:Naive5|signed_mult:MAC-B8
-Naive_EQ1:Naive5|signed_mult:MAC-B9
-Naive_EQ1:Naive1|signed_mult:MAC-A1
-Naive_EQ1:Naive1|signed_mult:MAC-A2
-Naive_EQ1:Naive1|signed_mult:MAC-A3
-Naive_EQ1:Naive1|signed_mult:MAC-A4
-Naive_EQ1:Naive1|signed_mult:MAC-A5
-Naive_EQ1:Naive1|signed_mult:MAC-A6
-Naive_EQ1:Naive1|signed_mult:MAC-A7
-Naive_EQ1:Naive1|signed_mult:MAC-A8
-Naive_EQ1:Naive1|signed_mult:MAC-A9
-Naive_EQ1:Naive1|signed_mult:MAC-B1
-Naive_EQ1:Naive1|signed_mult:MAC-B2
-Naive_EQ1:Naive1|signed_mult:MAC-B3
-Naive_EQ1:Naive1|signed_mult:MAC-B4
-Naive_EQ1:Naive1|signed_mult:MAC-B5
-Naive_EQ1:Naive1|signed_mult:MAC-B6
-Naive_EQ1:Naive1|signed_mult:MAC-B7
-Naive_EQ1:Naive1|signed_mult:MAC-B8
-Naive_EQ1:Naive1|signed_mult:MAC-B9
-Naive_EQ1:Naive2|signed_mult:MAC-A1
-Naive_EQ1:Naive2|signed_mult:MAC-A2
-Naive_EQ1:Naive2|signed_mult:MAC-A3
-Naive_EQ1:Naive2|signed_mult:MAC-A4
-Naive_EQ1:Naive2|signed_mult:MAC-A5
-Naive_EQ1:Naive2|signed_mult:MAC-A6
-Naive_EQ1:Naive2|signed_mult:MAC-A7
-Naive_EQ1:Naive2|signed_mult:MAC-A8
-Naive_EQ1:Naive2|signed_mult:MAC-A9
-Naive_EQ1:Naive2|signed_mult:MAC-B1
-Naive_EQ1:Naive2|signed_mult:MAC-B2
-Naive_EQ1:Naive2|signed_mult:MAC-B3
-Naive_EQ1:Naive2|signed_mult:MAC-B4
-Naive_EQ1:Naive2|signed_mult:MAC-B5
-Naive_EQ1:Naive2|signed_mult:MAC-B6
-Naive_EQ1:Naive2|signed_mult:MAC-B7
-Naive_EQ1:Naive2|signed_mult:MAC-B8
-Naive_EQ1:Naive2|signed_mult:MAC-B9
-Naive_EQ1:Naive3|signed_mult:MAC-A1
-Naive_EQ1:Naive3|signed_mult:MAC-A2
-Naive_EQ1:Naive3|signed_mult:MAC-A3
-Naive_EQ1:Naive3|signed_mult:MAC-A4
-Naive_EQ1:Naive3|signed_mult:MAC-A5
-Naive_EQ1:Naive3|signed_mult:MAC-A6
-Naive_EQ1:Naive3|signed_mult:MAC-A7
-Naive_EQ1:Naive3|signed_mult:MAC-A8
-Naive_EQ1:Naive3|signed_mult:MAC-A9
-Naive_EQ1:Naive3|signed_mult:MAC-B1
-Naive_EQ1:Naive3|signed_mult:MAC-B2
-Naive_EQ1:Naive3|signed_mult:MAC-B3
-Naive_EQ1:Naive3|signed_mult:MAC-B4
-Naive_EQ1:Naive3|signed_mult:MAC-B5
-Naive_EQ1:Naive3|signed_mult:MAC-B6
-Naive_EQ1:Naive3|signed_mult:MAC-B7
-Naive_EQ1:Naive3|signed_mult:MAC-B8
-Naive_EQ1:Naive3|signed_mult:MAC-B9
-Naive_EQ1:Naive6|signed_mult:MAC-A1
-Naive_EQ1:Naive6|signed_mult:MAC-A2
-Naive_EQ1:Naive6|signed_mult:MAC-A3
-Naive_EQ1:Naive6|signed_mult:MAC-A4
-Naive_EQ1:Naive6|signed_mult:MAC-A5
-Naive_EQ1:Naive6|signed_mult:MAC-A6
-Naive_EQ1:Naive6|signed_mult:MAC-A7
-Naive_EQ1:Naive6|signed_mult:MAC-A8
-Naive_EQ1:Naive6|signed_mult:MAC-A9
-Naive_EQ1:Naive6|signed_mult:MAC-B1
-Naive_EQ1:Naive6|signed_mult:MAC-B2
-Naive_EQ1:Naive6|signed_mult:MAC-B3
-Naive_EQ1:Naive6|signed_mult:MAC-B4
-Naive_EQ1:Naive6|signed_mult:MAC-B5
-Naive_EQ1:Naive6|signed_mult:MAC-B6
-Naive_EQ1:Naive6|signed_mult:MAC-B7
-Naive_EQ1:Naive6|signed_mult:MAC-B8
-Naive_EQ1:Naive6|signed_mult:MAC-B9
-Naive_EQ1:Naive8|signed_mult:MAC-A1
-Naive_EQ1:Naive8|signed_mult:MAC-A2
-Naive_EQ1:Naive8|signed_mult:MAC-A3
-Naive_EQ1:Naive8|signed_mult:MAC-A4
-Naive_EQ1:Naive8|signed_mult:MAC-A5
-Naive_EQ1:Naive8|signed_mult:MAC-A6
-Naive_EQ1:Naive8|signed_mult:MAC-A7
-Naive_EQ1:Naive8|signed_mult:MAC-A8
-Naive_EQ1:Naive8|signed_mult:MAC-A9
-Naive_EQ1:Naive8|signed_mult:MAC-B1
-Naive_EQ1:Naive8|signed_mult:MAC-B2
-Naive_EQ1:Naive8|signed_mult:MAC-B3
-Naive_EQ1:Naive8|signed_mult:MAC-B4
-Naive_EQ1:Naive8|signed_mult:MAC-B5
-Naive_EQ1:Naive8|signed_mult:MAC-B6
-Naive_EQ1:Naive8|signed_mult:MAC-B7
-Naive_EQ1:Naive8|signed_mult:MAC-B8
-Naive_EQ1:Naive8|signed_mult:MAC-B9
-Naive_EQ1:Naive4|signed_mult:MAC-A1
-Naive_EQ1:Naive4|signed_mult:MAC-A2
-Naive_EQ1:Naive4|signed_mult:MAC-A3
-Naive_EQ1:Naive4|signed_mult:MAC-A4
-Naive_EQ1:Naive4|signed_mult:MAC-A5
-Naive_EQ1:Naive4|signed_mult:MAC-A6
-Naive_EQ1:Naive4|signed_mult:MAC-A7
-Naive_EQ1:Naive4|signed_mult:MAC-A8
-Naive_EQ1:Naive4|signed_mult:MAC-A9
-Naive_EQ1:Naive4|signed_mult:MAC-B1
-Naive_EQ1:Naive4|signed_mult:MAC-B2
-Naive_EQ1:Naive4|signed_mult:MAC-B3
-Naive_EQ1:Naive4|signed_mult:MAC-B4
-Naive_EQ1:Naive4|signed_mult:MAC-B5
-Naive_EQ1:Naive4|signed_mult:MAC-B6
-Naive_EQ1:Naive4|signed_mult:MAC-B7
-Naive_EQ1:Naive4|signed_mult:MAC-B8
-Naive_EQ1:Naive4|signed_mult:MAC-B9
-Naive_EQ1:Naive7|signed_mult:MAC-A1
-Naive_EQ1:Naive7|signed_mult:MAC-A2
-Naive_EQ1:Naive7|signed_mult:MAC-A3
-Naive_EQ1:Naive7|signed_mult:MAC-A4
-Naive_EQ1:Naive7|signed_mult:MAC-A5
-Naive_EQ1:Naive7|signed_mult:MAC-A6
-Naive_EQ1:Naive7|signed_mult:MAC-A7
-Naive_EQ1:Naive7|signed_mult:MAC-A8
-Naive_EQ1:Naive7|signed_mult:MAC-A9
-Naive_EQ1:Naive7|signed_mult:MAC-B1
-Naive_EQ1:Naive7|signed_mult:MAC-B2
-Naive_EQ1:Naive7|signed_mult:MAC-B3
-Naive_EQ1:Naive7|signed_mult:MAC-B4
-Naive_EQ1:Naive7|signed_mult:MAC-B5
-Naive_EQ1:Naive7|signed_mult:MAC-B6
-Naive_EQ1:Naive7|signed_mult:MAC-B7
-Naive_EQ1:Naive7|signed_mult:MAC-B8
-Naive_EQ1:Naive7|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B9
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A1
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A2
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A3
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A4
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A5
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A6
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A7
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A8
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A9
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B1
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B2
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B3
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B4
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B5
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B6
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B7
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B8
+3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B9
 }
 # lmf
 |quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+A_Template
+# storage
+db|CNN.(11).cnf
+db|CNN.(11).cnf
+# case_insensitive
+# source_file
+a_template.bdf
+4e7995eb6c6bf16d14f6b5dd3ebd113
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+a_template:inst1
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A1
+# storage
+db|CNN.(12).cnf
+db|CNN.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a1.vhd
+5be26de3d341dfb7ee78d5999a95c64b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A1:A_1
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|CNN.(13).cnf
+db|CNN.(13).cnf
+# case_insensitive
+# source_file
+|quartus|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+0
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_qf6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A1:A_1|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A2:A_2|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A3:A_3|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A4:A_4|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A5:A_5|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A6:A_6|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A7:A_7|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A8:A_8|lpm_constant:lpm_constant_component
+a_template:inst1|lpm_constant_A9:A_9|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B1:B_1|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B2:B_2|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B3:B_3|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B4:B_4|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B5:B_5|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B6:B_6|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B7:B_7|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B8:B_8|lpm_constant:lpm_constant_component
+B_Template:inst2|lpm_constant_B9:B_9|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I1:I_1|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I2:I_2|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I3:I_3|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I4:I_4|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I5:I_5|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I6:I_6|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I7:I_7|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I8:I_8|lpm_constant:lpm_constant_component
+I_Template:inst12|lpm_constant_I9:I_9|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A2
+# storage
+db|CNN.(14).cnf
+db|CNN.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a2.vhd
+c243a69dbcbee7e0db51dd7f38f74dc5
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A2:A_2
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A3
+# storage
+db|CNN.(15).cnf
+db|CNN.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a3.vhd
+944d53747864c9b54e1164385b19ac33
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A3:A_3
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A4
+# storage
+db|CNN.(16).cnf
+db|CNN.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a4.vhd
+e02710a430c7895e5e206b826149ad
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A4:A_4
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A5
+# storage
+db|CNN.(17).cnf
+db|CNN.(17).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a5.vhd
+5d6c22dde0b57d41dc76d98630d69e7
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A5:A_5
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A6
+# storage
+db|CNN.(18).cnf
+db|CNN.(18).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a6.vhd
+9117723895f7b8714c3c56cf323eb
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A6:A_6
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A7
+# storage
+db|CNN.(19).cnf
+db|CNN.(19).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a7.vhd
+a8e3725d74539f7d8c101b53828fb7
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A7:A_7
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A8
+# storage
+db|CNN.(20).cnf
+db|CNN.(20).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a8.vhd
+b1eee1b0e3d17d7e6dc87f20fa1499f2
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A8:A_8
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_A9
+# storage
+db|CNN.(21).cnf
+db|CNN.(21).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_a9.vhd
+f45ce7aad2ce88c4aeecd7c732c7e04d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+a_template:inst1|lpm_constant_A9:A_9
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+I_Template
+# storage
+db|CNN.(1).cnf
+db|CNN.(1).cnf
+# case_insensitive
+# source_file
+i_template.bdf
+fb491d3f932963b56bc18ca965437252
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+I_Template:inst12
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I1
+# storage
+db|CNN.(7).cnf
+db|CNN.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i1.vhd
+905c22dcb30d435b96fefafecc3022
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I1:I_1
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I2
+# storage
+db|CNN.(22).cnf
+db|CNN.(22).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i2.vhd
+5057606a71cef2d16a7f7e34dddf5
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I2:I_2
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I3
+# storage
+db|CNN.(23).cnf
+db|CNN.(23).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i3.vhd
+606cec55e2722a212ce96462a9eb33fb
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I3:I_3
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I4
+# storage
+db|CNN.(24).cnf
+db|CNN.(24).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i4.vhd
+4c5398beeb57f7b8a1f5a1496074860
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I4:I_4
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I5
+# storage
+db|CNN.(25).cnf
+db|CNN.(25).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i5.vhd
+e3f5c43e88a0857f1e916728e1bb3aa4
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I5:I_5
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I6
+# storage
+db|CNN.(26).cnf
+db|CNN.(26).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i6.vhd
+fa83be843ade207b3fb06f33c8db1861
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I6:I_6
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I7
+# storage
+db|CNN.(27).cnf
+db|CNN.(27).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i7.vhd
+39a26f89d8d99ee7f313b9bed29031
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I7:I_7
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I8
+# storage
+db|CNN.(28).cnf
+db|CNN.(28).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i8.vhd
+a5131baa6076d422b831cc412b5e865
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I8:I_8
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_I9
+# storage
+db|CNN.(29).cnf
+db|CNN.(29).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_i9.vhd
+ac513b80a72fd17859718be34b506d7d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+I_Template:inst12|lpm_constant_I9:I_9
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+B_Template
+# storage
+db|CNN.(30).cnf
+db|CNN.(30).cnf
+# case_insensitive
+# source_file
+b_template.bdf
+dd6718a2adf2fd5db715831a9f65
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+B_Template:inst2
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B1
+# storage
+db|CNN.(31).cnf
+db|CNN.(31).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b1.vhd
+e6f7bfa79bde8aca142c288ce65dc4d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B1:B_1
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B2
+# storage
+db|CNN.(32).cnf
+db|CNN.(32).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b2.vhd
+894f2ac2550b561faf4f087de0355f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B2:B_2
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B3
+# storage
+db|CNN.(33).cnf
+db|CNN.(33).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b3.vhd
+1f82ef5744ce215e7e57397ebaadc76
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B3:B_3
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B4
+# storage
+db|CNN.(34).cnf
+db|CNN.(34).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b4.vhd
+3046a14ac7abe1dae2ddd6d1b0f3fd63
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B4:B_4
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B5
+# storage
+db|CNN.(35).cnf
+db|CNN.(35).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b5.vhd
+c4f82bcda357645fa6db6dc979761
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B5:B_5
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B6
+# storage
+db|CNN.(36).cnf
+db|CNN.(36).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b6.vhd
+859e66263f13a5886692ff8da2a8a849
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B6:B_6
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B7
+# storage
+db|CNN.(37).cnf
+db|CNN.(37).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b7.vhd
+c783321f5d73692dff8415250f9d39d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B7:B_7
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B8
+# storage
+db|CNN.(38).cnf
+db|CNN.(38).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b8.vhd
+bfc739cabc14a015642f9e6454a028
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B8:B_8
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant_B9
+# storage
+db|CNN.(39).cnf
+db|CNN.(39).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant_b9.vhd
+e1d7da924c8e4ee3f6316ed837ee6e11
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+B_Template:inst2|lpm_constant_B9:B_9
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Naive_EQ1
+# storage
+db|CNN.(40).cnf
+db|CNN.(40).cnf
+# case_insensitive
+# source_file
+naive_eq1.bdf
+28cf10e80b315ed5befcc8dfbfb484d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+3by3:inst|Naive_EQ1:Naive9
+3by3:inst|Naive_EQ1:Naive5
+3by3:inst|Naive_EQ1:Naive1
+3by3:inst|Naive_EQ1:Naive2
+3by3:inst|Naive_EQ1:Naive3
+3by3:inst|Naive_EQ1:Naive6
+3by3:inst|Naive_EQ1:Naive8
+3by3:inst|Naive_EQ1:Naive4
+3by3:inst|Naive_EQ1:Naive7
+}
+# macro_sequence
+
+# end
+# entity
+adder3
+# storage
+db|CNN.(41).cnf
+db|CNN.(41).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+adder3.vhd
+5a8ceed653c82242323780a1fc73c72b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+3by3:inst|Naive_EQ1:Naive9|adder3:inst1
+3by3:inst|Naive_EQ1:Naive5|adder3:inst1
+3by3:inst|Naive_EQ1:Naive1|adder3:inst1
+3by3:inst|Naive_EQ1:Naive2|adder3:inst1
+3by3:inst|Naive_EQ1:Naive3|adder3:inst1
+3by3:inst|Naive_EQ1:Naive6|adder3:inst1
+3by3:inst|Naive_EQ1:Naive8|adder3:inst1
+3by3:inst|Naive_EQ1:Naive4|adder3:inst1
+3by3:inst|Naive_EQ1:Naive7|adder3:inst1
+}
+# lmf
+|quartus|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+CNN
+# storage
+db|CNN.(0).cnf
+db|CNN.(0).cnf
+# case_insensitive
+# source_file
+cnn.bdf
+abdca5af61d33159974cfd2fe74c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+3by3
+# storage
+db|CNN.(8).cnf
+db|CNN.(8).cnf
+# case_insensitive
+# source_file
+3by3.bdf
+d33e444b4d63cfe5fcde8dc8bd868815
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+3by3:inst
+}
 # macro_sequence
 
 # end

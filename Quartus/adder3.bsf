@@ -40,8 +40,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "c[15..0]" (rect 0 0 37 12)(font "Arial" ))
-		(text "c[15..0]" (rect 21 59 58 71)(font "Arial" ))
+		(text "c[7..0]" (rect 0 0 31 12)(font "Arial" ))
+		(text "c[7..0]" (rect 21 59 52 71)(font "Arial" ))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port

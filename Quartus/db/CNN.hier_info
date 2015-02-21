@@ -1,4 +1,399 @@
 |CNN
+U1_5[0] => 3by3:inst.U1_5[0]
+U1_5[0] => 3by3:inst.U2_4[0]
+U1_5[0] => 3by3:inst.U4_2[0]
+U1_5[0] => 3by3:inst.U5_1[0]
+U1_5[1] => 3by3:inst.U1_5[1]
+U1_5[1] => 3by3:inst.U2_4[1]
+U1_5[1] => 3by3:inst.U4_2[1]
+U1_5[1] => 3by3:inst.U5_1[1]
+U1_5[2] => 3by3:inst.U1_5[2]
+U1_5[2] => 3by3:inst.U2_4[2]
+U1_5[2] => 3by3:inst.U4_2[2]
+U1_5[2] => 3by3:inst.U5_1[2]
+U1_5[3] => 3by3:inst.U1_5[3]
+U1_5[3] => 3by3:inst.U2_4[3]
+U1_5[3] => 3by3:inst.U4_2[3]
+U1_5[3] => 3by3:inst.U5_1[3]
+U1_5[4] => 3by3:inst.U1_5[4]
+U1_5[4] => 3by3:inst.U2_4[4]
+U1_5[4] => 3by3:inst.U4_2[4]
+U1_5[4] => 3by3:inst.U5_1[4]
+U1_5[5] => 3by3:inst.U1_5[5]
+U1_5[5] => 3by3:inst.U2_4[5]
+U1_5[5] => 3by3:inst.U4_2[5]
+U1_5[5] => 3by3:inst.U5_1[5]
+U1_5[6] => 3by3:inst.U1_5[6]
+U1_5[6] => 3by3:inst.U2_4[6]
+U1_5[6] => 3by3:inst.U4_2[6]
+U1_5[6] => 3by3:inst.U5_1[6]
+U1_5[7] => 3by3:inst.U1_5[7]
+U1_5[7] => 3by3:inst.U2_4[7]
+U1_5[7] => 3by3:inst.U4_2[7]
+U1_5[7] => 3by3:inst.U5_1[7]
+U2_5[0] => 3by3:inst.U1_6[0]
+U2_5[0] => 3by3:inst.U2_5[0]
+U2_5[0] => 3by3:inst.U3_4[0]
+U2_5[0] => 3by3:inst.U4_3[0]
+U2_5[0] => 3by3:inst.U5_2[0]
+U2_5[0] => 3by3:inst.U6_1[0]
+U2_5[1] => 3by3:inst.U1_6[1]
+U2_5[1] => 3by3:inst.U2_5[1]
+U2_5[1] => 3by3:inst.U3_4[1]
+U2_5[1] => 3by3:inst.U4_3[1]
+U2_5[1] => 3by3:inst.U5_2[1]
+U2_5[1] => 3by3:inst.U6_1[1]
+U2_5[2] => 3by3:inst.U1_6[2]
+U2_5[2] => 3by3:inst.U2_5[2]
+U2_5[2] => 3by3:inst.U3_4[2]
+U2_5[2] => 3by3:inst.U4_3[2]
+U2_5[2] => 3by3:inst.U5_2[2]
+U2_5[2] => 3by3:inst.U6_1[2]
+U2_5[3] => 3by3:inst.U1_6[3]
+U2_5[3] => 3by3:inst.U2_5[3]
+U2_5[3] => 3by3:inst.U3_4[3]
+U2_5[3] => 3by3:inst.U4_3[3]
+U2_5[3] => 3by3:inst.U5_2[3]
+U2_5[3] => 3by3:inst.U6_1[3]
+U2_5[4] => 3by3:inst.U1_6[4]
+U2_5[4] => 3by3:inst.U2_5[4]
+U2_5[4] => 3by3:inst.U3_4[4]
+U2_5[4] => 3by3:inst.U4_3[4]
+U2_5[4] => 3by3:inst.U5_2[4]
+U2_5[4] => 3by3:inst.U6_1[4]
+U2_5[5] => 3by3:inst.U1_6[5]
+U2_5[5] => 3by3:inst.U2_5[5]
+U2_5[5] => 3by3:inst.U3_4[5]
+U2_5[5] => 3by3:inst.U4_3[5]
+U2_5[5] => 3by3:inst.U5_2[5]
+U2_5[5] => 3by3:inst.U6_1[5]
+U2_5[6] => 3by3:inst.U1_6[6]
+U2_5[6] => 3by3:inst.U2_5[6]
+U2_5[6] => 3by3:inst.U3_4[6]
+U2_5[6] => 3by3:inst.U4_3[6]
+U2_5[6] => 3by3:inst.U5_2[6]
+U2_5[6] => 3by3:inst.U6_1[6]
+U2_5[7] => 3by3:inst.U1_6[7]
+U2_5[7] => 3by3:inst.U2_5[7]
+U2_5[7] => 3by3:inst.U3_4[7]
+U2_5[7] => 3by3:inst.U4_3[7]
+U2_5[7] => 3by3:inst.U5_2[7]
+U2_5[7] => 3by3:inst.U6_1[7]
+U4_5[0] => 3by3:inst.U1_8[0]
+U4_5[0] => 3by3:inst.U2_7[0]
+U4_5[0] => 3by3:inst.U4_5[0]
+U4_5[0] => 3by3:inst.U5_4[0]
+U4_5[0] => 3by3:inst.U7_2[0]
+U4_5[0] => 3by3:inst.U8_1[0]
+U4_5[1] => 3by3:inst.U1_8[1]
+U4_5[1] => 3by3:inst.U2_7[1]
+U4_5[1] => 3by3:inst.U4_5[1]
+U4_5[1] => 3by3:inst.U5_4[1]
+U4_5[1] => 3by3:inst.U7_2[1]
+U4_5[1] => 3by3:inst.U8_1[1]
+U4_5[2] => 3by3:inst.U1_8[2]
+U4_5[2] => 3by3:inst.U2_7[2]
+U4_5[2] => 3by3:inst.U4_5[2]
+U4_5[2] => 3by3:inst.U5_4[2]
+U4_5[2] => 3by3:inst.U7_2[2]
+U4_5[2] => 3by3:inst.U8_1[2]
+U4_5[3] => 3by3:inst.U1_8[3]
+U4_5[3] => 3by3:inst.U2_7[3]
+U4_5[3] => 3by3:inst.U4_5[3]
+U4_5[3] => 3by3:inst.U5_4[3]
+U4_5[3] => 3by3:inst.U7_2[3]
+U4_5[3] => 3by3:inst.U8_1[3]
+U4_5[4] => 3by3:inst.U1_8[4]
+U4_5[4] => 3by3:inst.U2_7[4]
+U4_5[4] => 3by3:inst.U4_5[4]
+U4_5[4] => 3by3:inst.U5_4[4]
+U4_5[4] => 3by3:inst.U7_2[4]
+U4_5[4] => 3by3:inst.U8_1[4]
+U4_5[5] => 3by3:inst.U1_8[5]
+U4_5[5] => 3by3:inst.U2_7[5]
+U4_5[5] => 3by3:inst.U4_5[5]
+U4_5[5] => 3by3:inst.U5_4[5]
+U4_5[5] => 3by3:inst.U7_2[5]
+U4_5[5] => 3by3:inst.U8_1[5]
+U4_5[6] => 3by3:inst.U1_8[6]
+U4_5[6] => 3by3:inst.U2_7[6]
+U4_5[6] => 3by3:inst.U4_5[6]
+U4_5[6] => 3by3:inst.U5_4[6]
+U4_5[6] => 3by3:inst.U7_2[6]
+U4_5[6] => 3by3:inst.U8_1[6]
+U4_5[7] => 3by3:inst.U1_8[7]
+U4_5[7] => 3by3:inst.U2_7[7]
+U4_5[7] => 3by3:inst.U4_5[7]
+U4_5[7] => 3by3:inst.U5_4[7]
+U4_5[7] => 3by3:inst.U7_2[7]
+U4_5[7] => 3by3:inst.U8_1[7]
+U5_5[0] => 3by3:inst.U1_9[0]
+U5_5[0] => 3by3:inst.U2_8[0]
+U5_5[0] => 3by3:inst.U3_7[0]
+U5_5[0] => 3by3:inst.U4_6[0]
+U5_5[0] => 3by3:inst.U5_5[0]
+U5_5[0] => 3by3:inst.U6_4[0]
+U5_5[0] => 3by3:inst.U7_3[0]
+U5_5[0] => 3by3:inst.U8_2[0]
+U5_5[0] => 3by3:inst.U9_1[0]
+U5_5[1] => 3by3:inst.U1_9[1]
+U5_5[1] => 3by3:inst.U2_8[1]
+U5_5[1] => 3by3:inst.U3_7[1]
+U5_5[1] => 3by3:inst.U4_6[1]
+U5_5[1] => 3by3:inst.U5_5[1]
+U5_5[1] => 3by3:inst.U6_4[1]
+U5_5[1] => 3by3:inst.U7_3[1]
+U5_5[1] => 3by3:inst.U8_2[1]
+U5_5[1] => 3by3:inst.U9_1[1]
+U5_5[2] => 3by3:inst.U1_9[2]
+U5_5[2] => 3by3:inst.U2_8[2]
+U5_5[2] => 3by3:inst.U3_7[2]
+U5_5[2] => 3by3:inst.U4_6[2]
+U5_5[2] => 3by3:inst.U5_5[2]
+U5_5[2] => 3by3:inst.U6_4[2]
+U5_5[2] => 3by3:inst.U7_3[2]
+U5_5[2] => 3by3:inst.U8_2[2]
+U5_5[2] => 3by3:inst.U9_1[2]
+U5_5[3] => 3by3:inst.U1_9[3]
+U5_5[3] => 3by3:inst.U2_8[3]
+U5_5[3] => 3by3:inst.U3_7[3]
+U5_5[3] => 3by3:inst.U4_6[3]
+U5_5[3] => 3by3:inst.U5_5[3]
+U5_5[3] => 3by3:inst.U6_4[3]
+U5_5[3] => 3by3:inst.U7_3[3]
+U5_5[3] => 3by3:inst.U8_2[3]
+U5_5[3] => 3by3:inst.U9_1[3]
+U5_5[4] => 3by3:inst.U1_9[4]
+U5_5[4] => 3by3:inst.U2_8[4]
+U5_5[4] => 3by3:inst.U3_7[4]
+U5_5[4] => 3by3:inst.U4_6[4]
+U5_5[4] => 3by3:inst.U5_5[4]
+U5_5[4] => 3by3:inst.U6_4[4]
+U5_5[4] => 3by3:inst.U7_3[4]
+U5_5[4] => 3by3:inst.U8_2[4]
+U5_5[4] => 3by3:inst.U9_1[4]
+U5_5[5] => 3by3:inst.U1_9[5]
+U5_5[5] => 3by3:inst.U2_8[5]
+U5_5[5] => 3by3:inst.U3_7[5]
+U5_5[5] => 3by3:inst.U4_6[5]
+U5_5[5] => 3by3:inst.U5_5[5]
+U5_5[5] => 3by3:inst.U6_4[5]
+U5_5[5] => 3by3:inst.U7_3[5]
+U5_5[5] => 3by3:inst.U8_2[5]
+U5_5[5] => 3by3:inst.U9_1[5]
+U5_5[6] => 3by3:inst.U1_9[6]
+U5_5[6] => 3by3:inst.U2_8[6]
+U5_5[6] => 3by3:inst.U3_7[6]
+U5_5[6] => 3by3:inst.U4_6[6]
+U5_5[6] => 3by3:inst.U5_5[6]
+U5_5[6] => 3by3:inst.U6_4[6]
+U5_5[6] => 3by3:inst.U7_3[6]
+U5_5[6] => 3by3:inst.U8_2[6]
+U5_5[6] => 3by3:inst.U9_1[6]
+U5_5[7] => 3by3:inst.U1_9[7]
+U5_5[7] => 3by3:inst.U2_8[7]
+U5_5[7] => 3by3:inst.U3_7[7]
+U5_5[7] => 3by3:inst.U4_6[7]
+U5_5[7] => 3by3:inst.U5_5[7]
+U5_5[7] => 3by3:inst.U6_4[7]
+U5_5[7] => 3by3:inst.U7_3[7]
+U5_5[7] => 3by3:inst.U8_2[7]
+U5_5[7] => 3by3:inst.U9_1[7]
+U3_5[0] => 3by3:inst.U2_6[0]
+U3_5[0] => 3by3:inst.U3_5[0]
+U3_5[0] => 3by3:inst.U5_3[0]
+U3_5[0] => 3by3:inst.U6_2[0]
+U3_5[1] => 3by3:inst.U2_6[1]
+U3_5[1] => 3by3:inst.U3_5[1]
+U3_5[1] => 3by3:inst.U5_3[1]
+U3_5[1] => 3by3:inst.U6_2[1]
+U3_5[2] => 3by3:inst.U2_6[2]
+U3_5[2] => 3by3:inst.U3_5[2]
+U3_5[2] => 3by3:inst.U5_3[2]
+U3_5[2] => 3by3:inst.U6_2[2]
+U3_5[3] => 3by3:inst.U2_6[3]
+U3_5[3] => 3by3:inst.U3_5[3]
+U3_5[3] => 3by3:inst.U5_3[3]
+U3_5[3] => 3by3:inst.U6_2[3]
+U3_5[4] => 3by3:inst.U2_6[4]
+U3_5[4] => 3by3:inst.U3_5[4]
+U3_5[4] => 3by3:inst.U5_3[4]
+U3_5[4] => 3by3:inst.U6_2[4]
+U3_5[5] => 3by3:inst.U2_6[5]
+U3_5[5] => 3by3:inst.U3_5[5]
+U3_5[5] => 3by3:inst.U5_3[5]
+U3_5[5] => 3by3:inst.U6_2[5]
+U3_5[6] => 3by3:inst.U2_6[6]
+U3_5[6] => 3by3:inst.U3_5[6]
+U3_5[6] => 3by3:inst.U5_3[6]
+U3_5[6] => 3by3:inst.U6_2[6]
+U3_5[7] => 3by3:inst.U2_6[7]
+U3_5[7] => 3by3:inst.U3_5[7]
+U3_5[7] => 3by3:inst.U5_3[7]
+U3_5[7] => 3by3:inst.U6_2[7]
+U6_5[0] => 3by3:inst.U2_9[0]
+U6_5[0] => 3by3:inst.U3_8[0]
+U6_5[0] => 3by3:inst.U5_6[0]
+U6_5[0] => 3by3:inst.U6_5[0]
+U6_5[0] => 3by3:inst.U8_3[0]
+U6_5[0] => 3by3:inst.U9_2[0]
+U6_5[1] => 3by3:inst.U2_9[1]
+U6_5[1] => 3by3:inst.U3_8[1]
+U6_5[1] => 3by3:inst.U5_6[1]
+U6_5[1] => 3by3:inst.U6_5[1]
+U6_5[1] => 3by3:inst.U8_3[1]
+U6_5[1] => 3by3:inst.U9_2[1]
+U6_5[2] => 3by3:inst.U2_9[2]
+U6_5[2] => 3by3:inst.U3_8[2]
+U6_5[2] => 3by3:inst.U5_6[2]
+U6_5[2] => 3by3:inst.U6_5[2]
+U6_5[2] => 3by3:inst.U8_3[2]
+U6_5[2] => 3by3:inst.U9_2[2]
+U6_5[3] => 3by3:inst.U2_9[3]
+U6_5[3] => 3by3:inst.U3_8[3]
+U6_5[3] => 3by3:inst.U5_6[3]
+U6_5[3] => 3by3:inst.U6_5[3]
+U6_5[3] => 3by3:inst.U8_3[3]
+U6_5[3] => 3by3:inst.U9_2[3]
+U6_5[4] => 3by3:inst.U2_9[4]
+U6_5[4] => 3by3:inst.U3_8[4]
+U6_5[4] => 3by3:inst.U5_6[4]
+U6_5[4] => 3by3:inst.U6_5[4]
+U6_5[4] => 3by3:inst.U8_3[4]
+U6_5[4] => 3by3:inst.U9_2[4]
+U6_5[5] => 3by3:inst.U2_9[5]
+U6_5[5] => 3by3:inst.U3_8[5]
+U6_5[5] => 3by3:inst.U5_6[5]
+U6_5[5] => 3by3:inst.U6_5[5]
+U6_5[5] => 3by3:inst.U8_3[5]
+U6_5[5] => 3by3:inst.U9_2[5]
+U6_5[6] => 3by3:inst.U2_9[6]
+U6_5[6] => 3by3:inst.U3_8[6]
+U6_5[6] => 3by3:inst.U5_6[6]
+U6_5[6] => 3by3:inst.U6_5[6]
+U6_5[6] => 3by3:inst.U8_3[6]
+U6_5[6] => 3by3:inst.U9_2[6]
+U6_5[7] => 3by3:inst.U2_9[7]
+U6_5[7] => 3by3:inst.U3_8[7]
+U6_5[7] => 3by3:inst.U5_6[7]
+U6_5[7] => 3by3:inst.U6_5[7]
+U6_5[7] => 3by3:inst.U8_3[7]
+U6_5[7] => 3by3:inst.U9_2[7]
+U7_5[0] => 3by3:inst.U4_8[0]
+U7_5[0] => 3by3:inst.U5_7[0]
+U7_5[0] => 3by3:inst.U7_5[0]
+U7_5[0] => 3by3:inst.U8_4[0]
+U7_5[1] => 3by3:inst.U4_8[1]
+U7_5[1] => 3by3:inst.U5_7[1]
+U7_5[1] => 3by3:inst.U7_5[1]
+U7_5[1] => 3by3:inst.U8_4[1]
+U7_5[2] => 3by3:inst.U4_8[2]
+U7_5[2] => 3by3:inst.U5_7[2]
+U7_5[2] => 3by3:inst.U7_5[2]
+U7_5[2] => 3by3:inst.U8_4[2]
+U7_5[3] => 3by3:inst.U4_8[3]
+U7_5[3] => 3by3:inst.U5_7[3]
+U7_5[3] => 3by3:inst.U7_5[3]
+U7_5[3] => 3by3:inst.U8_4[3]
+U7_5[4] => 3by3:inst.U4_8[4]
+U7_5[4] => 3by3:inst.U5_7[4]
+U7_5[4] => 3by3:inst.U7_5[4]
+U7_5[4] => 3by3:inst.U8_4[4]
+U7_5[5] => 3by3:inst.U4_8[5]
+U7_5[5] => 3by3:inst.U5_7[5]
+U7_5[5] => 3by3:inst.U7_5[5]
+U7_5[5] => 3by3:inst.U8_4[5]
+U7_5[6] => 3by3:inst.U4_8[6]
+U7_5[6] => 3by3:inst.U5_7[6]
+U7_5[6] => 3by3:inst.U7_5[6]
+U7_5[6] => 3by3:inst.U8_4[6]
+U7_5[7] => 3by3:inst.U4_8[7]
+U7_5[7] => 3by3:inst.U5_7[7]
+U7_5[7] => 3by3:inst.U7_5[7]
+U7_5[7] => 3by3:inst.U8_4[7]
+U8_5[0] => 3by3:inst.U4_9[0]
+U8_5[0] => 3by3:inst.U5_8[0]
+U8_5[0] => 3by3:inst.U6_7[0]
+U8_5[0] => 3by3:inst.U7_6[0]
+U8_5[0] => 3by3:inst.U8_5[0]
+U8_5[0] => 3by3:inst.U9_4[0]
+U8_5[1] => 3by3:inst.U4_9[1]
+U8_5[1] => 3by3:inst.U5_8[1]
+U8_5[1] => 3by3:inst.U6_7[1]
+U8_5[1] => 3by3:inst.U7_6[1]
+U8_5[1] => 3by3:inst.U8_5[1]
+U8_5[1] => 3by3:inst.U9_4[1]
+U8_5[2] => 3by3:inst.U4_9[2]
+U8_5[2] => 3by3:inst.U5_8[2]
+U8_5[2] => 3by3:inst.U6_7[2]
+U8_5[2] => 3by3:inst.U7_6[2]
+U8_5[2] => 3by3:inst.U8_5[2]
+U8_5[2] => 3by3:inst.U9_4[2]
+U8_5[3] => 3by3:inst.U4_9[3]
+U8_5[3] => 3by3:inst.U5_8[3]
+U8_5[3] => 3by3:inst.U6_7[3]
+U8_5[3] => 3by3:inst.U7_6[3]
+U8_5[3] => 3by3:inst.U8_5[3]
+U8_5[3] => 3by3:inst.U9_4[3]
+U8_5[4] => 3by3:inst.U4_9[4]
+U8_5[4] => 3by3:inst.U5_8[4]
+U8_5[4] => 3by3:inst.U6_7[4]
+U8_5[4] => 3by3:inst.U7_6[4]
+U8_5[4] => 3by3:inst.U8_5[4]
+U8_5[4] => 3by3:inst.U9_4[4]
+U8_5[5] => 3by3:inst.U4_9[5]
+U8_5[5] => 3by3:inst.U5_8[5]
+U8_5[5] => 3by3:inst.U6_7[5]
+U8_5[5] => 3by3:inst.U7_6[5]
+U8_5[5] => 3by3:inst.U8_5[5]
+U8_5[5] => 3by3:inst.U9_4[5]
+U8_5[6] => 3by3:inst.U4_9[6]
+U8_5[6] => 3by3:inst.U5_8[6]
+U8_5[6] => 3by3:inst.U6_7[6]
+U8_5[6] => 3by3:inst.U7_6[6]
+U8_5[6] => 3by3:inst.U8_5[6]
+U8_5[6] => 3by3:inst.U9_4[6]
+U8_5[7] => 3by3:inst.U4_9[7]
+U8_5[7] => 3by3:inst.U5_8[7]
+U8_5[7] => 3by3:inst.U6_7[7]
+U8_5[7] => 3by3:inst.U7_6[7]
+U8_5[7] => 3by3:inst.U8_5[7]
+U8_5[7] => 3by3:inst.U9_4[7]
+U9_5[0] => 3by3:inst.U5_9[0]
+U9_5[0] => 3by3:inst.U6_8[0]
+U9_5[0] => 3by3:inst.U8_6[0]
+U9_5[0] => 3by3:inst.U9_5[0]
+U9_5[1] => 3by3:inst.U5_9[1]
+U9_5[1] => 3by3:inst.U6_8[1]
+U9_5[1] => 3by3:inst.U8_6[1]
+U9_5[1] => 3by3:inst.U9_5[1]
+U9_5[2] => 3by3:inst.U5_9[2]
+U9_5[2] => 3by3:inst.U6_8[2]
+U9_5[2] => 3by3:inst.U8_6[2]
+U9_5[2] => 3by3:inst.U9_5[2]
+U9_5[3] => 3by3:inst.U5_9[3]
+U9_5[3] => 3by3:inst.U6_8[3]
+U9_5[3] => 3by3:inst.U8_6[3]
+U9_5[3] => 3by3:inst.U9_5[3]
+U9_5[4] => 3by3:inst.U5_9[4]
+U9_5[4] => 3by3:inst.U6_8[4]
+U9_5[4] => 3by3:inst.U8_6[4]
+U9_5[4] => 3by3:inst.U9_5[4]
+U9_5[5] => 3by3:inst.U5_9[5]
+U9_5[5] => 3by3:inst.U6_8[5]
+U9_5[5] => 3by3:inst.U8_6[5]
+U9_5[5] => 3by3:inst.U9_5[5]
+U9_5[6] => 3by3:inst.U5_9[6]
+U9_5[6] => 3by3:inst.U6_8[6]
+U9_5[6] => 3by3:inst.U8_6[6]
+U9_5[6] => 3by3:inst.U9_5[6]
+U9_5[7] => 3by3:inst.U5_9[7]
+U9_5[7] => 3by3:inst.U6_8[7]
+U9_5[7] => 3by3:inst.U8_6[7]
+U9_5[7] => 3by3:inst.U9_5[7]
+
+
+|CNN|3by3:inst
 A9_1[0] => Naive_EQ1:Naive9.A1[0]
 A9_1[1] => Naive_EQ1:Naive9.A1[1]
 A9_1[2] => Naive_EQ1:Naive9.A1[2]
@@ -151,14 +546,6 @@ I9[4] => Naive_EQ1:Naive9.I[4]
 I9[5] => Naive_EQ1:Naive9.I[5]
 I9[6] => Naive_EQ1:Naive9.I[6]
 I9[7] => Naive_EQ1:Naive9.I[7]
-I9[8] => Naive_EQ1:Naive9.I[8]
-I9[9] => Naive_EQ1:Naive9.I[9]
-I9[10] => Naive_EQ1:Naive9.I[10]
-I9[11] => Naive_EQ1:Naive9.I[11]
-I9[12] => Naive_EQ1:Naive9.I[12]
-I9[13] => Naive_EQ1:Naive9.I[13]
-I9[14] => Naive_EQ1:Naive9.I[14]
-I9[15] => Naive_EQ1:Naive9.I[15]
 U9_1[0] => Naive_EQ1:Naive9.U1[0]
 U9_1[1] => Naive_EQ1:Naive9.U1[1]
 U9_1[2] => Naive_EQ1:Naive9.U1[2]
@@ -383,14 +770,6 @@ I5[4] => Naive_EQ1:Naive5.I[4]
 I5[5] => Naive_EQ1:Naive5.I[5]
 I5[6] => Naive_EQ1:Naive5.I[6]
 I5[7] => Naive_EQ1:Naive5.I[7]
-I5[8] => Naive_EQ1:Naive5.I[8]
-I5[9] => Naive_EQ1:Naive5.I[9]
-I5[10] => Naive_EQ1:Naive5.I[10]
-I5[11] => Naive_EQ1:Naive5.I[11]
-I5[12] => Naive_EQ1:Naive5.I[12]
-I5[13] => Naive_EQ1:Naive5.I[13]
-I5[14] => Naive_EQ1:Naive5.I[14]
-I5[15] => Naive_EQ1:Naive5.I[15]
 U5_1[0] => Naive_EQ1:Naive5.U1[0]
 U5_1[1] => Naive_EQ1:Naive5.U1[1]
 U5_1[2] => Naive_EQ1:Naive5.U1[2]
@@ -615,14 +994,6 @@ I1[4] => Naive_EQ1:Naive1.I[4]
 I1[5] => Naive_EQ1:Naive1.I[5]
 I1[6] => Naive_EQ1:Naive1.I[6]
 I1[7] => Naive_EQ1:Naive1.I[7]
-I1[8] => Naive_EQ1:Naive1.I[8]
-I1[9] => Naive_EQ1:Naive1.I[9]
-I1[10] => Naive_EQ1:Naive1.I[10]
-I1[11] => Naive_EQ1:Naive1.I[11]
-I1[12] => Naive_EQ1:Naive1.I[12]
-I1[13] => Naive_EQ1:Naive1.I[13]
-I1[14] => Naive_EQ1:Naive1.I[14]
-I1[15] => Naive_EQ1:Naive1.I[15]
 U1_1[0] => Naive_EQ1:Naive1.U1[0]
 U1_1[1] => Naive_EQ1:Naive1.U1[1]
 U1_1[2] => Naive_EQ1:Naive1.U1[2]
@@ -879,14 +1250,6 @@ I2[4] => Naive_EQ1:Naive2.I[4]
 I2[5] => Naive_EQ1:Naive2.I[5]
 I2[6] => Naive_EQ1:Naive2.I[6]
 I2[7] => Naive_EQ1:Naive2.I[7]
-I2[8] => Naive_EQ1:Naive2.I[8]
-I2[9] => Naive_EQ1:Naive2.I[9]
-I2[10] => Naive_EQ1:Naive2.I[10]
-I2[11] => Naive_EQ1:Naive2.I[11]
-I2[12] => Naive_EQ1:Naive2.I[12]
-I2[13] => Naive_EQ1:Naive2.I[13]
-I2[14] => Naive_EQ1:Naive2.I[14]
-I2[15] => Naive_EQ1:Naive2.I[15]
 U2_1[0] => Naive_EQ1:Naive2.U1[0]
 U2_1[1] => Naive_EQ1:Naive2.U1[1]
 U2_1[2] => Naive_EQ1:Naive2.U1[2]
@@ -1135,14 +1498,6 @@ I3[4] => Naive_EQ1:Naive3.I[4]
 I3[5] => Naive_EQ1:Naive3.I[5]
 I3[6] => Naive_EQ1:Naive3.I[6]
 I3[7] => Naive_EQ1:Naive3.I[7]
-I3[8] => Naive_EQ1:Naive3.I[8]
-I3[9] => Naive_EQ1:Naive3.I[9]
-I3[10] => Naive_EQ1:Naive3.I[10]
-I3[11] => Naive_EQ1:Naive3.I[11]
-I3[12] => Naive_EQ1:Naive3.I[12]
-I3[13] => Naive_EQ1:Naive3.I[13]
-I3[14] => Naive_EQ1:Naive3.I[14]
-I3[15] => Naive_EQ1:Naive3.I[15]
 U3_1[0] => Naive_EQ1:Naive3.U1[0]
 U3_1[1] => Naive_EQ1:Naive3.U1[1]
 U3_1[2] => Naive_EQ1:Naive3.U1[2]
@@ -1271,14 +1626,14 @@ A6_3[4] => Naive_EQ1:Naive6.A3[4]
 A6_3[5] => Naive_EQ1:Naive6.A3[5]
 A6_3[6] => Naive_EQ1:Naive6.A3[6]
 A6_3[7] => Naive_EQ1:Naive6.A3[7]
-A6_[0] => Naive_EQ1:Naive6.A4[0]
-A6_[1] => Naive_EQ1:Naive6.A4[1]
-A6_[2] => Naive_EQ1:Naive6.A4[2]
-A6_[3] => Naive_EQ1:Naive6.A4[3]
-A6_[4] => Naive_EQ1:Naive6.A4[4]
-A6_[5] => Naive_EQ1:Naive6.A4[5]
-A6_[6] => Naive_EQ1:Naive6.A4[6]
-A6_[7] => Naive_EQ1:Naive6.A4[7]
+A6_4[0] => Naive_EQ1:Naive6.A4[0]
+A6_4[1] => Naive_EQ1:Naive6.A4[1]
+A6_4[2] => Naive_EQ1:Naive6.A4[2]
+A6_4[3] => Naive_EQ1:Naive6.A4[3]
+A6_4[4] => Naive_EQ1:Naive6.A4[4]
+A6_4[5] => Naive_EQ1:Naive6.A4[5]
+A6_4[6] => Naive_EQ1:Naive6.A4[6]
+A6_4[7] => Naive_EQ1:Naive6.A4[7]
 A6_5[0] => Naive_EQ1:Naive6.A5[0]
 A6_5[1] => Naive_EQ1:Naive6.A5[1]
 A6_5[2] => Naive_EQ1:Naive6.A5[2]
@@ -1399,14 +1754,6 @@ I6[4] => Naive_EQ1:Naive6.I[4]
 I6[5] => Naive_EQ1:Naive6.I[5]
 I6[6] => Naive_EQ1:Naive6.I[6]
 I6[7] => Naive_EQ1:Naive6.I[7]
-I6[8] => Naive_EQ1:Naive6.I[8]
-I6[9] => Naive_EQ1:Naive6.I[9]
-I6[10] => Naive_EQ1:Naive6.I[10]
-I6[11] => Naive_EQ1:Naive6.I[11]
-I6[12] => Naive_EQ1:Naive6.I[12]
-I6[13] => Naive_EQ1:Naive6.I[13]
-I6[14] => Naive_EQ1:Naive6.I[14]
-I6[15] => Naive_EQ1:Naive6.I[15]
 U6_1[0] => Naive_EQ1:Naive6.U1[0]
 U6_1[1] => Naive_EQ1:Naive6.U1[1]
 U6_1[2] => Naive_EQ1:Naive6.U1[2]
@@ -1647,14 +1994,6 @@ I8[4] => Naive_EQ1:Naive8.I[4]
 I8[5] => Naive_EQ1:Naive8.I[5]
 I8[6] => Naive_EQ1:Naive8.I[6]
 I8[7] => Naive_EQ1:Naive8.I[7]
-I8[8] => Naive_EQ1:Naive8.I[8]
-I8[9] => Naive_EQ1:Naive8.I[9]
-I8[10] => Naive_EQ1:Naive8.I[10]
-I8[11] => Naive_EQ1:Naive8.I[11]
-I8[12] => Naive_EQ1:Naive8.I[12]
-I8[13] => Naive_EQ1:Naive8.I[13]
-I8[14] => Naive_EQ1:Naive8.I[14]
-I8[15] => Naive_EQ1:Naive8.I[15]
 U8_1[0] => Naive_EQ1:Naive8.U1[0]
 U8_1[1] => Naive_EQ1:Naive8.U1[1]
 U8_1[2] => Naive_EQ1:Naive8.U1[2]
@@ -1879,14 +2218,6 @@ I4[4] => Naive_EQ1:Naive4.I[4]
 I4[5] => Naive_EQ1:Naive4.I[5]
 I4[6] => Naive_EQ1:Naive4.I[6]
 I4[7] => Naive_EQ1:Naive4.I[7]
-I4[8] => Naive_EQ1:Naive4.I[8]
-I4[9] => Naive_EQ1:Naive4.I[9]
-I4[10] => Naive_EQ1:Naive4.I[10]
-I4[11] => Naive_EQ1:Naive4.I[11]
-I4[12] => Naive_EQ1:Naive4.I[12]
-I4[13] => Naive_EQ1:Naive4.I[13]
-I4[14] => Naive_EQ1:Naive4.I[14]
-I4[15] => Naive_EQ1:Naive4.I[15]
 U4_1[0] => Naive_EQ1:Naive4.U1[0]
 U4_1[1] => Naive_EQ1:Naive4.U1[1]
 U4_1[2] => Naive_EQ1:Naive4.U1[2]
@@ -2135,14 +2466,6 @@ I7[4] => Naive_EQ1:Naive7.I[4]
 I7[5] => Naive_EQ1:Naive7.I[5]
 I7[6] => Naive_EQ1:Naive7.I[6]
 I7[7] => Naive_EQ1:Naive7.I[7]
-I7[8] => Naive_EQ1:Naive7.I[8]
-I7[9] => Naive_EQ1:Naive7.I[9]
-I7[10] => Naive_EQ1:Naive7.I[10]
-I7[11] => Naive_EQ1:Naive7.I[11]
-I7[12] => Naive_EQ1:Naive7.I[12]
-I7[13] => Naive_EQ1:Naive7.I[13]
-I7[14] => Naive_EQ1:Naive7.I[14]
-I7[15] => Naive_EQ1:Naive7.I[15]
 U7_1[0] => Naive_EQ1:Naive7.U1[0]
 U7_1[1] => Naive_EQ1:Naive7.U1[1]
 U7_1[2] => Naive_EQ1:Naive7.U1[2]
@@ -2345,7 +2668,7 @@ Y9_9[6] => Naive_EQ1:Naive9.Y9[6]
 Y9_9[7] => Naive_EQ1:Naive9.Y9[7]
 
 
-|CNN|Naive_EQ2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst10
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -2388,7 +2711,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst10|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst10|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -2425,7 +2748,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst10|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst10|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -2524,7 +2847,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst10|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst10|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -2574,7 +2897,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst10|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst10|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -2641,7 +2964,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst10|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst10|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -2691,7 +3014,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst10|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst10|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -2758,23 +3081,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive9
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -3063,92 +3386,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive9|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive9|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive9|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -3311,7 +3618,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3346,7 +3653,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3381,7 +3688,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3416,7 +3723,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3451,7 +3758,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3486,7 +3793,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3521,7 +3828,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3556,7 +3863,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3591,7 +3898,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3626,7 +3933,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive9|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -3789,7 +4096,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3824,7 +4131,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3859,7 +4166,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3894,7 +4201,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3929,7 +4236,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3964,7 +4271,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -3999,7 +4306,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -4034,7 +4341,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -4069,7 +4376,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive9|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive9|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -4104,7 +4411,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst6
+|CNN|3by3:inst|Naive_EQ2:inst6
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -4147,7 +4454,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst6|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst6|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -4184,7 +4491,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst6|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst6|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -4283,7 +4590,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst6|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst6|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -4333,7 +4640,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst6|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst6|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -4400,7 +4707,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst6|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst6|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -4450,7 +4757,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst6|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst6|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -4517,23 +4824,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive5
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -4822,92 +5129,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive5|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive5|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive5|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -5070,7 +5361,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5105,7 +5396,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5140,7 +5431,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5175,7 +5466,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5210,7 +5501,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5245,7 +5536,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5280,7 +5571,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5315,7 +5606,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5350,7 +5641,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5385,7 +5676,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive5|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -5548,7 +5839,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5583,7 +5874,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5618,7 +5909,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5653,7 +5944,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5688,7 +5979,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5723,7 +6014,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5758,7 +6049,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5793,7 +6084,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5828,7 +6119,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive5|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive5|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -5863,7 +6154,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst2
+|CNN|3by3:inst|Naive_EQ2:inst2
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -5906,7 +6197,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst2|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst2|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -5943,7 +6234,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst2|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst2|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -6042,7 +6333,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst2|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst2|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -6092,7 +6383,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst2|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst2|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -6159,7 +6450,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst2|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst2|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -6209,7 +6500,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst2|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst2|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -6276,23 +6567,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive1
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -6581,92 +6872,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive1|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive1|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive1|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -6829,7 +7104,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -6864,7 +7139,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -6899,7 +7174,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -6934,7 +7209,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -6969,7 +7244,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7004,7 +7279,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7039,7 +7314,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7074,7 +7349,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7109,7 +7384,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7144,7 +7419,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive1|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -7307,7 +7582,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7342,7 +7617,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7377,7 +7652,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7412,7 +7687,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7447,7 +7722,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7482,7 +7757,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7517,7 +7792,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7552,7 +7827,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7587,7 +7862,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive1|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive1|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -7622,7 +7897,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst3
+|CNN|3by3:inst|Naive_EQ2:inst3
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -7665,7 +7940,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst3|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst3|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -7702,7 +7977,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst3|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst3|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -7801,7 +8076,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst3|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst3|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -7851,7 +8126,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst3|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst3|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -7918,7 +8193,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst3|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst3|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -7968,7 +8243,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst3|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst3|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -8035,23 +8310,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive2
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -8340,92 +8615,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive2|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive2|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive2|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -8588,7 +8847,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8623,7 +8882,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8658,7 +8917,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8693,7 +8952,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8728,7 +8987,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8763,7 +9022,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8798,7 +9057,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8833,7 +9092,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8868,7 +9127,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -8903,7 +9162,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive2|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -9066,7 +9325,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9101,7 +9360,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9136,7 +9395,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9171,7 +9430,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9206,7 +9465,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9241,7 +9500,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9276,7 +9535,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9311,7 +9570,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9346,7 +9605,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive2|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive2|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -9381,7 +9640,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst4
+|CNN|3by3:inst|Naive_EQ2:inst4
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -9424,7 +9683,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst4|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst4|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -9461,7 +9720,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst4|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst4|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -9560,7 +9819,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst4|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst4|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -9610,7 +9869,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst4|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst4|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -9677,7 +9936,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst4|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst4|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -9727,7 +9986,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst4|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst4|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -9794,23 +10053,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive3
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -10099,92 +10358,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive3|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive3|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive3|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -10347,7 +10590,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10382,7 +10625,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10417,7 +10660,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10452,7 +10695,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10487,7 +10730,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10522,7 +10765,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10557,7 +10800,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10592,7 +10835,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10627,7 +10870,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10662,7 +10905,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive3|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -10825,7 +11068,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10860,7 +11103,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10895,7 +11138,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10930,7 +11173,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -10965,7 +11208,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -11000,7 +11243,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -11035,7 +11278,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -11070,7 +11313,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -11105,7 +11348,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive3|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive3|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -11140,7 +11383,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst7
+|CNN|3by3:inst|Naive_EQ2:inst7
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -11183,7 +11426,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst7|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst7|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -11220,7 +11463,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst7|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst7|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -11319,7 +11562,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst7|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst7|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -11369,7 +11612,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst7|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst7|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -11436,7 +11679,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst7|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst7|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -11486,7 +11729,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst7|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst7|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -11553,23 +11796,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive6
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -11858,92 +12101,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive6|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive6|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive6|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -12106,7 +12333,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12141,7 +12368,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12176,7 +12403,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12211,7 +12438,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12246,7 +12473,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12281,7 +12508,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12316,7 +12543,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12351,7 +12578,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12386,7 +12613,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12421,7 +12648,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive6|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -12584,7 +12811,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12619,7 +12846,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12654,7 +12881,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12689,7 +12916,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12724,7 +12951,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12759,7 +12986,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12794,7 +13021,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12829,7 +13056,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12864,7 +13091,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive6|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive6|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -12899,7 +13126,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst9
+|CNN|3by3:inst|Naive_EQ2:inst9
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -12942,7 +13169,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst9|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst9|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -12979,7 +13206,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst9|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst9|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -13078,7 +13305,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst9|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst9|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -13128,7 +13355,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst9|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst9|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -13195,7 +13422,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst9|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst9|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -13245,7 +13472,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst9|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst9|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -13312,23 +13539,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive8
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -13617,92 +13844,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive8|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive8|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive8|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -13865,7 +14076,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -13900,7 +14111,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -13935,7 +14146,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -13970,7 +14181,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14005,7 +14216,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14040,7 +14251,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14075,7 +14286,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14110,7 +14321,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14145,7 +14356,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14180,7 +14391,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive8|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -14343,7 +14554,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14378,7 +14589,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14413,7 +14624,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14448,7 +14659,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14483,7 +14694,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14518,7 +14729,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14553,7 +14764,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14588,7 +14799,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14623,7 +14834,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive8|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive8|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -14658,7 +14869,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst5
+|CNN|3by3:inst|Naive_EQ2:inst5
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -14701,7 +14912,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst5|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst5|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -14738,7 +14949,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst5|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst5|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -14837,7 +15048,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst5|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst5|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -14887,7 +15098,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst5|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst5|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -14954,7 +15165,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst5|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst5|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -15004,7 +15215,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst5|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst5|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -15071,23 +15282,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive4
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -15376,92 +15587,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive4|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive4|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive4|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -15624,7 +15819,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15659,7 +15854,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15694,7 +15889,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15729,7 +15924,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15764,7 +15959,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15799,7 +15994,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15834,7 +16029,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15869,7 +16064,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15904,7 +16099,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -15939,7 +16134,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive4|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -16102,7 +16297,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16137,7 +16332,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16172,7 +16367,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16207,7 +16402,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16242,7 +16437,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16277,7 +16472,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16312,7 +16507,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16347,7 +16542,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16382,7 +16577,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive4|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive4|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -16417,7 +16612,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst8
+|CNN|3by3:inst|Naive_EQ2:inst8
 Y_1[0] <= divideby2:inst10.result[0]
 Y_1[1] <= divideby2:inst10.result[1]
 Y_1[2] <= divideby2:inst10.result[2]
@@ -16460,7 +16655,7 @@ X_1[15] => addsub1:inst.a[15]
 X_1[15] => addsub1:inst2.a[15]
 
 
-|CNN|Naive_EQ2:inst8|divideby2:inst10
+|CNN|3by3:inst|Naive_EQ2:inst8|divideby2:inst10
 a[0] => Add0.IN32
 a[1] => Add0.IN30
 a[2] => Add0.IN29
@@ -16497,7 +16692,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst8|addsub16bits:inst6
+|CNN|3by3:inst|Naive_EQ2:inst8|addsub16bits:inst6
 a[0] => Add0.IN16
 a[0] => Add1.IN32
 a[1] => Add0.IN15
@@ -16596,7 +16791,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst8|absolutor:inst4
+|CNN|3by3:inst|Naive_EQ2:inst8|absolutor:inst4
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -16646,7 +16841,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst8|addsub1:inst
+|CNN|3by3:inst|Naive_EQ2:inst8|addsub1:inst
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -16713,7 +16908,7 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst8|absolutor:inst5
+|CNN|3by3:inst|Naive_EQ2:inst8|absolutor:inst5
 a[0] => result.IN0
 a[1] => result.IN0
 a[2] => result.IN0
@@ -16763,7 +16958,7 @@ result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ2:inst8|addsub1:inst2
+|CNN|3by3:inst|Naive_EQ2:inst8|addsub1:inst2
 a[0] => Add0.IN32
 a[0] => Add1.IN32
 a[1] => Add0.IN31
@@ -16830,23 +17025,23 @@ result[14] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7
-X_1[0] <= adder3:inst5.result[0]
-X_1[1] <= adder3:inst5.result[1]
-X_1[2] <= adder3:inst5.result[2]
-X_1[3] <= adder3:inst5.result[3]
-X_1[4] <= adder3:inst5.result[4]
-X_1[5] <= adder3:inst5.result[5]
-X_1[6] <= adder3:inst5.result[6]
-X_1[7] <= adder3:inst5.result[7]
-X_1[8] <= adder3:inst5.result[8]
-X_1[9] <= adder3:inst5.result[9]
-X_1[10] <= adder3:inst5.result[10]
-X_1[11] <= adder3:inst5.result[11]
-X_1[12] <= adder3:inst5.result[12]
-X_1[13] <= adder3:inst5.result[13]
-X_1[14] <= adder3:inst5.result[14]
-X_1[15] <= adder3:inst5.result[15]
+|CNN|3by3:inst|Naive_EQ1:Naive7
+X_1[0] <= adder3:inst1.result[0]
+X_1[1] <= adder3:inst1.result[1]
+X_1[2] <= adder3:inst1.result[2]
+X_1[3] <= adder3:inst1.result[3]
+X_1[4] <= adder3:inst1.result[4]
+X_1[5] <= adder3:inst1.result[5]
+X_1[6] <= adder3:inst1.result[6]
+X_1[7] <= adder3:inst1.result[7]
+X_1[8] <= adder3:inst1.result[8]
+X_1[9] <= adder3:inst1.result[9]
+X_1[10] <= adder3:inst1.result[10]
+X_1[11] <= adder3:inst1.result[11]
+X_1[12] <= adder3:inst1.result[12]
+X_1[13] <= adder3:inst1.result[13]
+X_1[14] <= adder3:inst1.result[14]
+X_1[15] <= adder3:inst1.result[15]
 A1[0] => signed_mult:MAC-A1.a[0]
 A1[1] => signed_mult:MAC-A1.a[1]
 A1[2] => signed_mult:MAC-A1.a[2]
@@ -17135,92 +17330,76 @@ U9[4] => signed_mult:MAC-B9.b[4]
 U9[5] => signed_mult:MAC-B9.b[5]
 U9[6] => signed_mult:MAC-B9.b[6]
 U9[7] => signed_mult:MAC-B9.b[7]
-I[0] => adder3:inst5.c[0]
-I[1] => adder3:inst5.c[1]
-I[2] => adder3:inst5.c[2]
-I[3] => adder3:inst5.c[3]
-I[4] => adder3:inst5.c[4]
-I[5] => adder3:inst5.c[5]
-I[6] => adder3:inst5.c[6]
-I[7] => adder3:inst5.c[7]
-I[8] => adder3:inst5.c[8]
-I[9] => adder3:inst5.c[9]
-I[10] => adder3:inst5.c[10]
-I[11] => adder3:inst5.c[11]
-I[12] => adder3:inst5.c[12]
-I[13] => adder3:inst5.c[13]
-I[14] => adder3:inst5.c[14]
-I[15] => adder3:inst5.c[15]
+I[0] => adder3:inst1.c[0]
+I[1] => adder3:inst1.c[1]
+I[2] => adder3:inst1.c[2]
+I[3] => adder3:inst1.c[3]
+I[4] => adder3:inst1.c[4]
+I[5] => adder3:inst1.c[5]
+I[6] => adder3:inst1.c[6]
+I[7] => adder3:inst1.c[7]
 
 
-|CNN|Naive_EQ1:Naive7|adder3:inst5
-a[0] => _.DATAD
-a[1] => _.DATAD
-a[2] => _.DATAD
-a[3] => _.DATAD
-a[4] => _.DATAD
-a[5] => _.DATAD
-a[6] => _.DATAD
-a[7] => _.DATAD
-a[8] => _.DATAD
-a[9] => _.DATAD
-a[10] => _.DATAD
-a[11] => _.DATAD
-a[12] => _.DATAD
-a[13] => _.DATAD
-a[14] => _.DATAD
-a[15] => _.DATAD
-b[0] => _.DATAC
-b[1] => _.DATAC
-b[2] => _.DATAC
-b[3] => _.DATAC
-b[4] => _.DATAC
-b[5] => _.DATAC
-b[6] => _.DATAC
-b[7] => _.DATAC
-b[8] => _.DATAC
-b[9] => _.DATAC
-b[10] => _.DATAC
-b[11] => _.DATAC
-b[12] => _.DATAC
-b[13] => _.DATAC
-b[14] => _.DATAC
-b[15] => _.DATAC
-c[0] => _.DATAB
-c[1] => _.DATAB
-c[2] => _.DATAB
-c[3] => _.DATAB
-c[4] => _.DATAB
-c[5] => _.DATAB
-c[6] => _.DATAB
-c[7] => _.DATAB
-c[8] => _.DATAB
-c[9] => _.DATAB
-c[10] => _.DATAB
-c[11] => _.DATAB
-c[12] => _.DATAB
-c[13] => _.DATAB
-c[14] => _.DATAB
-c[15] => _.DATAB
-result[0] <= _.SUM_OUT
-result[1] <= _.SUM_OUT
-result[2] <= _.SUM_OUT
-result[3] <= _.SUM_OUT
-result[4] <= _.SUM_OUT
-result[5] <= _.SUM_OUT
-result[6] <= _.SUM_OUT
-result[7] <= _.SUM_OUT
-result[8] <= _.SUM_OUT
-result[9] <= _.SUM_OUT
-result[10] <= _.SUM_OUT
-result[11] <= _.SUM_OUT
-result[12] <= _.SUM_OUT
-result[13] <= _.SUM_OUT
-result[14] <= _.SUM_OUT
-result[15] <= _.SUM_OUT
+|CNN|3by3:inst|Naive_EQ1:Naive7|adder3:inst1
+a[0] => Add0.IN16
+a[1] => Add0.IN15
+a[2] => Add0.IN14
+a[3] => Add0.IN13
+a[4] => Add0.IN12
+a[5] => Add0.IN11
+a[6] => Add0.IN10
+a[7] => Add0.IN9
+a[8] => Add0.IN8
+a[9] => Add0.IN7
+a[10] => Add0.IN6
+a[11] => Add0.IN5
+a[12] => Add0.IN4
+a[13] => Add0.IN3
+a[14] => Add0.IN2
+a[15] => Add0.IN1
+b[0] => Add0.IN32
+b[1] => Add0.IN31
+b[2] => Add0.IN30
+b[3] => Add0.IN29
+b[4] => Add0.IN28
+b[5] => Add0.IN27
+b[6] => Add0.IN26
+b[7] => Add0.IN25
+b[8] => Add0.IN24
+b[9] => Add0.IN23
+b[10] => Add0.IN22
+b[11] => Add0.IN21
+b[12] => Add0.IN20
+b[13] => Add0.IN19
+b[14] => Add0.IN18
+b[15] => Add0.IN17
+c[0] => Add1.IN34
+c[1] => Add1.IN33
+c[2] => Add1.IN32
+c[3] => Add1.IN31
+c[4] => Add1.IN30
+c[5] => Add1.IN29
+c[6] => Add1.IN28
+c[7] => Add1.IN27
+result[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|adder:inst
+|CNN|3by3:inst|Naive_EQ1:Naive7|adder:inst
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -17383,7 +17562,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A1
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17418,7 +17597,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A2
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17453,7 +17632,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A3
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17488,7 +17667,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A4
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17523,7 +17702,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A5
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17558,7 +17737,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A6
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17593,7 +17772,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A7
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17628,7 +17807,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A8
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17663,7 +17842,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-A9
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-A9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17698,7 +17877,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|adder:inst4
+|CNN|3by3:inst|Naive_EQ1:Naive7|adder:inst4
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -17861,7 +18040,7 @@ result[14] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Add7.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B1
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B1
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17896,7 +18075,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B2
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B2
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17931,7 +18110,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B3
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B3
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -17966,7 +18145,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B4
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B4
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -18001,7 +18180,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B5
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B5
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -18036,7 +18215,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B6
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B6
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -18071,7 +18250,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B7
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B7
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -18106,7 +18285,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B8
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B8
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -18141,7 +18320,7 @@ result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|CNN|Naive_EQ1:Naive7|signed_mult:MAC-B9
+|CNN|3by3:inst|Naive_EQ1:Naive7|signed_mult:MAC-B9
 a[0] => Mult0.IN7
 a[1] => Mult0.IN6
 a[2] => Mult0.IN5
@@ -18174,5 +18353,824 @@ result[12] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[13] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CNN|A_Template:inst1
+A1[0] <= lpm_constant_A1:A_1.result[0]
+A1[1] <= lpm_constant_A1:A_1.result[1]
+A1[2] <= lpm_constant_A1:A_1.result[2]
+A1[3] <= lpm_constant_A1:A_1.result[3]
+A1[4] <= lpm_constant_A1:A_1.result[4]
+A1[5] <= lpm_constant_A1:A_1.result[5]
+A1[6] <= lpm_constant_A1:A_1.result[6]
+A1[7] <= lpm_constant_A1:A_1.result[7]
+A2[0] <= lpm_constant_A2:A_2.result[0]
+A2[1] <= lpm_constant_A2:A_2.result[1]
+A2[2] <= lpm_constant_A2:A_2.result[2]
+A2[3] <= lpm_constant_A2:A_2.result[3]
+A2[4] <= lpm_constant_A2:A_2.result[4]
+A2[5] <= lpm_constant_A2:A_2.result[5]
+A2[6] <= lpm_constant_A2:A_2.result[6]
+A2[7] <= lpm_constant_A2:A_2.result[7]
+A3[0] <= lpm_constant_A3:A_3.result[0]
+A3[1] <= lpm_constant_A3:A_3.result[1]
+A3[2] <= lpm_constant_A3:A_3.result[2]
+A3[3] <= lpm_constant_A3:A_3.result[3]
+A3[4] <= lpm_constant_A3:A_3.result[4]
+A3[5] <= lpm_constant_A3:A_3.result[5]
+A3[6] <= lpm_constant_A3:A_3.result[6]
+A3[7] <= lpm_constant_A3:A_3.result[7]
+A4[0] <= lpm_constant_A4:A_4.result[0]
+A4[1] <= lpm_constant_A4:A_4.result[1]
+A4[2] <= lpm_constant_A4:A_4.result[2]
+A4[3] <= lpm_constant_A4:A_4.result[3]
+A4[4] <= lpm_constant_A4:A_4.result[4]
+A4[5] <= lpm_constant_A4:A_4.result[5]
+A4[6] <= lpm_constant_A4:A_4.result[6]
+A4[7] <= lpm_constant_A4:A_4.result[7]
+A5[0] <= lpm_constant_A5:A_5.result[0]
+A5[1] <= lpm_constant_A5:A_5.result[1]
+A5[2] <= lpm_constant_A5:A_5.result[2]
+A5[3] <= lpm_constant_A5:A_5.result[3]
+A5[4] <= lpm_constant_A5:A_5.result[4]
+A5[5] <= lpm_constant_A5:A_5.result[5]
+A5[6] <= lpm_constant_A5:A_5.result[6]
+A5[7] <= lpm_constant_A5:A_5.result[7]
+A6[0] <= lpm_constant_A6:A_6.result[0]
+A6[1] <= lpm_constant_A6:A_6.result[1]
+A6[2] <= lpm_constant_A6:A_6.result[2]
+A6[3] <= lpm_constant_A6:A_6.result[3]
+A6[4] <= lpm_constant_A6:A_6.result[4]
+A6[5] <= lpm_constant_A6:A_6.result[5]
+A6[6] <= lpm_constant_A6:A_6.result[6]
+A6[7] <= lpm_constant_A6:A_6.result[7]
+A7[0] <= lpm_constant_A7:A_7.result[0]
+A7[1] <= lpm_constant_A7:A_7.result[1]
+A7[2] <= lpm_constant_A7:A_7.result[2]
+A7[3] <= lpm_constant_A7:A_7.result[3]
+A7[4] <= lpm_constant_A7:A_7.result[4]
+A7[5] <= lpm_constant_A7:A_7.result[5]
+A7[6] <= lpm_constant_A7:A_7.result[6]
+A7[7] <= lpm_constant_A7:A_7.result[7]
+A8[0] <= lpm_constant_A8:A_8.result[0]
+A8[1] <= lpm_constant_A8:A_8.result[1]
+A8[2] <= lpm_constant_A8:A_8.result[2]
+A8[3] <= lpm_constant_A8:A_8.result[3]
+A8[4] <= lpm_constant_A8:A_8.result[4]
+A8[5] <= lpm_constant_A8:A_8.result[5]
+A8[6] <= lpm_constant_A8:A_8.result[6]
+A8[7] <= lpm_constant_A8:A_8.result[7]
+A9[0] <= lpm_constant_A9:A_9.result[0]
+A9[1] <= lpm_constant_A9:A_9.result[1]
+A9[2] <= lpm_constant_A9:A_9.result[2]
+A9[3] <= lpm_constant_A9:A_9.result[3]
+A9[4] <= lpm_constant_A9:A_9.result[4]
+A9[5] <= lpm_constant_A9:A_9.result[5]
+A9[6] <= lpm_constant_A9:A_9.result[6]
+A9[7] <= lpm_constant_A9:A_9.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A1:A_1
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A1:A_1|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A2:A_2
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A2:A_2|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A3:A_3
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A3:A_3|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A4:A_4
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A4:A_4|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A5:A_5
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A5:A_5|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A6:A_6
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A6:A_6|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A7:A_7
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A7:A_7|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A8:A_8
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A8:A_8|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|A_Template:inst1|lpm_constant_A9:A_9
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|A_Template:inst1|lpm_constant_A9:A_9|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2
+B1[0] <= lpm_constant_B1:B_1.result[0]
+B1[1] <= lpm_constant_B1:B_1.result[1]
+B1[2] <= lpm_constant_B1:B_1.result[2]
+B1[3] <= lpm_constant_B1:B_1.result[3]
+B1[4] <= lpm_constant_B1:B_1.result[4]
+B1[5] <= lpm_constant_B1:B_1.result[5]
+B1[6] <= lpm_constant_B1:B_1.result[6]
+B1[7] <= lpm_constant_B1:B_1.result[7]
+B2[0] <= lpm_constant_B2:B_2.result[0]
+B2[1] <= lpm_constant_B2:B_2.result[1]
+B2[2] <= lpm_constant_B2:B_2.result[2]
+B2[3] <= lpm_constant_B2:B_2.result[3]
+B2[4] <= lpm_constant_B2:B_2.result[4]
+B2[5] <= lpm_constant_B2:B_2.result[5]
+B2[6] <= lpm_constant_B2:B_2.result[6]
+B2[7] <= lpm_constant_B2:B_2.result[7]
+B3[0] <= lpm_constant_B3:B_3.result[0]
+B3[1] <= lpm_constant_B3:B_3.result[1]
+B3[2] <= lpm_constant_B3:B_3.result[2]
+B3[3] <= lpm_constant_B3:B_3.result[3]
+B3[4] <= lpm_constant_B3:B_3.result[4]
+B3[5] <= lpm_constant_B3:B_3.result[5]
+B3[6] <= lpm_constant_B3:B_3.result[6]
+B3[7] <= lpm_constant_B3:B_3.result[7]
+B4[0] <= lpm_constant_B4:B_4.result[0]
+B4[1] <= lpm_constant_B4:B_4.result[1]
+B4[2] <= lpm_constant_B4:B_4.result[2]
+B4[3] <= lpm_constant_B4:B_4.result[3]
+B4[4] <= lpm_constant_B4:B_4.result[4]
+B4[5] <= lpm_constant_B4:B_4.result[5]
+B4[6] <= lpm_constant_B4:B_4.result[6]
+B4[7] <= lpm_constant_B4:B_4.result[7]
+B5[0] <= lpm_constant_B5:B_5.result[0]
+B5[1] <= lpm_constant_B5:B_5.result[1]
+B5[2] <= lpm_constant_B5:B_5.result[2]
+B5[3] <= lpm_constant_B5:B_5.result[3]
+B5[4] <= lpm_constant_B5:B_5.result[4]
+B5[5] <= lpm_constant_B5:B_5.result[5]
+B5[6] <= lpm_constant_B5:B_5.result[6]
+B5[7] <= lpm_constant_B5:B_5.result[7]
+B6[0] <= lpm_constant_B6:B_6.result[0]
+B6[1] <= lpm_constant_B6:B_6.result[1]
+B6[2] <= lpm_constant_B6:B_6.result[2]
+B6[3] <= lpm_constant_B6:B_6.result[3]
+B6[4] <= lpm_constant_B6:B_6.result[4]
+B6[5] <= lpm_constant_B6:B_6.result[5]
+B6[6] <= lpm_constant_B6:B_6.result[6]
+B6[7] <= lpm_constant_B6:B_6.result[7]
+B7[0] <= lpm_constant_B7:B_7.result[0]
+B7[1] <= lpm_constant_B7:B_7.result[1]
+B7[2] <= lpm_constant_B7:B_7.result[2]
+B7[3] <= lpm_constant_B7:B_7.result[3]
+B7[4] <= lpm_constant_B7:B_7.result[4]
+B7[5] <= lpm_constant_B7:B_7.result[5]
+B7[6] <= lpm_constant_B7:B_7.result[6]
+B7[7] <= lpm_constant_B7:B_7.result[7]
+B8[0] <= lpm_constant_B8:B_8.result[0]
+B8[1] <= lpm_constant_B8:B_8.result[1]
+B8[2] <= lpm_constant_B8:B_8.result[2]
+B8[3] <= lpm_constant_B8:B_8.result[3]
+B8[4] <= lpm_constant_B8:B_8.result[4]
+B8[5] <= lpm_constant_B8:B_8.result[5]
+B8[6] <= lpm_constant_B8:B_8.result[6]
+B8[7] <= lpm_constant_B8:B_8.result[7]
+B9[0] <= lpm_constant_B9:B_9.result[0]
+B9[1] <= lpm_constant_B9:B_9.result[1]
+B9[2] <= lpm_constant_B9:B_9.result[2]
+B9[3] <= lpm_constant_B9:B_9.result[3]
+B9[4] <= lpm_constant_B9:B_9.result[4]
+B9[5] <= lpm_constant_B9:B_9.result[5]
+B9[6] <= lpm_constant_B9:B_9.result[6]
+B9[7] <= lpm_constant_B9:B_9.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B1:B_1
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B1:B_1|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B2:B_2
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B2:B_2|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B3:B_3
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B3:B_3|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B4:B_4
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B4:B_4|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B5:B_5
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B5:B_5|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B6:B_6
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B6:B_6|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B7:B_7
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B7:B_7|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B8:B_8
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B8:B_8|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|B_Template:inst2|lpm_constant_B9:B_9
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|B_Template:inst2|lpm_constant_B9:B_9|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12
+I1[0] <= lpm_constant_I1:I_1.result[0]
+I1[1] <= lpm_constant_I1:I_1.result[1]
+I1[2] <= lpm_constant_I1:I_1.result[2]
+I1[3] <= lpm_constant_I1:I_1.result[3]
+I1[4] <= lpm_constant_I1:I_1.result[4]
+I1[5] <= lpm_constant_I1:I_1.result[5]
+I1[6] <= lpm_constant_I1:I_1.result[6]
+I1[7] <= lpm_constant_I1:I_1.result[7]
+I2[0] <= lpm_constant_I2:I_2.result[0]
+I2[1] <= lpm_constant_I2:I_2.result[1]
+I2[2] <= lpm_constant_I2:I_2.result[2]
+I2[3] <= lpm_constant_I2:I_2.result[3]
+I2[4] <= lpm_constant_I2:I_2.result[4]
+I2[5] <= lpm_constant_I2:I_2.result[5]
+I2[6] <= lpm_constant_I2:I_2.result[6]
+I2[7] <= lpm_constant_I2:I_2.result[7]
+I3[0] <= lpm_constant_I3:I_3.result[0]
+I3[1] <= lpm_constant_I3:I_3.result[1]
+I3[2] <= lpm_constant_I3:I_3.result[2]
+I3[3] <= lpm_constant_I3:I_3.result[3]
+I3[4] <= lpm_constant_I3:I_3.result[4]
+I3[5] <= lpm_constant_I3:I_3.result[5]
+I3[6] <= lpm_constant_I3:I_3.result[6]
+I3[7] <= lpm_constant_I3:I_3.result[7]
+I4[0] <= lpm_constant_I4:I_4.result[0]
+I4[1] <= lpm_constant_I4:I_4.result[1]
+I4[2] <= lpm_constant_I4:I_4.result[2]
+I4[3] <= lpm_constant_I4:I_4.result[3]
+I4[4] <= lpm_constant_I4:I_4.result[4]
+I4[5] <= lpm_constant_I4:I_4.result[5]
+I4[6] <= lpm_constant_I4:I_4.result[6]
+I4[7] <= lpm_constant_I4:I_4.result[7]
+I5[0] <= lpm_constant_I5:I_5.result[0]
+I5[1] <= lpm_constant_I5:I_5.result[1]
+I5[2] <= lpm_constant_I5:I_5.result[2]
+I5[3] <= lpm_constant_I5:I_5.result[3]
+I5[4] <= lpm_constant_I5:I_5.result[4]
+I5[5] <= lpm_constant_I5:I_5.result[5]
+I5[6] <= lpm_constant_I5:I_5.result[6]
+I5[7] <= lpm_constant_I5:I_5.result[7]
+I6[0] <= lpm_constant_I6:I_6.result[0]
+I6[1] <= lpm_constant_I6:I_6.result[1]
+I6[2] <= lpm_constant_I6:I_6.result[2]
+I6[3] <= lpm_constant_I6:I_6.result[3]
+I6[4] <= lpm_constant_I6:I_6.result[4]
+I6[5] <= lpm_constant_I6:I_6.result[5]
+I6[6] <= lpm_constant_I6:I_6.result[6]
+I6[7] <= lpm_constant_I6:I_6.result[7]
+I7[0] <= lpm_constant_I7:I_7.result[0]
+I7[1] <= lpm_constant_I7:I_7.result[1]
+I7[2] <= lpm_constant_I7:I_7.result[2]
+I7[3] <= lpm_constant_I7:I_7.result[3]
+I7[4] <= lpm_constant_I7:I_7.result[4]
+I7[5] <= lpm_constant_I7:I_7.result[5]
+I7[6] <= lpm_constant_I7:I_7.result[6]
+I7[7] <= lpm_constant_I7:I_7.result[7]
+I8[0] <= lpm_constant_I8:I_8.result[0]
+I8[1] <= lpm_constant_I8:I_8.result[1]
+I8[2] <= lpm_constant_I8:I_8.result[2]
+I8[3] <= lpm_constant_I8:I_8.result[3]
+I8[4] <= lpm_constant_I8:I_8.result[4]
+I8[5] <= lpm_constant_I8:I_8.result[5]
+I8[6] <= lpm_constant_I8:I_8.result[6]
+I8[7] <= lpm_constant_I8:I_8.result[7]
+I9[0] <= lpm_constant_I9:I_9.result[0]
+I9[1] <= lpm_constant_I9:I_9.result[1]
+I9[2] <= lpm_constant_I9:I_9.result[2]
+I9[3] <= lpm_constant_I9:I_9.result[3]
+I9[4] <= lpm_constant_I9:I_9.result[4]
+I9[5] <= lpm_constant_I9:I_9.result[5]
+I9[6] <= lpm_constant_I9:I_9.result[6]
+I9[7] <= lpm_constant_I9:I_9.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I1:I_1
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I1:I_1|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I2:I_2
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I2:I_2|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I3:I_3
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I3:I_3|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I4:I_4
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I4:I_4|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I5:I_5
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I5:I_5|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I6:I_6
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I6:I_6|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I7:I_7
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I7:I_7|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I8:I_8
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I8:I_8|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+
+
+|CNN|I_Template:inst12|lpm_constant_I9:I_9
+result[0] <= lpm_constant:lpm_constant_component.result[0]
+result[1] <= lpm_constant:lpm_constant_component.result[1]
+result[2] <= lpm_constant:lpm_constant_component.result[2]
+result[3] <= lpm_constant:lpm_constant_component.result[3]
+result[4] <= lpm_constant:lpm_constant_component.result[4]
+result[5] <= lpm_constant:lpm_constant_component.result[5]
+result[6] <= lpm_constant:lpm_constant_component.result[6]
+result[7] <= lpm_constant:lpm_constant_component.result[7]
+
+
+|CNN|I_Template:inst12|lpm_constant_I9:I_9|lpm_constant:lpm_constant_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <GND>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
 
 

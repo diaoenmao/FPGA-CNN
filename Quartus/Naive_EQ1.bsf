@@ -278,8 +278,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 608)
 		(input)
-		(text "I[15..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "I[15..0]" (rect 21 603 58 617)(font "Arial" (font_size 8)))
+		(text "I[7..0]" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "I[7..0]" (rect 21 603 51 617)(font "Arial" (font_size 8)))
 		(line (pt 0 608)(pt 16 608)(line_width 3))
 	)
 	(port

@@ -600,7 +600,7 @@ applicable agreement for further details.
 	(input)
 	(rect 960 792 1128 808)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "I[15..0]" (rect 5 0 40 12)(font "Arial" ))
+	(text "I[7..0]" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12)(line_width 1))
@@ -1309,7 +1309,7 @@ applicable agreement for further details.
 (symbol
 	(rect 1192 736 1344 832)
 	(text "adder3" (rect 5 0 38 12)(font "Arial" ))
-	(text "inst5" (rect 8 80 31 92)(font "Arial" ))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -1327,8 +1327,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "c[15..0]" (rect 0 0 37 12)(font "Arial" ))
-		(text "c[15..0]" (rect 21 59 58 71)(font "Arial" ))
+		(text "c[7..0]" (rect 0 0 31 12)(font "Arial" ))
+		(text "c[7..0]" (rect 21 59 52 71)(font "Arial" ))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port

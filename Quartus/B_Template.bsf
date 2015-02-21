@@ -1,0 +1,92 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 112 208)
+	(text "B_Template" (rect 5 0 71 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(port
+		(pt 96 32)
+		(output)
+		(text "B1[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B1[7..0]" (rect 32 27 75 41)(font "Arial" (font_size 8)))
+		(line (pt 96 32)(pt 80 32)(line_width 3))
+	)
+	(port
+		(pt 96 48)
+		(output)
+		(text "B2[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B2[7..0]" (rect 32 43 75 57)(font "Arial" (font_size 8)))
+		(line (pt 96 48)(pt 80 48)(line_width 3))
+	)
+	(port
+		(pt 96 64)
+		(output)
+		(text "B3[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B3[7..0]" (rect 32 59 75 73)(font "Arial" (font_size 8)))
+		(line (pt 96 64)(pt 80 64)(line_width 3))
+	)
+	(port
+		(pt 96 80)
+		(output)
+		(text "B4[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B4[7..0]" (rect 32 75 75 89)(font "Arial" (font_size 8)))
+		(line (pt 96 80)(pt 80 80)(line_width 3))
+	)
+	(port
+		(pt 96 96)
+		(output)
+		(text "B5[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B5[7..0]" (rect 32 91 75 105)(font "Arial" (font_size 8)))
+		(line (pt 96 96)(pt 80 96)(line_width 3))
+	)
+	(port
+		(pt 96 112)
+		(output)
+		(text "B6[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B6[7..0]" (rect 32 107 75 121)(font "Arial" (font_size 8)))
+		(line (pt 96 112)(pt 80 112)(line_width 3))
+	)
+	(port
+		(pt 96 128)
+		(output)
+		(text "B7[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B7[7..0]" (rect 32 123 75 137)(font "Arial" (font_size 8)))
+		(line (pt 96 128)(pt 80 128)(line_width 3))
+	)
+	(port
+		(pt 96 144)
+		(output)
+		(text "B8[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B8[7..0]" (rect 32 139 75 153)(font "Arial" (font_size 8)))
+		(line (pt 96 144)(pt 80 144)(line_width 3))
+	)
+	(port
+		(pt 96 160)
+		(output)
+		(text "B9[7..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B9[7..0]" (rect 32 155 75 169)(font "Arial" (font_size 8)))
+		(line (pt 96 160)(pt 80 160)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 176)(line_width 1))
+	)
+)
