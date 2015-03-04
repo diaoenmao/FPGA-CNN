@@ -12,15 +12,15 @@ clk,
 Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out
   );
 	input wire clk;
-	input wire [7:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
-	input wire [7:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
+	input wire signed [7:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
+	input wire signed [7:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire [7:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
-	input wire [7:0] I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, I16;
-	reg [7:0] A1i, A2i, A3i, A4i, A5i, A6i, A7i, A8i, A9i;
-	reg [7:0] B1i, B2i, B3i, B4i, B5i, B6i, B7i, B8i, B9i;
+	input wire signed [7:0] I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, I16;
+	reg signed [7:0] A1i, A2i, A3i, A4i, A5i, A6i, A7i, A8i, A9i;
+	reg signed [7:0] B1i, B2i, B3i, B4i, B5i, B6i, B7i, B8i, B9i;
 	reg [7:0] U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16;
 	reg signed [8:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16;
-	reg [7:0] I;
+	reg signed [7:0] I;
 	reg [3:0] counter;
 	wire signed [8:0] onebyoneout;
 	reg signed [8:0] Y1_next, Y2_next, Y3_next, Y4_next, Y5_next, Y6_next, Y7_next, Y8_next, Y9_next, Y10_next, Y11_next, Y12_next, Y13_next, Y14_next, Y15_next, Y16_next;
