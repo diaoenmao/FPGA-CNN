@@ -13,5 +13,5 @@ out
 	assign Xminus1 = X - 1;	
 	assign Xplus = (Xplus1[16])?-Xplus1:Xplus1;
 	assign Xminus =  (Xminus1[16])?-Xminus1:Xminus1;
-	assign out = (Xplus + Xminus) / 2;
+	assign out = (Xplus + Xminus) >>> 2;
 endmodule
