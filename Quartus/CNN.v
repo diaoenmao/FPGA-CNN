@@ -15,40 +15,40 @@ assign A1 = `WIDTH'b0;
 assign A2 = `WIDTH'b0;
 assign A3 = `WIDTH'b0;
 assign A4 = `WIDTH'b0;
-assign A5 = `WIDTH'b000100000;
+assign A5 = `WIDTH'b000010000;
 assign A6 = `WIDTH'b0;
 assign A7 = `WIDTH'b0;
 assign A8 = `WIDTH'b0;
 assign A9 = `WIDTH'b0;
 
-assign B1 = `WIDTH'b100100000;
-assign B2 = `WIDTH'b100100000;
-assign B3 = `WIDTH'b100100000;
-assign B4 = `WIDTH'b100100000;
-assign B5 = `WIDTH'b010000000;
-assign B6 = `WIDTH'b100100000;
-assign B7 = `WIDTH'b100100000;
-assign B8 = `WIDTH'b100100000;
-assign B9 =-`WIDTH'b100100000;
+assign B1 = `WIDTH'b111110000;
+assign B2 = `WIDTH'b111110000;
+assign B3 = `WIDTH'b111110000;
+assign B4 = `WIDTH'b111110000;
+assign B5 = `WIDTH'b001000000;
+assign B6 = `WIDTH'b111110000;
+assign B7 = `WIDTH'b111110000;
+assign B8 = `WIDTH'b111110000;
+assign B9 =-`WIDTH'b111110000;
 
 assign U1_in = `WIDTH'b0;
 assign U2_in = `WIDTH'b0;
 assign U3_in = `WIDTH'b0;
 assign U4_in = `WIDTH'b0;
 assign U5_in = `WIDTH'b0;
-assign U6_in = `WIDTH'b000100000;
-assign U7_in = `WIDTH'b000100000;
+assign U6_in = `WIDTH'b000010000;
+assign U7_in = `WIDTH'b000010000;
 assign U8_in = `WIDTH'b0;
 assign U9_in = `WIDTH'b0;
-assign U10_in = `WIDTH'b000100000;
-assign U11_in = `WIDTH'b000100000;
+assign U10_in = `WIDTH'b000010000;
+assign U11_in = `WIDTH'b000010000;
 assign U12_in = `WIDTH'b0;
 assign U13_in = `WIDTH'b0;
 assign U14_in = `WIDTH'b0;
 assign U15_in = `WIDTH'b0;
 assign U16_in = `WIDTH'b0;
 
-assign I = `WIDTH'b110100000;
+assign I = `WIDTH'b110110000;
 
 
 fourbyfour u1(
