@@ -1,3 +1,4 @@
+`define WIDTH 9
 module eq2 (
 X,
 out
@@ -11,7 +12,7 @@ out
 	
 	assign Xplus1 = X + 1;
 	assign Xminus1 = X - 1;	
-	assign Xplus = (Xplus1[2 * `WIDTH - 1])?-Xplus1:Xplus1;
-	assign Xminus =  (Xminus1[2 * `WIDTH - 1])?-Xminus1:Xminus1;
+	assign Xplus = (Xplus1[2 * `WIDTH - 1])?(~Xplus1+1):Xplus1;
+	assign Xminus =  (Xminus1[2 * `WIDTH - 1])?(~Xminus1+1):Xminus1;
 	assign out = (Xplus + Xminus) >>> 1;
 endmodule

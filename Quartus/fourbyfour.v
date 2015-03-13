@@ -1,3 +1,5 @@
+`define WIDTH 9
+`define COUNTER_WIDTH 4
 module fourbyfour (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
     
@@ -20,8 +22,7 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	reg signed [`WIDTH - 1:0] B1i, B2i, B3i, B4i, B5i, B6i, B7i, B8i, B9i;
 	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16;
 	reg signed [`WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16;
-	parameter COUNTER_WIDTH = 4;
-	reg [COUNTER_WIDTH - 1:0] counter;
+	reg [`COUNTER_WIDTH - 1:0] counter;
 	wire signed [`WIDTH - 1:0] onebyoneout;
 	reg signed [`WIDTH - 1:0] Y1_next, Y2_next, Y3_next, Y4_next, Y5_next, Y6_next, Y7_next, Y8_next, Y9_next, Y10_next, Y11_next, Y12_next, Y13_next, Y14_next, Y15_next, Y16_next;
 	output wire signed [`WIDTH - 1:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
@@ -82,7 +83,7 @@ begin
   U15 <= U15_in;
   U16 <= U16_in; 
   
-  if (counter == 4'b0000) begin
+  if (counter == `COUNTER_WIDTH'b0000) begin
   
 	U1 <= `WIDTH'b0;
 	U2 <= `WIDTH'b0;
@@ -107,7 +108,7 @@ begin
     
     Y1_next <= onebyoneout;
     
-  end else if (counter == 4'b0001) begin
+  end else if (counter == `COUNTER_WIDTH'b0001) begin
   
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
@@ -131,7 +132,7 @@ begin
     
         
     Y2_next <= onebyoneout;
-  end else if (counter == 4'b0010) begin
+  end else if (counter == `COUNTER_WIDTH'b0010) begin
   
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
@@ -155,7 +156,7 @@ begin
     
     
     Y3_next <= onebyoneout; 
-  end else if (counter == 4'b0011) begin
+  end else if (counter == `COUNTER_WIDTH'b0011) begin
   
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
@@ -179,7 +180,7 @@ begin
     
     
     Y4_next <= onebyoneout;
-  end else if (counter == 4'b0100) begin
+  end else if (counter == `COUNTER_WIDTH'b0100) begin
   
     U1 <= `WIDTH'b0;
     U2 <= U1;
@@ -203,7 +204,7 @@ begin
     
     
     Y5_next <= onebyoneout;
-  end else if (counter == 4'b0101) begin
+  end else if (counter == `COUNTER_WIDTH'b0101) begin
   
     U1 <= U1;
     U2 <= U2;
@@ -226,7 +227,7 @@ begin
     Y9 <= Y11;
     
     Y6_next <= onebyoneout;
-  end else if (counter == 4'b0110) begin
+  end else if (counter == `COUNTER_WIDTH'b0110) begin
   
     U1 <= U2;
     U2 <= U3;
@@ -249,7 +250,7 @@ begin
     Y9 <= Y12;
     
     Y7_next <= onebyoneout;
-  end else if (counter == 4'b0111) begin
+  end else if (counter == `COUNTER_WIDTH'b0111) begin
   
     U1 <= U3;
     U2 <= U4;
@@ -273,7 +274,7 @@ begin
     
     
     Y8_next <= onebyoneout;
-  end else if (counter == 4'b1000) begin
+  end else if (counter == `COUNTER_WIDTH'b1000) begin
   
     U1 <= `WIDTH'b0;
     U2 <= U5;
@@ -297,7 +298,7 @@ begin
     
     
     Y9_next <= onebyoneout;
-  end else if (counter == 4'b1001) begin
+  end else if (counter == `COUNTER_WIDTH'b1001) begin
   
     U1 <= U5;
     U2 <= U6;
@@ -320,7 +321,7 @@ begin
     Y9 <= Y15;
     
     Y10_next <= onebyoneout;
-  end else if (counter == 4'b1010) begin
+  end else if (counter == `COUNTER_WIDTH'b1010) begin
   
     U1 <= U6;
     U2 <= U7;
@@ -344,7 +345,7 @@ begin
     
     
     Y11_next <= onebyoneout;
-  end else if (counter == 4'b1011) begin
+  end else if (counter == `COUNTER_WIDTH'b1011) begin
   
     U1 <= U7;
     U2 <= U8;
@@ -367,7 +368,7 @@ begin
     Y9 <= `WIDTH'b0;
     
     Y12_next <= onebyoneout;
-  end else if (counter == 4'b1100) begin
+  end else if (counter == `COUNTER_WIDTH'b1100) begin
   
     U1 <= `WIDTH'b0;
     U2 <= U9;
@@ -390,7 +391,7 @@ begin
     Y9 <= `WIDTH'b0;
     
     Y13_next <= onebyoneout;
-  end else if (counter == 4'b1101) begin
+  end else if (counter == `COUNTER_WIDTH'b1101) begin
   
     U1 <= U9;
     U2 <= U10;
@@ -414,7 +415,7 @@ begin
     
     
     Y14_next <= onebyoneout;
-  end else if (counter == 4'b1110) begin
+  end else if (counter == `COUNTER_WIDTH'b1110) begin
   
     U1 <= U10;
     U2 <= U11;
@@ -437,7 +438,7 @@ begin
     Y9 <= `WIDTH'b0;
     
     Y15_next <= onebyoneout;
-  end else if (counter == 4'b1111) begin
+  end else if (counter == `COUNTER_WIDTH'b1111) begin
   
     U1 <= U11;
     U2 <= U12;
@@ -462,7 +463,7 @@ begin
     
     Y16_next <= onebyoneout;
   end
-  if (counter == 4'b1111) begin
+  if (counter == `COUNTER_WIDTH'b1111) begin
   Y1 <= Y1_next;
   Y2 <= Y2_next;
   Y3 <= Y3_next;
@@ -480,7 +481,7 @@ begin
   Y15 <= Y15_next;
   Y16 <= Y16_next;       
   end
-  counter <= counter + 1;
+  counter <= counter + `COUNTER_WIDTH'b1;
 end
 
 
