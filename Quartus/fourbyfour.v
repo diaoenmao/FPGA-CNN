@@ -18,13 +18,14 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire signed [`WIDTH - 1:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
 	input wire signed [`WIDTH - 1:0] I;
-	reg signed [`WIDTH - 1:0] A1i, A2i, A3i, A4i, A5i, A6i, A7i, A8i, A9i;
-	reg signed [`WIDTH - 1:0] B1i, B2i, B3i, B4i, B5i, B6i, B7i, B8i, B9i;
-	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16;
-	reg signed [`WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9, Y10, Y11, Y12, Y13, Y14, Y15, Y16;
-	reg [`COUNTER_WIDTH - 1:0] counter;
+	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
+	reg signed [`WIDTH - 1:0] Y1 = `WIDTH'b0, Y2 = `WIDTH'b0, Y3 = `WIDTH'b0, Y4 = `WIDTH'b0, Y5 = `WIDTH'b0, Y6 = `WIDTH'b0, Y7 = `WIDTH'b0, Y8 = `WIDTH'b0;
+	reg signed [`WIDTH - 1:0] Y9 = `WIDTH'b0, Y10 = `WIDTH'b0, Y11 = `WIDTH'b0, Y12 = `WIDTH'b0, Y13 = `WIDTH'b0, Y14 = `WIDTH'b0, Y15 = `WIDTH'b0, Y16 = `WIDTH'b0;
+	reg [`COUNTER_WIDTH - 1:0] counter = `COUNTER_WIDTH'b0;
 	wire signed [`WIDTH - 1:0] onebyoneout;
-	reg signed [`WIDTH - 1:0] Y1_next, Y2_next, Y3_next, Y4_next, Y5_next, Y6_next, Y7_next, Y8_next, Y9_next, Y10_next, Y11_next, Y12_next, Y13_next, Y14_next, Y15_next, Y16_next;
+	reg signed [`WIDTH - 1:0] Y1_next = `WIDTH'b0, Y2_next = `WIDTH'b0, Y3_next = `WIDTH'b0, Y4_next = `WIDTH'b0, Y5_next = `WIDTH'b0, Y6_next = `WIDTH'b0;
+	reg signed [`WIDTH - 1:0] Y7_next = `WIDTH'b0, Y8_next = `WIDTH'b0, Y9_next = `WIDTH'b0, Y10_next = `WIDTH'b0, Y11_next = `WIDTH'b0, Y12_next = `WIDTH'b0, Y13_next = `WIDTH'b0;
+	reg signed [`WIDTH - 1:0] Y14_next = `WIDTH'b0, Y15_next = `WIDTH'b0, Y16_next = `WIDTH'b0;
 	output wire signed [`WIDTH - 1:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
 
 assign Y1_out = Y1_next;
@@ -46,42 +47,6 @@ assign Y16_out = Y16_next;
 
 always  @ (posedge clk)
 begin
-  A1i <= A1;
-  A2i <= A2;
-  A3i <= A3;
-  A4i <= A4;
-  A5i <= A5;
-  A6i <= A6;
-  A7i <= A7;
-  A8i <= A8;
-  A9i <= A9;
-
-  B1i <= B1;
-  B2i <= B2;
-  B3i <= B3;
-  B4i <= B4;
-  B5i <= B5;
-  B6i <= B6;
-  B7i <= B7;
-  B8i <= B8;
-  B9i <= B9;
-  
-  U1 <= U1_in;
-  U2 <= U2_in;
-  U3 <= U3_in;
-  U4 <= U4_in;
-  U5 <= U5_in;
-  U6 <= U6_in;
-  U7 <= U7_in;
-  U8 <= U8_in;
-  U9 <= U9_in;
-  U10 <= U10_in;
-  U11 <= U11_in;
-  U12 <= U12_in;
-  U13 <= U13_in;
-  U14 <= U14_in;
-  U15 <= U15_in;
-  U16 <= U16_in; 
   
   if (counter == `COUNTER_WIDTH'b0000) begin
   
@@ -89,11 +54,11 @@ begin
 	U2 <= `WIDTH'b0;
 	U3 <= `WIDTH'b0;
 	U4 <= `WIDTH'b0;
-	U5 <= U1;
-	U6 <= U2;
+	U5 <= U1_in;
+	U6 <= U2_in;
 	U7 <= `WIDTH'b0;
-	U8 <= U5;
-	U9 <= U6;
+	U8 <= U5_in;
+	U9 <= U6_in;
   
     Y1 <= `WIDTH'b0;
     Y2 <= `WIDTH'b0;
@@ -113,12 +78,12 @@ begin
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
-    U4 <= U1;
-    U5 <= U2;
-    U6 <= U3;
-    U7 <= U5;
-    U8 <= U6;
-    U9 <= U7;
+    U4 <= U1_in;
+    U5 <= U2_in;
+    U6 <= U3_in;
+    U7 <= U5_in;
+    U8 <= U6_in;
+    U9 <= U7_in;
     
     Y1 <= `WIDTH'b0;
     Y2 <= `WIDTH'b0;
@@ -137,12 +102,12 @@ begin
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
-    U4 <= U2;
-    U5 <= U3;
-    U6 <= U4;
-    U7 <= U6;
-    U8 <= U7;
-    U9 <= U8;
+    U4 <= U2_in;
+    U5 <= U3_in;
+    U6 <= U4_in;
+    U7 <= U6_in;
+    U8 <= U7_in;
+    U9 <= U8_in;
     
     Y1 <= `WIDTH'b0;
     Y2 <= `WIDTH'b0;
@@ -161,11 +126,11 @@ begin
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
-    U4 <= U3;
-    U5 <= U4;
+    U4 <= U3_in;
+    U5 <= U4_in;
     U6 <= `WIDTH'b0;
-    U7 <= U7;
-    U8 <= U8;
+    U7 <= U7_in;
+    U8 <= U8_in;
     U9 <= `WIDTH'b0;
     
     Y1 <= `WIDTH'b0;
@@ -183,14 +148,14 @@ begin
   end else if (counter == `COUNTER_WIDTH'b0100) begin
   
     U1 <= `WIDTH'b0;
-    U2 <= U1;
-    U3 <= U2;
+    U2 <= U1_in;
+    U3 <= U2_in;
     U4 <= `WIDTH'b0;
-    U5 <= U5;
-    U6 <= U6;
+    U5 <= U5_in;
+    U6 <= U6_in;
     U7 <= `WIDTH'b0;
-    U8 <= U9;
-    U9 <= U10;
+    U8 <= U9_in;
+    U9 <= U10_in;
     
     Y1 <= `WIDTH'b0;
     Y2 <= Y1;
@@ -206,15 +171,15 @@ begin
     Y5_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b0101) begin
   
-    U1 <= U1;
-    U2 <= U2;
-    U3 <= U3;
-    U4 <= U5;
-    U5 <= U6;
-    U6 <= U7;
-    U7 <= U9;
-    U8 <= U10;
-    U9 <= U11;
+    U1 <= U1_in;
+    U2 <= U2_in;
+    U3 <= U3_in;
+    U4 <= U5_in;
+    U5 <= U6_in;
+    U6 <= U7_in;
+    U7 <= U9_in;
+    U8 <= U10_in;
+    U9 <= U11_in;
     
     Y1 <= Y1;
     Y2 <= Y2;
@@ -229,15 +194,15 @@ begin
     Y6_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b0110) begin
   
-    U1 <= U2;
-    U2 <= U3;
-    U3 <= U4;
-    U4 <= U6;
-    U5 <= U7;
-    U6 <= U8;
-    U7 <= U10;
-    U8 <= U11;
-    U9 <= U12;
+    U1 <= U2_in;
+    U2 <= U3_in;
+    U3 <= U4_in;
+    U4 <= U6_in;
+    U5 <= U7_in;
+    U6 <= U8_in;
+    U7 <= U10_in;
+    U8 <= U11_in;
+    U9 <= U12_in;
     
     Y1 <= Y2;
     Y2 <= Y3;
@@ -252,14 +217,14 @@ begin
     Y7_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b0111) begin
   
-    U1 <= U3;
-    U2 <= U4;
+    U1 <= U3_in;
+    U2 <= U4_in;
     U3 <= `WIDTH'b0;
-    U4 <= U7;
-    U5 <= U8;
+    U4 <= U7_in;
+    U5 <= U8_in;
     U6 <= `WIDTH'b0;
-    U7 <= U11;
-    U8 <= U12;
+    U7 <= U11_in;
+    U8 <= U12_in;
     U9 <= `WIDTH'b0;
 
     Y1 <= Y3;
@@ -277,14 +242,14 @@ begin
   end else if (counter == `COUNTER_WIDTH'b1000) begin
   
     U1 <= `WIDTH'b0;
-    U2 <= U5;
-    U3 <= U6;
+    U2 <= U5_in;
+    U3 <= U6_in;
     U4 <= `WIDTH'b0;
-    U5 <= U9;
-    U6 <= U10;
+    U5 <= U9_in;
+    U6 <= U10_in;
     U7 <= `WIDTH'b0;
-    U8 <= U13;
-    U9 <= U14;
+    U8 <= U13_in;
+    U9 <= U14_in;
     
     Y1 <= `WIDTH'b0;
     Y2 <= Y5;
@@ -300,15 +265,15 @@ begin
     Y9_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b1001) begin
   
-    U1 <= U5;
-    U2 <= U6;
-    U3 <= U7;
-    U4 <= U9;
-    U5 <= U10;
-    U6 <= U11;
-    U7 <= U13;
-    U8 <= U14;
-    U9 <= U15;
+    U1 <= U5_in;
+    U2 <= U6_in;
+    U3 <= U7_in;
+    U4 <= U9_in;
+    U5 <= U10_in;
+    U6 <= U11_in;
+    U7 <= U13_in;
+    U8 <= U14_in;
+    U9 <= U15_in;
  
     Y1 <= Y5;
     Y2 <= Y6;
@@ -323,15 +288,15 @@ begin
     Y10_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b1010) begin
   
-    U1 <= U6;
-    U2 <= U7;
-    U3 <= U8;
-    U4 <= U10;
-    U5 <= U11;
-    U6 <= U12;
-    U7 <= U14;
-    U8 <= U15;
-    U9 <= U16;
+    U1 <= U6_in;
+    U2 <= U7_in;
+    U3 <= U8_in;
+    U4 <= U10_in;
+    U5 <= U11_in;
+    U6 <= U12_in;
+    U7 <= U14_in;
+    U8 <= U15_in;
+    U9 <= U16_in;
   
     Y1 <= Y6;
     Y2 <= Y7;
@@ -347,14 +312,14 @@ begin
     Y11_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b1011) begin
   
-    U1 <= U7;
-    U2 <= U8;
+    U1 <= U7_in;
+    U2 <= U8_in;
     U3 <= `WIDTH'b0;
-    U4 <= U11;
-    U5 <= U12;
+    U4 <= U11_in;
+    U5 <= U12_in;
     U6 <= `WIDTH'b0;
-    U7 <= U15;
-    U8 <= U16;
+    U7 <= U15_in;
+    U8 <= U16_in;
     U9 <= `WIDTH'b0;
     
     Y1 <= Y7;
@@ -371,11 +336,11 @@ begin
   end else if (counter == `COUNTER_WIDTH'b1100) begin
   
     U1 <= `WIDTH'b0;
-    U2 <= U9;
-    U3 <= U10;
+    U2 <= U9_in;
+    U3 <= U10_in;
     U4 <= `WIDTH'b0;
-    U5 <= U13;
-    U6 <= U14;
+    U5 <= U13_in;
+    U6 <= U14_in;
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
@@ -393,12 +358,12 @@ begin
     Y13_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b1101) begin
   
-    U1 <= U9;
-    U2 <= U10;
-    U3 <= U11;
-    U4 <= U13;
-    U5 <= U14;
-    U6 <= U15;
+    U1 <= U9_in;
+    U2 <= U10_in;
+    U3 <= U11_in;
+    U4 <= U13_in;
+    U5 <= U14_in;
+    U6 <= U15_in;
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
@@ -417,12 +382,12 @@ begin
     Y14_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b1110) begin
   
-    U1 <= U10;
-    U2 <= U11;
-    U3 <= U12;
-    U4 <= U14;
-    U5 <= U15;
-    U6 <= U16;
+    U1 <= U10_in;
+    U2 <= U11_in;
+    U3 <= U12_in;
+    U4 <= U14_in;
+    U5 <= U15_in;
+    U6 <= U16_in;
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
@@ -440,11 +405,11 @@ begin
     Y15_next <= onebyoneout;
   end else if (counter == `COUNTER_WIDTH'b1111) begin
   
-    U1 <= U11;
-    U2 <= U12;
+    U1 <= U11_in;
+    U2 <= U12_in;
     U3 <= `WIDTH'b0;
-    U4 <= U15;
-    U5 <= U16;
+    U4 <= U15_in;
+    U5 <= U16_in;
     U6 <= `WIDTH'b0;
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
@@ -488,25 +453,25 @@ end
 
 
 onebyone u1(
-.A1(A1i[`WIDTH - 1:0]),
-.A2(A2i[`WIDTH - 1:0]),
-.A3(A3i[`WIDTH - 1:0]),
-.A4(A4i[`WIDTH - 1:0]),
-.A5(A5i[`WIDTH - 1:0]),
-.A6(A6i[`WIDTH - 1:0]),
-.A7(A7i[`WIDTH - 1:0]),
-.A8(A8i[`WIDTH - 1:0]),
-.A9(A9i[`WIDTH - 1:0]),
+.A1(A1[`WIDTH - 1:0]),
+.A2(A2[`WIDTH - 1:0]),
+.A3(A3[`WIDTH - 1:0]),
+.A4(A4[`WIDTH - 1:0]),
+.A5(A5[`WIDTH - 1:0]),
+.A6(A6[`WIDTH - 1:0]),
+.A7(A7[`WIDTH - 1:0]),
+.A8(A8[`WIDTH - 1:0]),
+.A9(A9[`WIDTH - 1:0]),
 
-.B1(B1i[`WIDTH - 1:0]),
-.B2(B2i[`WIDTH - 1:0]),
-.B3(B3i[`WIDTH - 1:0]),
-.B4(B4i[`WIDTH - 1:0]),
-.B5(B5i[`WIDTH - 1:0]),
-.B6(B6i[`WIDTH - 1:0]),
-.B7(B7i[`WIDTH - 1:0]),
-.B8(B8i[`WIDTH - 1:0]),
-.B9(B9i[`WIDTH - 1:0]),
+.B1(B1[`WIDTH - 1:0]),
+.B2(B2[`WIDTH - 1:0]),
+.B3(B3[`WIDTH - 1:0]),
+.B4(B4[`WIDTH - 1:0]),
+.B5(B5[`WIDTH - 1:0]),
+.B6(B6[`WIDTH - 1:0]),
+.B7(B7[`WIDTH - 1:0]),
+.B8(B8[`WIDTH - 1:0]),
+.B9(B9[`WIDTH - 1:0]),
 
 .U1(U1[`WIDTH - 1:0]),
 .U2(U2[`WIDTH - 1:0]),
