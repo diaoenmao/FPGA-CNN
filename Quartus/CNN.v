@@ -29,7 +29,7 @@ assign B5 = `WIDTH'b001000000;
 assign B6 = `WIDTH'b111110000;
 assign B7 = `WIDTH'b111110000;
 assign B8 = `WIDTH'b111110000;
-assign B9 =-`WIDTH'b111110000;
+assign B9 = `WIDTH'b111110000;
 
 assign U1_in = `WIDTH'b0;
 assign U2_in = `WIDTH'b0;
