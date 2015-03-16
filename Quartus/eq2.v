@@ -8,13 +8,11 @@ out
 	wire signed [2 * `WIDTH - 1:0] Xminus1;
 	wire signed [2 * `WIDTH - 1:0] Xplus;
 	wire signed [2 * `WIDTH - 1:0] Xminus;
-	wire signed [2 * `WIDTH - 1:0] fullout;
-	output wire signed [`WIDTH - 1:0] out;
+	output wire signed [2 * `WIDTH - 1:0] out;
 	
 	assign Xplus1 = X + {{(2 * `WIDTH-1){1'b0}}, 1'b1};
 	assign Xminus1 = X - {{(2 * `WIDTH-1){1'b0}}, 1'b1};	
 	assign Xplus = (Xplus1[2 * `WIDTH - 1])?(~Xplus1+{{(2 * `WIDTH-1){1'b0}}, 1'b1}):Xplus1;
 	assign Xminus =  (Xminus1[2 * `WIDTH - 1])?(~Xminus1+{{(2 * `WIDTH-1){1'b0}}, 1'b1}):Xminus1;
-	assign fullout = (Xplus + Xminus) >>> {{(2 * `WIDTH-1){1'b0}}, 1'b1};
-	assign out = {fullout[2 * `WIDTH - 1], fullout[`WIDTH - 2:0]};
+	assign out = (Xplus + Xminus) >>> {{(2 * `WIDTH-1){1'b0}}, 1'b1};
 endmodule
