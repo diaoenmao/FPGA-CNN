@@ -14,5 +14,5 @@ out
 	assign Xminus1 = X - {{(2 * `WIDTH-1){1'b0}}, 1'b1};	
 	assign Xplus = (Xplus1[2 * `WIDTH - 1])?(~Xplus1+{{(2 * `WIDTH-1){1'b0}}, 1'b1}):Xplus1;
 	assign Xminus =  (Xminus1[2 * `WIDTH - 1])?(~Xminus1+{{(2 * `WIDTH-1){1'b0}}, 1'b1}):Xminus1;
-	assign out = (Xplus + Xminus) >>> {{(2 * `WIDTH-1){1'b0}}, 1'b1};
+	assign out = (Xplus - Xminus) >>> {{(2 * `WIDTH-1){1'b0}}, 1'b1};
 endmodule
