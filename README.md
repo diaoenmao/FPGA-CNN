@@ -1,2 +1,2 @@
 # FPGA-CNN
-FPAG implementation of Cellular neural network (CNN)
+FPGA implementation of Cellular neural network (CNN)
