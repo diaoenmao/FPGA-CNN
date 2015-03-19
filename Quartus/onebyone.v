@@ -10,6 +10,8 @@ Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9,
 	
 I,
 
+Initial_X,
+
 out
   );
   
@@ -18,6 +20,7 @@ out
 	input wire signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	input wire signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
 	input wire signed [`WIDTH - 1:0] I;
+	input wire signed [2 * `WIDTH - 1:0] Initial_X;
 	wire signed [2 * `WIDTH - 1:0] eq1out;
 	output wire signed [2 * `WIDTH - 1:0] out;
 	
@@ -69,7 +72,9 @@ eq1 u1(
 );
 
 eq2 u2(
-.X(eq1out[2 * `WIDTH - 1:0]),
+.dX(eq1out[2 * `WIDTH - 1:0]),
+
+.Initial_X(Initial_X[2 * `WIDTH - 1:0]),
 
 .out(out[2 * `WIDTH - 1:0])
 );

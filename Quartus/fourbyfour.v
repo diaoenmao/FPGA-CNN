@@ -9,6 +9,8 @@ U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U
 	
 I,
 
+Initial_X_in,
+
 clk,
 
 Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out
@@ -18,6 +20,8 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire signed [`WIDTH - 1:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
 	input wire signed [`WIDTH - 1:0] I;
+	input wire signed [2 * `WIDTH - 1:0] Initial_X_in;
+	reg signed [2 * `WIDTH - 1:0] Initial_X;
 	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	reg signed [2 * `WIDTH - 1:0] Y1_in = `WIDTH'b0, Y2_in = `WIDTH'b0, Y3_in = `WIDTH'b0, Y4_in = `WIDTH'b0, Y5_in = `WIDTH'b0, Y6_in = `WIDTH'b0, Y7_in = `WIDTH'b0;
 	reg signed [2 * `WIDTH - 1:0] Y8_in = `WIDTH'b0, Y9_in = `WIDTH'b0, Y10_in = `WIDTH'b0, Y11_in = `WIDTH'b0, Y12_in = `WIDTH'b0, Y13_in = `WIDTH'b0, Y14_in = `WIDTH'b0, Y15_in = `WIDTH'b0, Y16_in = `WIDTH'b0;
@@ -29,6 +33,7 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	reg signed [2 * `WIDTH - 1:0] Y14_next = `WIDTH'b0, Y15_next = `WIDTH'b0, Y16_next = `WIDTH'b0;
 	output wire signed [2 * `WIDTH - 1:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
     reg initial_flag = 1'b1;
+    
 assign Y1_out = Y1_next;
 assign Y2_out = Y2_next;
 assign Y3_out = Y3_next;
@@ -49,8 +54,11 @@ assign Y16_out = Y16_next;
 always  @ (posedge clk)
 begin
   
-  if (counter == `COUNTER_WIDTH'b0000) begin
+  if (counter == `COUNTER_WIDTH'b0000) begin	    
+	
 	if (initial_flag == 1'b0) begin
+	    Initial_X = {(2 * `WIDTH){1'b0}};
+	    
 		Y16_next = onebyoneout;
 
 		Y1_in = Y1_next;
@@ -70,8 +78,10 @@ begin
 		Y15_in = Y15_next;
 		Y16_in = Y16_next;  
 	end else begin
+		Initial_X = Initial_X_in;
 		initial_flag = 1'b0;
 	end
+	
     U1 <= `WIDTH'b0;
 	U2 <= `WIDTH'b0;
 	U3 <= `WIDTH'b0;
@@ -520,6 +530,8 @@ onebyone u1(
 .Y9(Y9[2 * `WIDTH - 1:0]),
 
 .I(I[`WIDTH - 1:0]),
+
+.Initial_X(Initial_X[2 * `WIDTH - 1:0]),
 
 .out(onebyoneout[2 * `WIDTH - 1:0])
 
