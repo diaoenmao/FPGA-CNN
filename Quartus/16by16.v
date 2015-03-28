@@ -1,5 +1,5 @@
 `define WIDTH 9
-`define COUNTER_WIDTH 4
+`define COUNTER_WIDTH 8
 module 16by16 (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
     
@@ -81,8 +81,43 @@ Y241_out, Y242_out, Y243_out, Y244_out, Y245_out, Y246_out, Y247_out, Y248_out, 
 	
 	reg signed [2 * `WIDTH - 1:0] Y1_next = `WIDTH'b0, Y2_next = `WIDTH'b0, Y3_next = `WIDTH'b0, Y4_next = `WIDTH'b0, Y5_next = `WIDTH'b0, Y6_next = `WIDTH'b0;
 	reg signed [2 * `WIDTH - 1:0] Y7_next = `WIDTH'b0, Y8_next = `WIDTH'b0, Y9_next = `WIDTH'b0, Y10_next = `WIDTH'b0, Y11_next = `WIDTH'b0, Y12_next = `WIDTH'b0, Y13_next = `WIDTH'b0;
-	reg signed [2 * `WIDTH - 1:0] Y14_next = `WIDTH'b0, Y15_next = `WIDTH'b0, Y16_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y14_next = `WIDTH'b0, Y15_next = `WIDTH'b0, Y16_next = `WIDTH'b0, Y17_next = `WIDTH'b0, Y18_next = `WIDTH'b0, Y19_next = `WIDTH'b0, Y20_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y21_next = `WIDTH'b0, Y22_next = `WIDTH'b0, Y23_next = `WIDTH'b0, Y24_next = `WIDTH'b0, Y25_next = `WIDTH'b0, Y26_next = `WIDTH'b0, Y27_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y28_next = `WIDTH'b0, Y29_next = `WIDTH'b0, Y30_next = `WIDTH'b0, Y31_next = `WIDTH'b0, Y32_next = `WIDTH'b0, Y33_next = `WIDTH'b0, Y34_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y35_next = `WIDTH'b0, Y36_next = `WIDTH'b0, Y37_next = `WIDTH'b0, Y38_next = `WIDTH'b0, Y39_next = `WIDTH'b0, Y40_next = `WIDTH'b0, Y41_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y42_next = `WIDTH'b0, Y43_next = `WIDTH'b0, Y44_next = `WIDTH'b0, Y45_next = `WIDTH'b0, Y46_next = `WIDTH'b0, Y47_next = `WIDTH'b0, Y48_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y49_next = `WIDTH'b0, Y50_next = `WIDTH'b0, Y51_next = `WIDTH'b0, Y52_next = `WIDTH'b0, Y53_next = `WIDTH'b0, Y54_next = `WIDTH'b0, Y55_next = `WIDTH'b0; 
+	reg signed [2 * `WIDTH - 1:0] Y56_next = `WIDTH'b0, Y57_next = `WIDTH'b0, Y58_next = `WIDTH'b0, Y59_next = `WIDTH'b0, Y60_next = `WIDTH'b0, Y61_next = `WIDTH'b0, Y62_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y63_next = `WIDTH'b0, Y64_next = `WIDTH'b0, Y65_next = `WIDTH'b0, Y66_next = `WIDTH'b0, Y67_next = `WIDTH'b0, Y68_next = `WIDTH'b0, Y69_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y70_next = `WIDTH'b0, Y71_next = `WIDTH'b0, Y72_next = `WIDTH'b0, Y73_next = `WIDTH'b0, Y74_next = `WIDTH'b0, Y75_next = `WIDTH'b0, Y76_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y77_next = `WIDTH'b0, Y78_next = `WIDTH'b0, Y79_next = `WIDTH'b0, Y80_next = `WIDTH'b0, Y81_next = `WIDTH'b0, Y82_next = `WIDTH'b0, Y83_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y84_next = `WIDTH'b0, Y85_next = `WIDTH'b0, Y86_next = `WIDTH'b0, Y87_next = `WIDTH'b0, Y88_next = `WIDTH'b0, Y89_next = `WIDTH'b0, Y90_next = `WIDTH'b0; 
+	reg signed [2 * `WIDTH - 1:0] Y91_next = `WIDTH'b0, Y92_next = `WIDTH'b0, Y93_next = `WIDTH'b0, Y94_next = `WIDTH'b0, Y95_next = `WIDTH'b0, Y96_next = `WIDTH'b0, Y97_next = `WIDTH'b0; 
+	reg signed [2 * `WIDTH - 1:0] Y98_next = `WIDTH'b0, Y99_next = `WIDTH'b0, Y100_next = `WIDTH'b0, Y101_next = `WIDTH'b0, Y102_next = `WIDTH'b0, Y103_next = `WIDTH'b0, Y104_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y105_next = `WIDTH'b0, Y106_next = `WIDTH'b0, Y107_next = `WIDTH'b0, Y108_next = `WIDTH'b0, Y109_next = `WIDTH'b0, Y110_next = `WIDTH'b0, Y111_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y112_next = `WIDTH'b0, Y113_next = `WIDTH'b0, Y114_next = `WIDTH'b0, Y115_next = `WIDTH'b0, Y116_next = `WIDTH'b0, Y117_next = `WIDTH'b0, Y118_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y119_next = `WIDTH'b0, Y120_next = `WIDTH'b0, Y121_next = `WIDTH'b0, Y122_next = `WIDTH'b0, Y123_next = `WIDTH'b0, Y124_next = `WIDTH'b0, Y125_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y126_next = `WIDTH'b0, Y127_next = `WIDTH'b0, Y128_next = `WIDTH'b0, Y129_next = `WIDTH'b0, Y130_next = `WIDTH'b0, Y131_next = `WIDTH'b0, Y132_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y133_next = `WIDTH'b0, Y134_next = `WIDTH'b0, Y135_next = `WIDTH'b0, Y136_next = `WIDTH'b0, Y137_next = `WIDTH'b0, Y138_next = `WIDTH'b0, Y139_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y140_next = `WIDTH'b0, Y141_next = `WIDTH'b0, Y142_next = `WIDTH'b0, Y143_next = `WIDTH'b0, Y144_next = `WIDTH'b0, Y145_next = `WIDTH'b0, Y146_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y147_next = `WIDTH'b0, Y148_next = `WIDTH'b0, Y149_next = `WIDTH'b0, Y150_next = `WIDTH'b0, Y151_next = `WIDTH'b0, Y152_next = `WIDTH'b0, Y153_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y154_next = `WIDTH'b0, Y155_next = `WIDTH'b0, Y156_next = `WIDTH'b0, Y157_next = `WIDTH'b0, Y158_next = `WIDTH'b0, Y159_next = `WIDTH'b0, Y160_next = `WIDTH'b0; 	
+	reg signed [2 * `WIDTH - 1:0] Y161_next = `WIDTH'b0, Y162_next = `WIDTH'b0, Y163_next = `WIDTH'b0, Y164_next = `WIDTH'b0, Y165_next = `WIDTH'b0, Y166_next = `WIDTH'b0, Y167_next = `WIDTH'b0; 
+	reg signed [2 * `WIDTH - 1:0] Y168_next = `WIDTH'b0, Y169_next = `WIDTH'b0, Y170_next = `WIDTH'b0, Y171_next = `WIDTH'b0, Y172_next = `WIDTH'b0, Y173_next = `WIDTH'b0, Y174_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y175_next = `WIDTH'b0, Y176_next = `WIDTH'b0, Y177_next = `WIDTH'b0, Y178_next = `WIDTH'b0, Y179_next = `WIDTH'b0, Y180_next = `WIDTH'b0, Y181_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y182_next = `WIDTH'b0, Y183_next = `WIDTH'b0, Y184_next = `WIDTH'b0, Y185_next = `WIDTH'b0, Y186_next = `WIDTH'b0, Y187_next = `WIDTH'b0, Y188_next = `WIDTH'b0; 	
+	reg signed [2 * `WIDTH - 1:0] Y189_next = `WIDTH'b0, Y190_next = `WIDTH'b0, Y191_next = `WIDTH'b0, Y192_next = `WIDTH'b0, Y193_next = `WIDTH'b0, Y194_next = `WIDTH'b0, Y195_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y196_next = `WIDTH'b0, Y197_next = `WIDTH'b0, Y198_next = `WIDTH'b0, Y199_next = `WIDTH'b0, Y200_next = `WIDTH'b0, Y201_next = `WIDTH'b0, Y202_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y203_next = `WIDTH'b0, Y204_next = `WIDTH'b0, Y205_next = `WIDTH'b0, Y206_next = `WIDTH'b0, Y207_next = `WIDTH'b0, Y208_next = `WIDTH'b0, Y209_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y210_next = `WIDTH'b0, Y211_next = `WIDTH'b0, Y212_next = `WIDTH'b0, Y213_next = `WIDTH'b0, Y214_next = `WIDTH'b0, Y215_next = `WIDTH'b0, Y216_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y217_next = `WIDTH'b0, Y218_next = `WIDTH'b0, Y219_next = `WIDTH'b0, Y220_next = `WIDTH'b0, Y221_next = `WIDTH'b0, Y222_next = `WIDTH'b0, Y223_next = `WIDTH'b0;	
+	reg signed [2 * `WIDTH - 1:0] Y224_next = `WIDTH'b0, Y225_next = `WIDTH'b0, Y226_next = `WIDTH'b0, Y227_next = `WIDTH'b0, Y228_next = `WIDTH'b0, Y229_next = `WIDTH'b0, Y230_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y231_next = `WIDTH'b0, Y232_next = `WIDTH'b0, Y233_next = `WIDTH'b0, Y234_next = `WIDTH'b0, Y235_next = `WIDTH'b0, Y236_next = `WIDTH'b0, Y237_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y238_next = `WIDTH'b0, Y239_next = `WIDTH'b0, Y240_next = `WIDTH'b0, Y241_next = `WIDTH'b0, Y242_next = `WIDTH'b0, Y243_next = `WIDTH'b0, Y244_next = `WIDTH'b0; 
+	reg signed [2 * `WIDTH - 1:0] Y245_next = `WIDTH'b0, Y246_next = `WIDTH'b0, Y247_next = `WIDTH'b0, Y248_next = `WIDTH'b0, Y249_next = `WIDTH'b0, Y250_next = `WIDTH'b0, Y251_next = `WIDTH'b0;
+	reg signed [2 * `WIDTH - 1:0] Y252_next = `WIDTH'b0, Y253_next = `WIDTH'b0, Y254_next = `WIDTH'b0, Y255_next = `WIDTH'b0, Y256_next = `WIDTH'b0;
 	
+						
 	output wire signed [2 * `WIDTH - 1:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
 	output wire signed [2 * `WIDTH - 1:0] Y17_out, Y18_out, Y19_out, Y20_out, Y21_out, Y22_out, Y23_out, Y24_out, Y25_out, Y26_out, Y27_out, Y28_out, Y29_out, Y30_out, Y31_out, Y32_out,
 	output wire signed [2 * `WIDTH - 1:0] Y33_out, Y34_out, Y35_out, Y36_out, Y37_out, Y38_out, Y39_out, Y40_out, Y41_out, Y42_out, Y43_out, Y44_out, Y45_out, Y46_out, Y47_out, Y48_out,
@@ -369,12 +404,12 @@ assign Y256_out = Y256_next;
 always  @ (posedge clk)
 begin
   
-  if (counter == `COUNTER_WIDTH'b0000) begin	    
+  if (counter == `COUNTER_WIDTH'b0) begin // 1    
 	
 	if (initial_flag == 1'b0) begin
 	    Initial_X = {(2 * `WIDTH){1'b0}};
 	    
-		Y16_next = onebyoneout;
+		Y256_next = onebyoneout;
 
 		Y1_in = Y1_next;
 		Y2_in = Y2_next;
@@ -391,7 +426,247 @@ begin
 		Y13_in = Y13_next;
 		Y14_in = Y14_next;
 		Y15_in = Y15_next;
-		Y16_in = Y16_next;  
+		Y16_in = Y16_next;
+		Y17_in = Y17_next;
+		Y18_in = Y18_next;
+		Y19_in = Y19_next;
+		Y20_in = Y20_next;
+		Y21_in = Y21_next;
+		Y22_in = Y22_next;
+		Y23_in = Y23_next;
+		Y24_in = Y24_next;
+		Y25_in = Y25_next;
+		Y26_in = Y26_next;
+		Y27_in = Y27_next;
+		Y28_in = Y28_next;
+		Y29_in = Y29_next;
+		Y30_in = Y30_next;
+		Y31_in = Y31_next;
+		Y32_in = Y32_next;
+		Y33_in = Y33_next;
+		Y34_in = Y34_next;
+		Y35_in = Y35_next;
+		Y36_in = Y36_next;
+		Y37_in = Y37_next;
+		Y38_in = Y38_next;
+		Y39_in = Y39_next;
+		Y40_in = Y40_next;
+		Y41_in = Y41_next;
+		Y42_in = Y42_next;
+		Y43_in = Y43_next;
+		Y44_in = Y44_next;
+		Y45_in = Y45_next;
+		Y46_in = Y46_next;
+		Y47_in = Y47_next;
+		Y48_in = Y48_next;
+		Y49_in = Y49_next;
+		Y50_in = Y50_next;
+		Y51_in = Y51_next;
+		Y52_in = Y52_next;
+		Y53_in = Y53_next;
+		Y54_in = Y54_next;
+		Y55_in = Y55_next;
+		Y56_in = Y56_next;
+		Y57_in = Y57_next;
+		Y58_in = Y58_next;
+		Y59_in = Y59_next;
+		Y60_in = Y60_next;
+		Y61_in = Y61_next;
+		Y62_in = Y62_next;
+		Y63_in = Y63_next;
+		Y64_in = Y64_next;
+		Y65_in = Y65_next;
+		Y66_in = Y66_next;
+		Y67_in = Y67_next;
+		Y68_in = Y68_next;
+		Y69_in = Y69_next;
+		Y70_in = Y70_next;
+		Y71_in = Y71_next;
+		Y72_in = Y72_next;
+		Y73_in = Y73_next;
+		Y74_in = Y74_next;
+		Y75_in = Y75_next;
+		Y76_in = Y76_next;
+		Y77_in = Y77_next;
+		Y78_in = Y78_next;
+		Y79_in = Y79_next;
+		Y80_in = Y80_next;
+		Y81_in = Y81_next;
+		Y82_in = Y82_next;
+		Y83_in = Y83_next;
+		Y84_in = Y84_next;
+		Y85_in = Y85_next;
+		Y86_in = Y86_next;
+		Y87_in = Y87_next;
+		Y88_in = Y88_next;
+		Y89_in = Y89_next;
+		Y90_in = Y90_next;
+		Y91_in = Y91_next;
+		Y92_in = Y92_next;
+		Y93_in = Y93_next;
+		Y94_in = Y94_next;
+		Y95_in = Y95_next;
+		Y96_in = Y96_next;
+		Y97_in = Y97_next;
+		Y98_in = Y98_next;
+		Y99_in = Y99_next;
+		Y100_in = Y100_next;
+		Y101_in = Y101_next;
+		Y102_in = Y102_next;
+		Y103_in = Y103_next;
+		Y104_in = Y104_next;
+		Y105_in = Y105_next;
+		Y106_in = Y106_next;
+		Y107_in = Y107_next;
+		Y108_in = Y108_next;
+		Y109_in = Y109_next;
+		Y110_in = Y110_next;
+		Y111_in = Y111_next;
+		Y112_in = Y112_next;
+		Y113_in = Y113_next;
+		Y114_in = Y114_next;
+		Y115_in = Y115_next;
+		Y116_in = Y116_next;
+		Y117_in = Y117_next;
+		Y118_in = Y118_next;
+		Y119_in = Y119_next;
+		Y120_in = Y120_next;
+		Y121_in = Y121_next;
+		Y122_in = Y122_next;
+		Y123_in = Y123_next;
+		Y124_in = Y124_next;
+		Y125_in = Y125_next;
+		Y126_in = Y126_next;
+		Y127_in = Y127_next;
+		Y128_in = Y128_next;
+		Y129_in = Y129_next;
+		Y130_in = Y130_next;
+		Y131_in = Y131_next;
+		Y132_in = Y132_next;
+		Y133_in = Y133_next;
+		Y134_in = Y134_next;
+		Y135_in = Y135_next;
+		Y136_in = Y136_next;
+		Y137_in = Y137_next;
+		Y138_in = Y138_next;
+		Y139_in = Y139_next;
+		Y140_in = Y140_next;
+		Y141_in = Y141_next;
+		Y142_in = Y142_next;
+		Y143_in = Y143_next;
+		Y144_in = Y144_next;
+		Y145_in = Y145_next;
+		Y146_in = Y146_next;
+		Y147_in = Y147_next;
+		Y148_in = Y148_next;
+		Y149_in = Y149_next;
+		Y150_in = Y150_next;
+		Y151_in = Y151_next;
+		Y152_in = Y152_next;
+		Y153_in = Y153_next;
+		Y154_in = Y154_next;
+		Y155_in = Y155_next;
+		Y156_in = Y156_next;
+		Y157_in = Y157_next;
+		Y158_in = Y158_next;
+		Y159_in = Y159_next;
+		Y160_in = Y160_next;
+		Y161_in = Y161_next;
+		Y162_in = Y162_next;
+		Y163_in = Y163_next;
+		Y164_in = Y164_next;
+		Y165_in = Y165_next;
+		Y166_in = Y166_next;
+		Y167_in = Y167_next;
+		Y168_in = Y168_next;
+		Y169_in = Y169_next;
+		Y170_in = Y170_next;
+		Y171_in = Y171_next;
+		Y172_in = Y172_next;
+		Y173_in = Y173_next;
+		Y174_in = Y174_next;
+		Y175_in = Y175_next;
+		Y176_in = Y176_next;
+		Y177_in = Y177_next;
+		Y178_in = Y178_next;
+		Y179_in = Y179_next;
+		Y180_in = Y180_next;
+		Y181_in = Y181_next;
+		Y182_in = Y182_next;
+		Y183_in = Y183_next;
+		Y184_in = Y184_next;
+		Y185_in = Y185_next;
+		Y186_in = Y186_next;
+		Y187_in = Y187_next;
+		Y188_in = Y188_next;
+		Y189_in = Y189_next;
+		Y190_in = Y190_next;
+		Y191_in = Y191_next;
+		Y192_in = Y192_next;
+		Y193_in = Y193_next;
+		Y194_in = Y194_next;
+		Y195_in = Y195_next;
+		Y196_in = Y196_next;
+		Y197_in = Y197_next;
+		Y198_in = Y198_next;
+		Y199_in = Y199_next;
+		Y200_in = Y200_next;
+		Y201_in = Y201_next;
+		Y202_in = Y202_next;
+		Y203_in = Y203_next;
+		Y204_in = Y204_next;
+		Y205_in = Y205_next;
+		Y206_in = Y206_next;
+		Y207_in = Y207_next;
+		Y208_in = Y208_next;
+		Y209_in = Y209_next;
+		Y210_in = Y210_next;
+		Y211_in = Y211_next;
+		Y212_in = Y212_next;
+		Y213_in = Y213_next;
+		Y214_in = Y214_next;
+		Y215_in = Y215_next;
+		Y216_in = Y216_next;
+		Y217_in = Y217_next;
+		Y218_in = Y218_next;
+		Y219_in = Y219_next;
+		Y220_in = Y220_next;
+		Y221_in = Y221_next;
+		Y222_in = Y222_next;
+		Y223_in = Y223_next;
+		Y224_in = Y224_next;
+		Y225_in = Y225_next;
+		Y226_in = Y226_next;
+		Y227_in = Y227_next;
+		Y228_in = Y228_next;
+		Y229_in = Y229_next;
+		Y230_in = Y230_next;
+		Y231_in = Y231_next;
+		Y232_in = Y232_next;
+		Y233_in = Y233_next;
+		Y234_in = Y234_next;
+		Y235_in = Y235_next;
+		Y236_in = Y236_next;
+		Y237_in = Y237_next;
+		Y238_in = Y238_next;
+		Y239_in = Y239_next;
+		Y240_in = Y240_next;
+		Y241_in = Y241_next;
+		Y242_in = Y242_next;
+		Y243_in = Y243_next;
+		Y244_in = Y244_next;
+		Y245_in = Y245_next;
+		Y246_in = Y246_next;
+		Y247_in = Y247_next;
+		Y248_in = Y248_next;
+		Y249_in = Y249_next;
+		Y250_in = Y250_next;
+		Y251_in = Y251_next;
+		Y252_in = Y252_next;
+		Y253_in = Y253_next;
+		Y254_in = Y254_next;
+		Y255_in = Y255_next;
+		Y256_in = Y256_next;		  
 	end else begin
 		Initial_X = Initial_X_in;
 		initial_flag = 1'b0;
@@ -404,8 +679,8 @@ begin
 	U5 <= U1_in;
 	U6 <= U2_in;
 	U7 <= `WIDTH'b0;
-	U8 <= U5_in;
-	U9 <= U6_in;
+	U8 <= U17_in;
+	U9 <= U18_in;
   
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
@@ -414,11 +689,11 @@ begin
     Y5 <= Y1_in;
     Y6 <= Y2_in;
     Y7 <= {(2 * `WIDTH){1'b0}};
-    Y8 <= Y5_in;
-    Y9 <= Y6_in;   
+    Y8 <= Y17_in;
+    Y9 <= Y18_in;   
 
     
-  end else if (counter == `COUNTER_WIDTH'b0001) begin
+  end else if (counter == `COUNTER_WIDTH'b01) begin // 2
     
     Y1_next <= onebyoneout;
     
@@ -428,9 +703,9 @@ begin
     U4 <= U1_in;
     U5 <= U2_in;
     U6 <= U3_in;
-    U7 <= U5_in;
-    U8 <= U6_in;
-    U9 <= U7_in;
+    U7 <= U17_in;
+    U8 <= U18_in;
+    U9 <= U19_in;
     
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
@@ -438,12 +713,12 @@ begin
     Y4 <= Y1_in;
     Y5 <= Y2_in;
     Y6 <= Y3_in;
-    Y7 <= Y5_in;
-    Y8 <= Y6_in;
-    Y9 <= Y7_in; 
+    Y7 <= Y17_in;
+    Y8 <= Y18_in;
+    Y9 <= Y19_in; 
            
 
-  end else if (counter == `COUNTER_WIDTH'b0010) begin
+  end else if (counter == `COUNTER_WIDTH'b10) begin // 3
   
     Y2_next <= onebyoneout; 
       
@@ -453,9 +728,9 @@ begin
     U4 <= U2_in;
     U5 <= U3_in;
     U6 <= U4_in;
-    U7 <= U6_in;
-    U8 <= U7_in;
-    U9 <= U8_in;
+    U7 <= U18_in;
+    U8 <= U19_in;
+    U9 <= U20_in;
     
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
@@ -463,340 +738,618 @@ begin
     Y4 <= Y2_in;
     Y5 <= Y3_in;
     Y6 <= Y4_in;
-    Y7 <= Y6_in;
-    Y8 <= Y7_in;
-    Y9 <= Y8_in;
+    Y7 <= Y18_in;
+    Y8 <= Y19_in;
+    Y9 <= Y20_in;
       
 
-  end else if (counter == `COUNTER_WIDTH'b0011) begin
+  end else if (counter == `COUNTER_WIDTH'b11) begin // 4
   
-    Y3_next <= onebyoneout;
-    
+    Y3_next <= onebyoneout; 
+      
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
     U4 <= U3_in;
     U5 <= U4_in;
-    U6 <= `WIDTH'b0;
-    U7 <= U7_in;
-    U8 <= U8_in;
-    U9 <= `WIDTH'b0;
+    U6 <= U5_in;
+    U7 <= U19_in;
+    U8 <= U20_in;
+    U9 <= U21_in;
     
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y3_in;
     Y5 <= Y4_in;
-    Y6 <= {(2 * `WIDTH){1'b0}};
-    Y7 <= Y7_in;
-    Y8 <= Y8_in;
-    Y9 <= {(2 * `WIDTH){1'b0}};
+    Y6 <= Y5_in;
+    Y7 <= Y19_in;
+    Y8 <= Y20_in;
+    Y9 <= Y21_in;
        
 
-  end else if (counter == `COUNTER_WIDTH'b0100) begin
+  end else if (counter == `COUNTER_WIDTH'b100) begin // 5
   
     Y4_next <= onebyoneout;
     
     U1 <= `WIDTH'b0;
-    U2 <= U1_in;
-    U3 <= U2_in;
-    U4 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
+    U4 <= U4_in;
     U5 <= U5_in;
     U6 <= U6_in;
-    U7 <= `WIDTH'b0;
-    U8 <= U9_in;
-    U9 <= U10_in;
+    U7 <= U20_in;
+    U8 <= U21_in;
+    U9 <= U22_in;
     
     Y1 <= {(2 * `WIDTH){1'b0}};
-    Y2 <= Y1_in;
-    Y3 <= Y2_in;
-    Y4 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
+    Y4 <= Y4_in;
     Y5 <= Y5_in;
     Y6 <= Y6_in;
-    Y7 <= {(2 * `WIDTH){1'b0}};
-    Y8 <= Y9_in;
-    Y9 <= Y10_in;
+    Y7 <= Y20_in;
+    Y8 <= Y21_in;
+    Y9 <= Y22_in;
     
     
-  end else if (counter == `COUNTER_WIDTH'b0101) begin
+  end else if (counter == `COUNTER_WIDTH'b101) begin // 6
   
     Y5_next <= onebyoneout;  
   
-    U1 <= U1_in;
-    U2 <= U2_in;
-    U3 <= U3_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
     U4 <= U5_in;
     U5 <= U6_in;
     U6 <= U7_in;
-    U7 <= U9_in;
-    U8 <= U10_in;
-    U9 <= U11_in;
+    U7 <= U21_in;
+    U8 <= U22_in;
+    U9 <= U23_in;
     
-    Y1 <= Y1_in;
-    Y2 <= Y2_in;
-    Y3 <= Y3_in;
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y5_in;
     Y5 <= Y6_in;
     Y6 <= Y7_in;
-    Y7 <= Y9_in;
-    Y8 <= Y10_in;
-    Y9 <= Y11_in;
+    Y7 <= Y21_in;
+    Y8 <= Y22_in;
+    Y9 <= Y23_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b0110) begin
+  end else if (counter == `COUNTER_WIDTH'b110) begin // 7
   
     Y6_next <= onebyoneout;
     
-    U1 <= U2_in;
-    U2 <= U3_in;
-    U3 <= U4_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
     U4 <= U6_in;
     U5 <= U7_in;
     U6 <= U8_in;
-    U7 <= U10_in;
-    U8 <= U11_in;
-    U9 <= U12_in;
+    U7 <= U22_in;
+    U8 <= U23_in;
+    U9 <= U24_in;
     
-    Y1 <= Y2_in;
-    Y2 <= Y3_in;
-    Y3 <= Y4_in;
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y6_in;
     Y5 <= Y7_in;
     Y6 <= Y8_in;
-    Y7 <= Y10_in;
-    Y8 <= Y11_in;
-    Y9 <= Y12_in;
+    Y7 <= Y22_in;
+    Y8 <= Y23_in;
+    Y9 <= Y24_in;
     
     
-  end else if (counter == `COUNTER_WIDTH'b0111) begin
+  end else if (counter == `COUNTER_WIDTH'b111) begin // 8
 
     Y7_next <= onebyoneout;
     
-    U1 <= U3_in;
-    U2 <= U4_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
     U4 <= U7_in;
     U5 <= U8_in;
-    U6 <= `WIDTH'b0;
-    U7 <= U11_in;
-    U8 <= U12_in;
-    U9 <= `WIDTH'b0;
-
-    Y1 <= Y3_in;
-    Y2 <= Y4_in;
+    U6 <= U9_in;
+    U7 <= U23_in;
+    U8 <= U24_in;
+    U9 <= U25_in;
+    
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y7_in;
     Y5 <= Y8_in;
-    Y6 <= {(2 * `WIDTH){1'b0}};
-    Y7 <= Y11_in;
-    Y8 <= Y12_in;
-    Y9 <= {(2 * `WIDTH){1'b0}};
+    Y6 <= Y9_in;
+    Y7 <= Y23_in;
+    Y8 <= Y24_in;
+    Y9 <= Y25_in;
     
     
 
-  end else if (counter == `COUNTER_WIDTH'b1000) begin
+  end else if (counter == `COUNTER_WIDTH'b1000) begin // 9
  
     Y8_next <= onebyoneout;
      
     U1 <= `WIDTH'b0;
-    U2 <= U5_in;
-    U3 <= U6_in;
-    U4 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
+    U4 <= U8_in;
     U5 <= U9_in;
     U6 <= U10_in;
-    U7 <= `WIDTH'b0;
-    U8 <= U13_in;
-    U9 <= U14_in;
+    U7 <= U24_in;
+    U8 <= U25_in;
+    U9 <= U26_in;
     
     Y1 <= {(2 * `WIDTH){1'b0}};
-    Y2 <= Y5_in;
-    Y3 <= Y6_in;
-    Y4 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
+    Y4 <= Y8_in;
     Y5 <= Y9_in;
     Y6 <= Y10_in;
-    Y7 <= {(2 * `WIDTH){1'b0}};
-    Y8 <= Y13_in;
-    Y9 <= Y14_in;
+    Y7 <= Y24_in;
+    Y8 <= Y25_in;
+    Y9 <= Y26_in;
     
     
  
-  end else if (counter == `COUNTER_WIDTH'b1001) begin
+  end else if (counter == `COUNTER_WIDTH'b1001) begin // 10
 
     Y9_next <= onebyoneout;
      
-    U1 <= U5_in;
-    U2 <= U6_in;
-    U3 <= U7_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
     U4 <= U9_in;
     U5 <= U10_in;
     U6 <= U11_in;
-    U7 <= U13_in;
-    U8 <= U14_in;
-    U9 <= U15_in;
- 
-    Y1 <= Y5_in;
-    Y2 <= Y6_in;
-    Y3 <= Y7_in;
+    U7 <= U25_in;
+    U8 <= U26_in;
+    U9 <= U27_in;
+    
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y9_in;
     Y5 <= Y10_in;
     Y6 <= Y11_in;
-    Y7 <= Y13_in;
-    Y8 <= Y14_in;
-    Y9 <= Y15_in;
+    Y7 <= Y25_in;
+    Y8 <= Y26_in;
+    Y9 <= Y27_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b1010) begin
+  end else if (counter == `COUNTER_WIDTH'b1010) begin // 11
 
     Y10_next <= onebyoneout;
       
-    U1 <= U6_in;
-    U2 <= U7_in;
-    U3 <= U8_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
     U4 <= U10_in;
     U5 <= U11_in;
     U6 <= U12_in;
-    U7 <= U14_in;
-    U8 <= U15_in;
-    U9 <= U16_in;
-  
-    Y1 <= Y6_in;
-    Y2 <= Y7_in;
-    Y3 <= Y8_in;
+    U7 <= U26_in;
+    U8 <= U27_in;
+    U9 <= U28_in;
+    
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y10_in;
     Y5 <= Y11_in;
     Y6 <= Y12_in;
-    Y7 <= Y14_in;
-    Y8 <= Y15_in;
-    Y9 <= Y16_in;
+    Y7 <= Y26_in;
+    Y8 <= Y27_in;
+    Y9 <= Y28_in;
     
     
 
-  end else if (counter == `COUNTER_WIDTH'b1011) begin
+  end else if (counter == `COUNTER_WIDTH'b1011) begin // 12
 
     Y11_next <= onebyoneout;
       
-    U1 <= U7_in;
-    U2 <= U8_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
     U4 <= U11_in;
     U5 <= U12_in;
-    U6 <= `WIDTH'b0;
-    U7 <= U15_in;
-    U8 <= U16_in;
-    U9 <= `WIDTH'b0;
+    U6 <= U13_in;
+    U7 <= U27_in;
+    U8 <= U28_in;
+    U9 <= U29_in;
     
-    Y1 <= Y7_in;
-    Y2 <= Y8_in;
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y11_in;
     Y5 <= Y12_in;
-    Y6 <= {(2 * `WIDTH){1'b0}};
-    Y7 <= Y15_in;
-    Y8 <= Y16_in;
-    Y9 <= {(2 * `WIDTH){1'b0}};
+    Y6 <= Y13_in;
+    Y7 <= Y27_in;
+    Y8 <= Y28_in;
+    Y9 <= Y29_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b1100) begin
+  end else if (counter == `COUNTER_WIDTH'b1100) begin // 13
 
     Y12_next <= onebyoneout;
       
     U1 <= `WIDTH'b0;
-    U2 <= U9_in;
-    U3 <= U10_in;
-    U4 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
+    U4 <= U12_in;
     U5 <= U13_in;
     U6 <= U14_in;
-    U7 <= `WIDTH'b0;
-    U8 <= `WIDTH'b0;
-    U9 <= `WIDTH'b0;
+    U7 <= U28_in;
+    U8 <= U29_in;
+    U9 <= U30_in;
     
     Y1 <= {(2 * `WIDTH){1'b0}};
-    Y2 <= Y9_in;
-    Y3 <= Y10_in;
-    Y4 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
+    Y4 <= Y12_in;
     Y5 <= Y13_in;
     Y6 <= Y14_in;
-    Y7 <= {(2 * `WIDTH){1'b0}};
-    Y8 <= {(2 * `WIDTH){1'b0}};
-    Y9 <= {(2 * `WIDTH){1'b0}};
+    Y7 <= Y28_in;
+    Y8 <= Y29_in;
+    Y9 <= Y30_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b1101) begin
+  end else if (counter == `COUNTER_WIDTH'b1101) begin // 14
 
     Y13_next <= onebyoneout;
       
-    U1 <= U9_in;
-    U2 <= U10_in;
-    U3 <= U11_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
     U4 <= U13_in;
     U5 <= U14_in;
     U6 <= U15_in;
-    U7 <= `WIDTH'b0;
-    U8 <= `WIDTH'b0;
-    U9 <= `WIDTH'b0;
+    U7 <= U29_in;
+    U8 <= U30_in;
+    U9 <= U31_in;
     
-    Y1 <= Y9_in;
-    Y2 <= Y10_in;
-    Y3 <= Y11_in;
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y13_in;
     Y5 <= Y14_in;
     Y6 <= Y15_in;
-    Y7 <= {(2 * `WIDTH){1'b0}};
-    Y8 <= {(2 * `WIDTH){1'b0}};
-    Y9 <= {(2 * `WIDTH){1'b0}};
+    Y7 <= Y29_in;
+    Y8 <= Y30_in;
+    Y9 <= Y31_in;
     
     
 
-  end else if (counter == `COUNTER_WIDTH'b1110) begin
+  end else if (counter == `COUNTER_WIDTH'b1110) begin // 15
  
     Y14_next <= onebyoneout;
       
-    U1 <= U10_in;
-    U2 <= U11_in;
-    U3 <= U12_in;
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
+    U3 <= `WIDTH'b0;
     U4 <= U14_in;
     U5 <= U15_in;
     U6 <= U16_in;
-    U7 <= `WIDTH'b0;
-    U8 <= `WIDTH'b0;
-    U9 <= `WIDTH'b0;
+    U7 <= U30_in;
+    U8 <= U31_in;
+    U9 <= U32_in;
     
-    Y1 <= Y10_in;
-    Y2 <= Y11_in;
-    Y3 <= Y12_in;
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y14_in;
     Y5 <= Y15_in;
     Y6 <= Y16_in;
-    Y7 <= {(2 * `WIDTH){1'b0}};
-    Y8 <= {(2 * `WIDTH){1'b0}};
-    Y9 <= {(2 * `WIDTH){1'b0}};
+    Y7 <= Y30_in;
+    Y8 <= Y31_in;
+    Y9 <= Y32_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b1111) begin
-
+  end else if (counter == `COUNTER_WIDTH'b1111) begin // 16
+  
     Y15_next <= onebyoneout;
-      
-    U1 <= U11_in;
-    U2 <= U12_in;
+    
+    U1 <= `WIDTH'b0;
+    U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
     U4 <= U15_in;
     U5 <= U16_in;
+    U6 <= `WIDTH'b0;
+    U7 <= U31_in;
+    U8 <= U32_in;
+    U9 <= `WIDTH'b0;
+    
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
+    Y4 <= Y15_in;
+    Y5 <= Y16_in;
+    Y6 <= {(2 * `WIDTH){1'b0}};
+    Y7 <= Y31_in;
+    Y8 <= Y32_in;
+    Y9 <= {(2 * `WIDTH){1'b0}}; 
+      
+// 5 bits    
+  end else if (counter == `COUNTER_WIDTH'b10000) begin
+  end else if (counter == `COUNTER_WIDTH'b10001) begin
+  end else if (counter == `COUNTER_WIDTH'b10010) begin
+  end else if (counter == `COUNTER_WIDTH'b10011) begin
+  end else if (counter == `COUNTER_WIDTH'b10100) begin
+  end else if (counter == `COUNTER_WIDTH'b10101) begin
+  end else if (counter == `COUNTER_WIDTH'b10110) begin
+  end else if (counter == `COUNTER_WIDTH'b10111) begin
+  end else if (counter == `COUNTER_WIDTH'b11000) begin
+  end else if (counter == `COUNTER_WIDTH'b11001) begin
+  end else if (counter == `COUNTER_WIDTH'b11010) begin
+  end else if (counter == `COUNTER_WIDTH'b11011) begin
+  end else if (counter == `COUNTER_WIDTH'b11100) begin
+  end else if (counter == `COUNTER_WIDTH'b11101) begin
+  end else if (counter == `COUNTER_WIDTH'b11110) begin
+  end else if (counter == `COUNTER_WIDTH'b11111) begin
+
+// 6 bits
+  end else if (counter == `COUNTER_WIDTH'b100000) begin
+  end else if (counter == `COUNTER_WIDTH'b100001) begin
+  end else if (counter == `COUNTER_WIDTH'b100010) begin
+  end else if (counter == `COUNTER_WIDTH'b100011) begin
+  end else if (counter == `COUNTER_WIDTH'b100100) begin
+  end else if (counter == `COUNTER_WIDTH'b100101) begin
+  end else if (counter == `COUNTER_WIDTH'b100110) begin
+  end else if (counter == `COUNTER_WIDTH'b100111) begin
+  end else if (counter == `COUNTER_WIDTH'b101000) begin
+  end else if (counter == `COUNTER_WIDTH'b101001) begin
+  end else if (counter == `COUNTER_WIDTH'b101010) begin
+  end else if (counter == `COUNTER_WIDTH'b101011) begin
+  end else if (counter == `COUNTER_WIDTH'b101100) begin
+  end else if (counter == `COUNTER_WIDTH'b101101) begin
+  end else if (counter == `COUNTER_WIDTH'b101110) begin
+  end else if (counter == `COUNTER_WIDTH'b101111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b110000) begin
+  end else if (counter == `COUNTER_WIDTH'b110001) begin
+  end else if (counter == `COUNTER_WIDTH'b110010) begin
+  end else if (counter == `COUNTER_WIDTH'b110011) begin
+  end else if (counter == `COUNTER_WIDTH'b110100) begin
+  end else if (counter == `COUNTER_WIDTH'b110101) begin
+  end else if (counter == `COUNTER_WIDTH'b110110) begin
+  end else if (counter == `COUNTER_WIDTH'b110111) begin
+  end else if (counter == `COUNTER_WIDTH'b111000) begin
+  end else if (counter == `COUNTER_WIDTH'b111001) begin
+  end else if (counter == `COUNTER_WIDTH'b111010) begin
+  end else if (counter == `COUNTER_WIDTH'b111011) begin
+  end else if (counter == `COUNTER_WIDTH'b111100) begin
+  end else if (counter == `COUNTER_WIDTH'b111101) begin
+  end else if (counter == `COUNTER_WIDTH'b111110) begin
+  end else if (counter == `COUNTER_WIDTH'b111111) begin
+// 7 bits
+  end else if (counter == `COUNTER_WIDTH'b1000000) begin
+  end else if (counter == `COUNTER_WIDTH'b1000001) begin
+  end else if (counter == `COUNTER_WIDTH'b1000010) begin
+  end else if (counter == `COUNTER_WIDTH'b1000011) begin
+  end else if (counter == `COUNTER_WIDTH'b1000100) begin
+  end else if (counter == `COUNTER_WIDTH'b1000101) begin
+  end else if (counter == `COUNTER_WIDTH'b1000110) begin
+  end else if (counter == `COUNTER_WIDTH'b1000111) begin
+  end else if (counter == `COUNTER_WIDTH'b1001000) begin
+  end else if (counter == `COUNTER_WIDTH'b1001001) begin
+  end else if (counter == `COUNTER_WIDTH'b1001010) begin
+  end else if (counter == `COUNTER_WIDTH'b1001011) begin
+  end else if (counter == `COUNTER_WIDTH'b1001100) begin
+  end else if (counter == `COUNTER_WIDTH'b1001101) begin
+  end else if (counter == `COUNTER_WIDTH'b1001110) begin
+  end else if (counter == `COUNTER_WIDTH'b1001111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b1010000) begin
+  end else if (counter == `COUNTER_WIDTH'b1010001) begin
+  end else if (counter == `COUNTER_WIDTH'b1010010) begin
+  end else if (counter == `COUNTER_WIDTH'b1010011) begin
+  end else if (counter == `COUNTER_WIDTH'b1010100) begin
+  end else if (counter == `COUNTER_WIDTH'b1010101) begin
+  end else if (counter == `COUNTER_WIDTH'b1010110) begin
+  end else if (counter == `COUNTER_WIDTH'b1010111) begin
+  end else if (counter == `COUNTER_WIDTH'b1011000) begin
+  end else if (counter == `COUNTER_WIDTH'b1011001) begin
+  end else if (counter == `COUNTER_WIDTH'b1011010) begin
+  end else if (counter == `COUNTER_WIDTH'b1011011) begin
+  end else if (counter == `COUNTER_WIDTH'b1011100) begin
+  end else if (counter == `COUNTER_WIDTH'b1011101) begin
+  end else if (counter == `COUNTER_WIDTH'b1011110) begin
+  end else if (counter == `COUNTER_WIDTH'b1011111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b1100000) begin
+  end else if (counter == `COUNTER_WIDTH'b1100001) begin
+  end else if (counter == `COUNTER_WIDTH'b1100010) begin
+  end else if (counter == `COUNTER_WIDTH'b1100011) begin
+  end else if (counter == `COUNTER_WIDTH'b1100100) begin
+  end else if (counter == `COUNTER_WIDTH'b1100101) begin
+  end else if (counter == `COUNTER_WIDTH'b1100110) begin
+  end else if (counter == `COUNTER_WIDTH'b1100111) begin
+  end else if (counter == `COUNTER_WIDTH'b1101000) begin
+  end else if (counter == `COUNTER_WIDTH'b1101001) begin
+  end else if (counter == `COUNTER_WIDTH'b1101010) begin
+  end else if (counter == `COUNTER_WIDTH'b1101011) begin
+  end else if (counter == `COUNTER_WIDTH'b1101100) begin
+  end else if (counter == `COUNTER_WIDTH'b1101101) begin
+  end else if (counter == `COUNTER_WIDTH'b1101110) begin
+  end else if (counter == `COUNTER_WIDTH'b1101111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b1110000) begin
+  end else if (counter == `COUNTER_WIDTH'b1110001) begin
+  end else if (counter == `COUNTER_WIDTH'b1110010) begin
+  end else if (counter == `COUNTER_WIDTH'b1110011) begin
+  end else if (counter == `COUNTER_WIDTH'b1110100) begin
+  end else if (counter == `COUNTER_WIDTH'b1110101) begin
+  end else if (counter == `COUNTER_WIDTH'b1110110) begin
+  end else if (counter == `COUNTER_WIDTH'b1110111) begin
+  end else if (counter == `COUNTER_WIDTH'b1111000) begin
+  end else if (counter == `COUNTER_WIDTH'b1111001) begin
+  end else if (counter == `COUNTER_WIDTH'b1111010) begin
+  end else if (counter == `COUNTER_WIDTH'b1111011) begin
+  end else if (counter == `COUNTER_WIDTH'b1111100) begin
+  end else if (counter == `COUNTER_WIDTH'b1111101) begin
+  end else if (counter == `COUNTER_WIDTH'b1111110) begin
+  end else if (counter == `COUNTER_WIDTH'b1111111) begin
+// 8 bits
+  end else if (counter == `COUNTER_WIDTH'b10000000) begin
+  end else if (counter == `COUNTER_WIDTH'b10000001) begin
+  end else if (counter == `COUNTER_WIDTH'b10000010) begin
+  end else if (counter == `COUNTER_WIDTH'b10000011) begin
+  end else if (counter == `COUNTER_WIDTH'b10000100) begin
+  end else if (counter == `COUNTER_WIDTH'b10000101) begin
+  end else if (counter == `COUNTER_WIDTH'b10000110) begin
+  end else if (counter == `COUNTER_WIDTH'b10000111) begin
+  end else if (counter == `COUNTER_WIDTH'b10001000) begin
+  end else if (counter == `COUNTER_WIDTH'b10001001) begin
+  end else if (counter == `COUNTER_WIDTH'b10001010) begin
+  end else if (counter == `COUNTER_WIDTH'b10001011) begin
+  end else if (counter == `COUNTER_WIDTH'b10001100) begin
+  end else if (counter == `COUNTER_WIDTH'b10001101) begin
+  end else if (counter == `COUNTER_WIDTH'b10001110) begin
+  end else if (counter == `COUNTER_WIDTH'b10001111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b10010000) begin
+  end else if (counter == `COUNTER_WIDTH'b10010001) begin
+  end else if (counter == `COUNTER_WIDTH'b10010010) begin
+  end else if (counter == `COUNTER_WIDTH'b10010011) begin
+  end else if (counter == `COUNTER_WIDTH'b10010100) begin
+  end else if (counter == `COUNTER_WIDTH'b10010101) begin
+  end else if (counter == `COUNTER_WIDTH'b10010110) begin
+  end else if (counter == `COUNTER_WIDTH'b10010111) begin
+  end else if (counter == `COUNTER_WIDTH'b10011000) begin
+  end else if (counter == `COUNTER_WIDTH'b10011001) begin
+  end else if (counter == `COUNTER_WIDTH'b10011010) begin
+  end else if (counter == `COUNTER_WIDTH'b10011011) begin
+  end else if (counter == `COUNTER_WIDTH'b10011100) begin
+  end else if (counter == `COUNTER_WIDTH'b10011101) begin
+  end else if (counter == `COUNTER_WIDTH'b10011110) begin
+  end else if (counter == `COUNTER_WIDTH'b10011111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b10100000) begin
+  end else if (counter == `COUNTER_WIDTH'b10100001) begin
+  end else if (counter == `COUNTER_WIDTH'b10100010) begin
+  end else if (counter == `COUNTER_WIDTH'b10100011) begin
+  end else if (counter == `COUNTER_WIDTH'b10100100) begin
+  end else if (counter == `COUNTER_WIDTH'b10100101) begin
+  end else if (counter == `COUNTER_WIDTH'b10100110) begin
+  end else if (counter == `COUNTER_WIDTH'b10100111) begin
+  end else if (counter == `COUNTER_WIDTH'b10101000) begin
+  end else if (counter == `COUNTER_WIDTH'b10101001) begin
+  end else if (counter == `COUNTER_WIDTH'b10101010) begin
+  end else if (counter == `COUNTER_WIDTH'b10101011) begin
+  end else if (counter == `COUNTER_WIDTH'b10101100) begin
+  end else if (counter == `COUNTER_WIDTH'b10101101) begin
+  end else if (counter == `COUNTER_WIDTH'b10101110) begin
+  end else if (counter == `COUNTER_WIDTH'b10101111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b10110000) begin
+  end else if (counter == `COUNTER_WIDTH'b10110001) begin
+  end else if (counter == `COUNTER_WIDTH'b10110010) begin
+  end else if (counter == `COUNTER_WIDTH'b10110011) begin
+  end else if (counter == `COUNTER_WIDTH'b10110100) begin
+  end else if (counter == `COUNTER_WIDTH'b10110101) begin
+  end else if (counter == `COUNTER_WIDTH'b10110110) begin
+  end else if (counter == `COUNTER_WIDTH'b10110111) begin
+  end else if (counter == `COUNTER_WIDTH'b10111000) begin
+  end else if (counter == `COUNTER_WIDTH'b10111001) begin
+  end else if (counter == `COUNTER_WIDTH'b10111010) begin
+  end else if (counter == `COUNTER_WIDTH'b10111011) begin
+  end else if (counter == `COUNTER_WIDTH'b10111100) begin
+  end else if (counter == `COUNTER_WIDTH'b10111101) begin
+  end else if (counter == `COUNTER_WIDTH'b10111110) begin
+  end else if (counter == `COUNTER_WIDTH'b10111111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b11000000) begin
+  end else if (counter == `COUNTER_WIDTH'b11000001) begin
+  end else if (counter == `COUNTER_WIDTH'b11000010) begin
+  end else if (counter == `COUNTER_WIDTH'b11000011) begin
+  end else if (counter == `COUNTER_WIDTH'b11000100) begin
+  end else if (counter == `COUNTER_WIDTH'b11000101) begin
+  end else if (counter == `COUNTER_WIDTH'b11000110) begin
+  end else if (counter == `COUNTER_WIDTH'b11000111) begin
+  end else if (counter == `COUNTER_WIDTH'b11001000) begin
+  end else if (counter == `COUNTER_WIDTH'b11001001) begin
+  end else if (counter == `COUNTER_WIDTH'b11001010) begin
+  end else if (counter == `COUNTER_WIDTH'b11001011) begin
+  end else if (counter == `COUNTER_WIDTH'b11001100) begin
+  end else if (counter == `COUNTER_WIDTH'b11001101) begin
+  end else if (counter == `COUNTER_WIDTH'b11001110) begin
+  end else if (counter == `COUNTER_WIDTH'b11001111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b11010000) begin
+  end else if (counter == `COUNTER_WIDTH'b11010001) begin
+  end else if (counter == `COUNTER_WIDTH'b11010010) begin
+  end else if (counter == `COUNTER_WIDTH'b11010011) begin
+  end else if (counter == `COUNTER_WIDTH'b11010100) begin
+  end else if (counter == `COUNTER_WIDTH'b11010101) begin
+  end else if (counter == `COUNTER_WIDTH'b11010110) begin
+  end else if (counter == `COUNTER_WIDTH'b11010111) begin
+  end else if (counter == `COUNTER_WIDTH'b11011000) begin
+  end else if (counter == `COUNTER_WIDTH'b11011001) begin
+  end else if (counter == `COUNTER_WIDTH'b11011010) begin
+  end else if (counter == `COUNTER_WIDTH'b11011011) begin
+  end else if (counter == `COUNTER_WIDTH'b11011100) begin
+  end else if (counter == `COUNTER_WIDTH'b11011101) begin
+  end else if (counter == `COUNTER_WIDTH'b11011110) begin
+  end else if (counter == `COUNTER_WIDTH'b11011111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b11100000) begin
+  end else if (counter == `COUNTER_WIDTH'b11100001) begin
+  end else if (counter == `COUNTER_WIDTH'b11100010) begin
+  end else if (counter == `COUNTER_WIDTH'b11100011) begin
+  end else if (counter == `COUNTER_WIDTH'b11100100) begin
+  end else if (counter == `COUNTER_WIDTH'b11100101) begin
+  end else if (counter == `COUNTER_WIDTH'b11100110) begin
+  end else if (counter == `COUNTER_WIDTH'b11100111) begin
+  end else if (counter == `COUNTER_WIDTH'b11101000) begin
+  end else if (counter == `COUNTER_WIDTH'b11101001) begin
+  end else if (counter == `COUNTER_WIDTH'b11101010) begin
+  end else if (counter == `COUNTER_WIDTH'b11101011) begin
+  end else if (counter == `COUNTER_WIDTH'b11101100) begin
+  end else if (counter == `COUNTER_WIDTH'b11101101) begin
+  end else if (counter == `COUNTER_WIDTH'b11101110) begin
+  end else if (counter == `COUNTER_WIDTH'b11101111) begin
+
+  end else if (counter == `COUNTER_WIDTH'b11110000) begin
+  end else if (counter == `COUNTER_WIDTH'b11110001) begin
+  end else if (counter == `COUNTER_WIDTH'b11110010) begin
+  end else if (counter == `COUNTER_WIDTH'b11110011) begin
+  end else if (counter == `COUNTER_WIDTH'b11110100) begin
+  end else if (counter == `COUNTER_WIDTH'b11110101) begin
+  end else if (counter == `COUNTER_WIDTH'b11110110) begin
+  end else if (counter == `COUNTER_WIDTH'b11110111) begin
+  end else if (counter == `COUNTER_WIDTH'b11111000) begin
+  end else if (counter == `COUNTER_WIDTH'b11111001) begin
+  end else if (counter == `COUNTER_WIDTH'b11111010) begin
+  end else if (counter == `COUNTER_WIDTH'b11111011) begin
+  end else if (counter == `COUNTER_WIDTH'b11111100) begin
+  end else if (counter == `COUNTER_WIDTH'b11111101) begin
+  end else if (counter == `COUNTER_WIDTH'b11111110) begin
+  end else if (counter == `COUNTER_WIDTH'b11111111) begin // 256
+    
+    Y255_next <= onebyoneout;
+      
+    U1 <= U239_in;
+    U2 <= U240_in;
+    U3 <= `WIDTH'b0;
+    U4 <= U255_in;
+    U5 <= U256_in;
     U6 <= `WIDTH'b0;
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
 
-    Y1 <= Y11_in;
-    Y2 <= Y12_in;
+    Y1 <= Y239_in;
+    Y2 <= Y240_in;
     Y3 <= `WIDTH'b0;
-    Y4 <= Y15_in;
-    Y5 <= Y16_in;
+    Y4 <= Y255_in;
+    Y5 <= Y256_in;
     Y6 <= {(2 * `WIDTH){1'b0}};
     Y7 <= {(2 * `WIDTH){1'b0}};
     Y8 <= {(2 * `WIDTH){1'b0}};
     Y9 <= {(2 * `WIDTH){1'b0}};
-    
-  end
+    end
   counter = counter + `COUNTER_WIDTH'b1;
 end
 
