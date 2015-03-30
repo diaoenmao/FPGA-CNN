@@ -1072,8 +1072,54 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}}; 
       
 // 5 bits    
-  end else if (counter == `COUNTER_WIDTH'b10000) begin
-  end else if (counter == `COUNTER_WIDTH'b10001) begin
+  end else if (counter == `COUNTER_WIDTH'b10000) begin // 17
+  
+    Y16_next <= onebyoneout;
+  
+    U1 <= `WIDTH'b0;
+	U2 <= U1_in;
+	U3 <= U2_in;
+	U4 <= `WIDTH'b0;
+	U5 <= U17_in;
+	U6 <= U18_in;
+	U7 <= `WIDTH'b0;
+	U8 <= U33_in;
+	U9 <= U34_in;
+  
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= Y1_in;
+    Y3 <= Y2_in;
+    Y4 <= {(2 * `WIDTH){1'b0}};
+    Y5 <= Y17_in;
+    Y6 <= Y18_in;
+    Y7 <= {(2 * `WIDTH){1'b0}};
+    Y8 <= Y33_in;
+    Y9 <= Y34_in; 
+    
+  end else if (counter == `COUNTER_WIDTH'b10001) begin // 18
+  
+    Y17_next <= onebyoneout;
+  
+    U1 <= U1_in;
+	U2 <= U2_in;
+	U3 <= U3_in;
+	U4 <= U17_in;
+	U5 <= U18_in;
+	U6 <= U19_in;
+	U7 <= U33_in;
+	U8 <= U34_in;
+	U9 <= U35_in;
+  
+    Y1 <= Y1_in;
+    Y2 <= Y2_in;
+    Y3 <= Y3_in;
+    Y4 <= Y17_in;
+    Y5 <= Y18_in;
+    Y6 <= Y19_in;
+    Y7 <= Y33_in;
+    Y8 <= Y34_in;
+    Y9 <= Y35_in;
+    
   end else if (counter == `COUNTER_WIDTH'b10010) begin
   end else if (counter == `COUNTER_WIDTH'b10011) begin
   end else if (counter == `COUNTER_WIDTH'b10100) begin
