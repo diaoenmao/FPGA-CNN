@@ -1,6 +1,6 @@
 `define WIDTH 9
 `define COUNTER_WIDTH 8
-module 16by16 (
+module sixteenbysixteen (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
     
 B1, B2, B3, B4, B5, B6, B7, B8, B9,
@@ -1120,10 +1120,102 @@ begin
     Y8 <= Y34_in;
     Y9 <= Y35_in;
     
-  end else if (counter == `COUNTER_WIDTH'b10010) begin
-  end else if (counter == `COUNTER_WIDTH'b10011) begin
-  end else if (counter == `COUNTER_WIDTH'b10100) begin
-  end else if (counter == `COUNTER_WIDTH'b10101) begin
+  end else if (counter == `COUNTER_WIDTH'b10010) begin // 19
+    
+    Y18_next <= onebyoneout;
+  
+    U1 <= U2_in;
+	U2 <= U3_in;
+	U3 <= U4_in;
+	U4 <= U18_in;
+	U5 <= U19_in;
+	U6 <= U20_in;
+	U7 <= U34_in;
+	U8 <= U35_in;
+	U9 <= U36_in;
+  
+    Y1 <= Y2_in;
+    Y2 <= Y3_in;
+    Y3 <= Y4_in;
+    Y4 <= Y18_in;
+    Y5 <= Y19_in;
+    Y6 <= Y20_in;
+    Y7 <= Y34_in;
+    Y8 <= Y35_in;
+    Y9 <= Y36_in;
+    
+  end else if (counter == `COUNTER_WIDTH'b10011) begin // 20
+      
+    Y19_next <= onebyoneout;
+  
+    U1 <= U3_in;
+	U2 <= U4_in;
+	U3 <= U5_in;
+	U4 <= U19_in;
+	U5 <= U20_in;
+	U6 <= U21_in;
+	U7 <= U35_in;
+	U8 <= U36_in;
+	U9 <= U37_in;
+  
+    Y1 <= Y3_in;
+    Y2 <= Y4_in;
+    Y3 <= Y5_in;
+    Y4 <= Y19_in;
+    Y5 <= Y20_in;
+    Y6 <= Y21_in;
+    Y7 <= Y35_in;
+    Y8 <= Y36_in;
+    Y9 <= Y37_in;
+ 
+  end else if (counter == `COUNTER_WIDTH'b10100) begin // 21
+        
+    Y20_next <= onebyoneout;
+  
+    U1 <= U4_in;
+	U2 <= U5_in;
+	U3 <= U6_in;
+	U4 <= U20_in;
+	U5 <= U21_in;
+	U6 <= U22_in;
+	U7 <= U36_in;
+	U8 <= U37_in;
+	U9 <= U38_in;
+  
+    Y1 <= Y4_in;
+    Y2 <= Y5_in;
+    Y3 <= Y6_in;
+    Y4 <= Y20_in;
+    Y5 <= Y21_in;
+    Y6 <= Y22_in;
+    Y7 <= Y36_in;
+    Y8 <= Y37_in;
+    Y9 <= Y38_in;
+ 
+  end else if (counter == `COUNTER_WIDTH'b10101) begin // 22
+          
+    Y21_next <= onebyoneout;
+  
+    U1 <= U5_in;
+	U2 <= U6_in;
+	U3 <= U7_in;
+	U4 <= U21_in;
+	U5 <= U22_in;
+	U6 <= U23_in;
+	U7 <= U37_in;
+	U8 <= U38_in;
+	U9 <= U39_in;
+  
+    Y1 <= Y5_in;
+    Y2 <= Y6_in;
+    Y3 <= Y7_in;
+    Y4 <= Y21_in;
+    Y5 <= Y22_in;
+    Y6 <= Y23_in;
+    Y7 <= Y37_in;
+    Y8 <= Y38_in;
+    Y9 <= Y39_in;
+ 
   end else if (counter == `COUNTER_WIDTH'b10110) begin
   end else if (counter == `COUNTER_WIDTH'b10111) begin
   end else if (counter == `COUNTER_WIDTH'b11000) begin
