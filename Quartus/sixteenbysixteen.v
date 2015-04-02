@@ -1099,17 +1099,18 @@ begin
   end else if (counter == `COUNTER_WIDTH'b10001) begin // 18
   
     Y17_next <= onebyoneout;
-  
+
     U1 <= U1_in;
-	U2 <= U2_in;
-	U3 <= U3_in;
-	U4 <= U17_in;
-	U5 <= U18_in;
-	U6 <= U19_in;
-	U7 <= U33_in;
-	U8 <= U34_in;
-	U9 <= U35_in;
-  
+    U2 <= U2_in;
+    U3 <= U3_in;
+    U4 <= U17_in;
+    U5 <= U18_in;
+    U6 <= U19_in;
+    U7 <= U33_in;
+    U8 <= U34_in;
+    U9 <= U35_in;
+
+
     Y1 <= Y1_in;
     Y2 <= Y2_in;
     Y3 <= Y3_in;
@@ -1124,7 +1125,7 @@ begin
     
     Y18_next <= onebyoneout;
   
-    U1 <= U2_in;
+	U1 <= U2_in;
 	U2 <= U3_in;
 	U3 <= U4_in;
 	U4 <= U18_in;
@@ -1216,17 +1217,250 @@ begin
     Y8 <= Y38_in;
     Y9 <= Y39_in;
  
-  end else if (counter == `COUNTER_WIDTH'b10110) begin
-  end else if (counter == `COUNTER_WIDTH'b10111) begin
-  end else if (counter == `COUNTER_WIDTH'b11000) begin
-  end else if (counter == `COUNTER_WIDTH'b11001) begin
-  end else if (counter == `COUNTER_WIDTH'b11010) begin
-  end else if (counter == `COUNTER_WIDTH'b11011) begin
-  end else if (counter == `COUNTER_WIDTH'b11100) begin
-  end else if (counter == `COUNTER_WIDTH'b11101) begin
-  end else if (counter == `COUNTER_WIDTH'b11110) begin
-  end else if (counter == `COUNTER_WIDTH'b11111) begin
+  end else if (counter == `COUNTER_WIDTH'b10110) begin // 23
+ 
+    Y22_next <= onebyoneout;
 
+    U1 <= U6_in;
+    U2 <= U7_in;
+    U3 <= U8_in;
+    U4 <= U22_in;
+    U5 <= U23_in;
+    U6 <= U24_in;
+    U7 <= U38_in;
+    U8 <= U39_in;
+    U9 <= U40_in;
+    
+    Y1 <= Y6_in;
+    Y2 <= Y7_in;
+    Y3 <= Y8_in;
+    Y4 <= Y22_in;
+    Y5 <= Y23_in;
+    Y6 <= Y24_in;
+    Y7 <= Y38_in;
+    Y8 <= Y39_in;
+    Y9 <= Y40_in;
+
+  end else if (counter == `COUNTER_WIDTH'b10111) begin // 24
+
+    Y23_next <= onebyoneout;
+
+    U1 <= U7_in;
+    U2 <= U8_in;
+    U3 <= U9_in;
+    U4 <= U23_in;
+    U5 <= U24_in;
+    U6 <= U25_in;
+    U7 <= U39_in;
+    U8 <= U40_in;
+    U9 <= U41_in;
+
+    Y1 <= Y7_in;
+    Y2 <= Y8_in;
+    Y3 <= Y9_in;
+    Y4 <= Y23_in;
+    Y5 <= Y24_in;
+    Y6 <= Y25_in;
+    Y7 <= Y39_in;
+    Y8 <= Y40_in;
+    Y9 <= Y41_in;
+  
+  end else if (counter == `COUNTER_WIDTH'b11000) begin // 25
+  
+    Y24_next <= onebyoneout;
+
+    U1 <= U8_in;
+    U2 <= U9_in;
+    U3 <= U10_in;
+    U4 <= U24_in;
+    U5 <= U25_in;
+    U6 <= U26_in;
+    U7 <= U40_in;
+    U8 <= U41_in;
+    U9 <= U42_in;
+
+    Y1 <= Y8_in;
+    Y2 <= Y9_in;
+    Y3 <= Y10_in;
+    Y4 <= Y24_in;
+    Y5 <= Y25_in;
+    Y6 <= Y26_in;
+    Y7 <= Y40_in;
+    Y8 <= Y41_in;
+    Y9 <= Y42_in;
+
+  end else if (counter == `COUNTER_WIDTH'b11001) begin // 26
+  
+  	Y25_next <= onebyoneout;
+
+    U1 <= U9_in;
+    U2 <= U10_in;
+    U3 <= U11_in;
+    U4 <= U25_in;
+    U5 <= U26_in;
+    U6 <= U27_in;
+    U7 <= U41_in;
+    U8 <= U42_in;
+    U9 <= U43_in;
+
+    Y1 <= Y9_in;
+    Y2 <= Y10_in;
+    Y3 <= Y11_in;
+    Y4 <= Y25_in;
+    Y5 <= Y26_in;
+    Y6 <= Y27_in;
+    Y7 <= Y41_in;
+    Y8 <= Y42_in;
+    Y9 <= Y43_in;
+
+  end else if (counter == `COUNTER_WIDTH'b11010) begin // 27
+  
+    Y26_next <= onebyoneout;
+
+    U1 <= U10_in;
+    U2 <= U11_in;
+    U3 <= U12_in;
+    U4 <= U26_in;
+    U5 <= U27_in;
+    U6 <= U28_in;
+    U7 <= U42_in;
+    U8 <= U43_in;
+    U9 <= U44_in;
+
+
+    Y1 <= Y10_in;
+    Y2 <= Y11_in;
+    Y3 <= Y12_in;
+    Y4 <= Y26_in;
+    Y5 <= Y27_in;
+    Y6 <= Y28_in;
+    Y7 <= Y42_in;
+    Y8 <= Y43_in;
+    Y9 <= Y44_in;
+
+  end else if (counter == `COUNTER_WIDTH'b11011) begin // 28
+  
+    Y27_next <= onebyoneout;
+
+    U1 <= U11_in;
+    U2 <= U12_in;
+    U3 <= U13_in;
+    U4 <= U27_in;
+    U5 <= U28_in;
+    U6 <= U29_in;
+    U7 <= U43_in;
+    U8 <= U44_in;
+    U9 <= U45_in;
+
+    Y1 <= Y11_in;
+    Y2 <= Y12_in;
+    Y3 <= Y13_in;
+    Y4 <= Y27_in;
+    Y5 <= Y28_in;
+    Y6 <= Y29_in;
+    Y7 <= Y43_in;
+    Y8 <= Y44_in;
+    Y9 <= Y45_in;
+
+  end else if (counter == `COUNTER_WIDTH'b11100) begin // 29
+  
+    Y28_next <= onebyoneout;
+
+    U1 <= U12_in;
+    U2 <= U13_in;
+    U3 <= U14_in;
+    U4 <= U28_in;
+    U5 <= U29_in;
+    U6 <= U30_in;
+    U7 <= U44_in;
+    U8 <= U45_in;
+    U9 <= U46_in;
+
+    Y1 <= Y12_in;
+    Y2 <= Y13_in;
+    Y3 <= Y14_in;
+    Y4 <= Y28_in;
+    Y5 <= Y29_in;
+    Y6 <= Y30_in;
+    Y7 <= Y44_in;
+    Y8 <= Y45_in;
+    Y9 <= Y46_in;
+
+
+  end else if (counter == `COUNTER_WIDTH'b11101) begin // 30
+  
+    Y29_next <= onebyoneout;
+
+    U1 <= U13_in;
+    U2 <= U14_in;
+    U3 <= U15_in;
+    U4 <= U29_in;
+    U5 <= U30_in;
+    U6 <= U31_in;
+    U7 <= U45_in;
+    U8 <= U46_in;
+    U9 <= U47_in;
+
+
+    Y1 <= Y13_in;
+    Y2 <= Y14_in;
+    Y3 <= Y15_in;
+    Y4 <= Y29_in;
+    Y5 <= Y30_in;
+    Y6 <= Y31_in;
+    Y7 <= Y45_in;
+    Y8 <= Y46_in;
+    Y9 <= Y47_in;
+
+  end else if (counter == `COUNTER_WIDTH'b11110) begin // 31
+  
+    Y30_next <= onebyoneout;
+
+    U1 <= U14_in;
+    U2 <= U15_in;
+    U3 <= U16_in;
+    U4 <= U30_in;
+    U5 <= U31_in;
+    U6 <= U32_in;
+    U7 <= U46_in;
+    U8 <= U47_in;
+    U9 <= U48_in;
+
+
+    Y1 <= Y14_in;
+    Y2 <= Y15_in;
+    Y3 <= Y16_in;
+    Y4 <= Y30_in;
+    Y5 <= Y31_in;
+    Y6 <= Y32_in;
+    Y7 <= Y46_in;
+    Y8 <= Y47_in;
+    Y9 <= Y48_in;
+
+  end else if (counter == `COUNTER_WIDTH'b11111) begin // 32
+  
+    Y31_next <= onebyoneout;
+    
+    U1 <= U15_in;
+    U2 <= U16_in;
+    U3 <= `WIDTH'b0;
+    U4 <= U31_in;
+    U5 <= U32_in;
+    U6 <= `WIDTH'b0;
+    U7 <= U47_in;
+    U8 <= U48_in;
+    U9 <= `WIDTH'b0;
+    
+    Y1 <= Y15_in;
+    Y2 <= Y16_in;
+    Y3 <= {(2 * `WIDTH){1'b0}};
+    Y4 <= Y31_in;
+    Y5 <= Y32_in;
+    Y6 <= {(2 * `WIDTH){1'b0}};
+    Y7 <= Y47_in;
+    Y8 <= Y48_in;
+    Y9 <= {(2 * `WIDTH){1'b0}}; 
+      
 // 6 bits
   end else if (counter == `COUNTER_WIDTH'b100000) begin
   end else if (counter == `COUNTER_WIDTH'b100001) begin
