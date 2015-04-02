@@ -672,7 +672,7 @@ begin
 		initial_flag = 1'b0;
 	end
 	
-    U1 <= `WIDTH'b0;
+	U1 <= `WIDTH'b0;
 	U2 <= `WIDTH'b0;
 	U3 <= `WIDTH'b0;
 	U4 <= `WIDTH'b0;
