@@ -8,6 +8,16 @@ class ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int size = 16;
+		int[] vertical_left = new int[size];
+    		for (int i = 1; i < size-1; i++) {
+        		vertical_left[i] = i*size+1;
+        		System.out.println(vertical_left[i]);
+    		}
+    		int[] vertical_right = new int[size];
+    		for (int i = 1; i < size-1; i++) {
+        		vertical_right[i] = (i+1)*size;
+        		System.out.println(vertical_right[i]);
+    		}     		
 		for(int i=1;i<size^2;i++) {
 			// four corners
 			if(i==1) {
@@ -67,11 +77,11 @@ class ideone
 				
 			} else if(i>=size*(size-1)+2&i<=size*size-1) {
 				
-			} else if() {
+			} else if(Arrays.asList(vertical_left).contains(i)) {
 				
-			} else if() {
+			} else if(Arrays.asList(vertical_right).contains(i)) {
 				
-			} else if(i<=size) {
+			} else {
 				System.out.println("\n    Y"+(i-1)+"_next <= onebyoneout;\n"
 				+ "\n    U1 <= U"+(i-17)+"_in;"
 				+ "\n    U2 <= U"+(i-16)+"_in;" + "\n    U3 <= U"+(i-15)+"_in;"
