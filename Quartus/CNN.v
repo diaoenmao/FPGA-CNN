@@ -1,7 +1,7 @@
 `define WIDTH 9
 module CNN (
 clk,
-
+//
 Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out
   );
 	input wire clk;
