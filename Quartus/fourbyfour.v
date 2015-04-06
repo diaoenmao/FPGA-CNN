@@ -10,6 +10,7 @@ U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U
 I,
 
 Initial_X_in,
+X,
 
 clk,
 
@@ -21,11 +22,13 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	input wire signed [`WIDTH - 1:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
 	input wire signed [`WIDTH - 1:0] I;
 	input wire signed [2 * `WIDTH - 1:0] Initial_X_in;
-	reg signed [2 * `WIDTH - 1:0] Initial_X;
+	wire signed [2 * `WIDTH - 1:0] X_next_in;
+	reg signed [2 * `WIDTH - 1:0] X_next;
+	output reg signed [2 * `WIDTH - 1:0] X;
 	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	reg signed [2 * `WIDTH - 1:0] Y1_in = `WIDTH'b0, Y2_in = `WIDTH'b0, Y3_in = `WIDTH'b0, Y4_in = `WIDTH'b0, Y5_in = `WIDTH'b0, Y6_in = `WIDTH'b0, Y7_in = `WIDTH'b0;
 	reg signed [2 * `WIDTH - 1:0] Y8_in = `WIDTH'b0, Y9_in = `WIDTH'b0, Y10_in = `WIDTH'b0, Y11_in = `WIDTH'b0, Y12_in = `WIDTH'b0, Y13_in = `WIDTH'b0, Y14_in = `WIDTH'b0, Y15_in = `WIDTH'b0, Y16_in = `WIDTH'b0;
-	reg signed [2 * `WIDTH - 1:0] Y1, Y2 , Y3, Y4, Y5, Y6, Y7, Y8, Y9;
+	reg signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
 	reg [`COUNTER_WIDTH - 1:0] counter = `COUNTER_WIDTH'b0;
 	wire signed [2 * `WIDTH - 1:0] onebyoneout;
 	reg signed [2 * `WIDTH - 1:0] Y1_next = `WIDTH'b0, Y2_next = `WIDTH'b0, Y3_next = `WIDTH'b0, Y4_next = `WIDTH'b0, Y5_next = `WIDTH'b0, Y6_next = `WIDTH'b0;
@@ -53,11 +56,10 @@ assign Y16_out = Y16_next;
 
 always  @ (posedge clk)
 begin
-  
+  X_next = X_next_in;
   if (counter == `COUNTER_WIDTH'b0000) begin	    
 	
 	if (initial_flag == 1'b0) begin
-	    Initial_X = {(2 * `WIDTH){1'b0}};
 	    
 		Y16_next = onebyoneout;
 
@@ -78,7 +80,7 @@ begin
 		Y15_in = Y15_next;
 		Y16_in = Y16_next;  
 	end else begin
-		Initial_X = Initial_X_in;
+		X = Initial_X_in;
 		initial_flag = 1'b0;
 	end
 	
@@ -101,12 +103,13 @@ begin
     Y7 <= {(2 * `WIDTH){1'b0}};
     Y8 <= Y5_in;
     Y9 <= Y6_in;   
-
-    
+       
   end else if (counter == `COUNTER_WIDTH'b0001) begin
     
     Y1_next <= onebyoneout;
     
+    X <= X_next; 
+         
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
@@ -131,7 +134,7 @@ begin
   end else if (counter == `COUNTER_WIDTH'b0010) begin
   
     Y2_next <= onebyoneout; 
-      
+	      
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
@@ -156,7 +159,7 @@ begin
   end else if (counter == `COUNTER_WIDTH'b0011) begin
   
     Y3_next <= onebyoneout;
-    
+	    
     U1 <= `WIDTH'b0;
     U2 <= `WIDTH'b0;
     U3 <= `WIDTH'b0;
@@ -181,7 +184,7 @@ begin
   end else if (counter == `COUNTER_WIDTH'b0100) begin
   
     Y4_next <= onebyoneout;
-    
+	    
     U1 <= `WIDTH'b0;
     U2 <= U1_in;
     U3 <= U2_in;
@@ -531,7 +534,8 @@ onebyone u1(
 
 .I(I[`WIDTH - 1:0]),
 
-.Initial_X(Initial_X[2 * `WIDTH - 1:0]),
+.X(X[2 * `WIDTH - 1:0]),
+.X_next(X_next_in[2 * `WIDTH - 1:0]),
 
 .out(onebyoneout[2 * `WIDTH - 1:0])
 
