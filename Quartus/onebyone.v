@@ -10,19 +10,21 @@ Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9,
 	
 I,
 
-X, X_next,
+X,
 
-out
+Xout,
+
+Yout
   );
   
 	input wire signed [`WIDTH - 1:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
-	input wire signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
+	input wire signed [2 * `WIDTH - 2:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
 	input wire signed [`WIDTH - 1:0] I;
-	input wire signed [2 * `WIDTH - 1:0] X;
-	output wire signed [2 * `WIDTH - 1:0] X_next;
-	output wire signed [2 * `WIDTH - 1:0] out;
+	input wire signed [2 * `WIDTH - 2:0] X;
+	output wire signed [2 * `WIDTH - 2:0] Xout;
+	output wire signed [2 * `WIDTH - 2:0] Yout;
 	
 eq1 u1(
 .A1(A1[`WIDTH - 1:0]),
@@ -55,26 +57,26 @@ eq1 u1(
 .U8(U8[`WIDTH - 1:0]),
 .U9(U9[`WIDTH - 1:0]),
 
-.Y1(Y1[2 * `WIDTH - 1:0]),
-.Y2(Y2[2 * `WIDTH - 1:0]),
-.Y3(Y3[2 * `WIDTH - 1:0]),
-.Y4(Y4[2 * `WIDTH - 1:0]),
-.Y5(Y5[2 * `WIDTH - 1:0]),
-.Y6(Y6[2 * `WIDTH - 1:0]),
-.Y7(Y7[2 * `WIDTH - 1:0]),
-.Y8(Y8[2 * `WIDTH - 1:0]),
-.Y9(Y9[2 * `WIDTH - 1:0]),
+.Y1(Y1[2 * `WIDTH - 2:0]),
+.Y2(Y2[2 * `WIDTH - 2:0]),
+.Y3(Y3[2 * `WIDTH - 2:0]),
+.Y4(Y4[2 * `WIDTH - 2:0]),
+.Y5(Y5[2 * `WIDTH - 2:0]),
+.Y6(Y6[2 * `WIDTH - 2:0]),
+.Y7(Y7[2 * `WIDTH - 2:0]),
+.Y8(Y8[2 * `WIDTH - 2:0]),
+.Y9(Y9[2 * `WIDTH - 2:0]),
 
 .I(I[`WIDTH - 1:0]),
 
-.out(X_next[2 * `WIDTH - 1:0])
+.out(Xout[2 * `WIDTH - 2:0])
 
 );
 
 eq2 u2(
-.X(X[2 * `WIDTH - 1:0]),
+.X(X[2 * `WIDTH - 2:0]),
 
-.out(out[2 * `WIDTH - 1:0])
+.out(Yout[2 * `WIDTH - 2:0])
 );
 
 endmodule
