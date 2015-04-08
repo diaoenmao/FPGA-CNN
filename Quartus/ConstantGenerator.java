@@ -10,12 +10,11 @@ class ConstantGenerator
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		for(int i =1;i<260;i+=7) {
-			System.out.println("assign Y"+i+"_in = Y"+i+"_next;assign Y"+(i+1)+"_in = Y"+
-			(i+1)+"_next;assign Y"+(i+2)+"_in = Y"+(i+2)+
-			"_next;assign Y"+(i+3)+"_in = Y"+(i+3)+"_next;assign Y"+
-			(i+4)+"_in = Y"+(i+4)+"_next;assign Y"+(i+5)+"_in = Y"+
-			(i+5)+"_next;assign Y"+(i+6)+"_in = Y"+(i+6)+"_next;");
+		for(int a =1;a<=256;a+=7) {
+			System.out.println("output wire signed [2 * `WIDTH - 2:0] Y"+a+"_out, Y"+(a+1)+"_out, Y"+(a+2)+"_out, Y"+(a+3)
+			+ "_out, Y"+(a+4)+"_out, Y"+(a+5)+"_out, Y"+(a+6)+"_out, Y"+(a+7)+"_out, Y"+(a+8)
+			+ "_out, Y"+(a+9)+"_out, Y"+(a+10)+"_out, Y"+(a+11)+"_out, Y"+(a+12)+"_out, Y"+(a+13)
+			+ "_out, Y"+(a+14)+"_out, Y"+(a+15)+"_out;");
 		}
 	}
 }
