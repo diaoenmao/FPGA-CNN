@@ -1,5 +1,5 @@
 //This module implements the Y = 1/2*{|X+1|-|X-1|} equation
-// Here X is output from equation 1 plus the initial X.
+// Here X is the initial X.
 
 `define WIDTH 9
 module eq2 (

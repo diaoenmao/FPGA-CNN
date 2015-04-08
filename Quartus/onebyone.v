@@ -1,3 +1,6 @@
+// Module onebyone takes in the A template, B template, input, initial Y, I template and initial X 
+// Output of the equation is Xout (output of eq1 module) and Yout (output of eq2)
+
 `define WIDTH 9
 module onebyone (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
@@ -25,6 +28,9 @@ Yout
 	input wire signed [2 * `WIDTH - 2:0] X;
 	output wire signed [2 * `WIDTH - 2:0] Xout;
 	output wire signed [2 * `WIDTH - 2:0] Yout;
+
+// In A1(A1[`WIDTH - 1:0]), the first A1 is the A1 in eq1 module and the second A1 is the one in this module
+// This section is assigning the inputs from onebyone module to the respective inputs in other moudles
 	
 eq1 u1(
 .A1(A1[`WIDTH - 1:0]),
