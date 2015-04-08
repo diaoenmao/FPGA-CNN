@@ -1,6 +1,7 @@
 // This module implements the equation Xnew = A*Y + B*U + I
 // It takes in the A template, B template, I template, U input, Y matrix and gives the output which is Ynew
 // The values are defined to be 9 bits since we want it to be signed.
+
 `define WIDTH 9
 module eq1 (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
