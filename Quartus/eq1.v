@@ -22,11 +22,11 @@ out
 
 // Y matrix will be 16 bits since we are storing the multiplied value of A*Y + B*U
 
-	input wire signed [2 * `WIDTH - 2:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
-	wire signed [2 * `WIDTH - 2:0] outY;
-	wire signed [2 * `WIDTH - 2:0] outU;
+	input wire signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
+	wire signed [2 * `WIDTH - 1:0] outY;
+	wire signed [2 * `WIDTH - 1:0] outU;
 	input wire signed [`WIDTH - 1:0] I;
-	output wire signed [2 * `WIDTH - 2:0] out;
+	output wire signed [2 * `WIDTH - 1:0] out;
 
 // Implementing the equations here. Multiply the corresponding indexes of the matrices and add them.
 // outU and outY are intermediate signals used to store the sum.

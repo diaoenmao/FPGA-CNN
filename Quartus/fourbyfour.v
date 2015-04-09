@@ -20,32 +20,32 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire signed [`WIDTH - 1:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
 	input wire signed [`WIDTH - 1:0] I;
-	input wire signed [2 * `WIDTH - 2:0] Initial_X_in;
+	input wire signed [2 * `WIDTH - 1:0] Initial_X_in;
 	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	
-	reg signed [2 * `WIDTH - 2:0] X1_in = 0, X2_in = 0, X3_in = 0, X4_in = 0, X5_in = 0, X6_in = 0, X7_in = 0;
-	reg signed [2 * `WIDTH - 2:0] X8_in = 0, X9_in = 0, X10_in = 0, X11_in = 0, X12_in = 0, X13_in = 0, X14_in = 0, X15_in = 0, X16_in = 0;
-	reg signed [2 * `WIDTH - 2:0] X;
-	reg signed [2 * `WIDTH - 2:0] Y1_in = 0, Y2_in = 0, Y3_in = 0, Y4_in = 0, Y5_in = 0, Y6_in = 0, Y7_in = 0;
-	reg signed [2 * `WIDTH - 2:0] Y8_in = 0, Y9_in = 0, Y10_in = 0, Y11_in = 0, Y12_in = 0, Y13_in = 0, Y14_in = 0, Y15_in = 0, Y16_in = 0;
-	reg signed [2 * `WIDTH - 2:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
+	reg signed [2 * `WIDTH - 1:0] X1_in = 0, X2_in = 0, X3_in = 0, X4_in = 0, X5_in = 0, X6_in = 0, X7_in = 0;
+	reg signed [2 * `WIDTH - 1:0] X8_in = 0, X9_in = 0, X10_in = 0, X11_in = 0, X12_in = 0, X13_in = 0, X14_in = 0, X15_in = 0, X16_in = 0;
+	reg signed [2 * `WIDTH - 1:0] X;
+	reg signed [2 * `WIDTH - 1:0] Y1_in = 0, Y2_in = 0, Y3_in = 0, Y4_in = 0, Y5_in = 0, Y6_in = 0, Y7_in = 0;
+	reg signed [2 * `WIDTH - 1:0] Y8_in = 0, Y9_in = 0, Y10_in = 0, Y11_in = 0, Y12_in = 0, Y13_in = 0, Y14_in = 0, Y15_in = 0, Y16_in = 0;
+	reg signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
 	
 
 
 	reg [`COUNTER_WIDTH - 1:0] counter = `COUNTER_WIDTH'b0;
-	wire signed [2 * `WIDTH - 2:0] X_onebyoneout;
-	wire signed [2 * `WIDTH - 2:0] Y_onebyoneout;
+	wire signed [2 * `WIDTH - 1:0] X_onebyoneout;
+	wire signed [2 * `WIDTH - 1:0] Y_onebyoneout;
 	reg initial_flag = 1'b1;
 
-	reg signed [2 * `WIDTH - 2:0] X1_next = 0, X2_next = 0, X3_next = 0, X4_next = 0, X5_next = 0, X6_next = 0;
-	reg signed [2 * `WIDTH - 2:0] X7_next = 0, X8_next = 0, X9_next = 0, X10_next = 0, X11_next = 0, X12_next = 0, X13_next = 0;
-	reg signed [2 * `WIDTH - 2:0] X14_next = 0, X15_next = 0, X16_next = 0;	
-	reg signed [2 * `WIDTH - 2:0] Y1_next = 0, Y2_next = 0, Y3_next = 0, Y4_next = 0, Y5_next = 0, Y6_next = 0;
-	reg signed [2 * `WIDTH - 2:0] Y7_next = 0, Y8_next = 0, Y9_next = 0, Y10_next = 0, Y11_next = 0, Y12_next = 0, Y13_next = 0;
-	reg signed [2 * `WIDTH - 2:0] Y14_next = 0, Y15_next = 0, Y16_next = 0;
+	reg signed [2 * `WIDTH - 1:0] X1_next = 0, X2_next = 0, X3_next = 0, X4_next = 0, X5_next = 0, X6_next = 0;
+	reg signed [2 * `WIDTH - 1:0] X7_next = 0, X8_next = 0, X9_next = 0, X10_next = 0, X11_next = 0, X12_next = 0, X13_next = 0;
+	reg signed [2 * `WIDTH - 1:0] X14_next = 0, X15_next = 0, X16_next = 0;	
+	reg signed [2 * `WIDTH - 1:0] Y1_next = 0, Y2_next = 0, Y3_next = 0, Y4_next = 0, Y5_next = 0, Y6_next = 0;
+	reg signed [2 * `WIDTH - 1:0] Y7_next = 0, Y8_next = 0, Y9_next = 0, Y10_next = 0, Y11_next = 0, Y12_next = 0, Y13_next = 0;
+	reg signed [2 * `WIDTH - 1:0] Y14_next = 0, Y15_next = 0, Y16_next = 0;
 
 	
-	output wire signed [2 * `WIDTH - 2:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
+	output wire signed [2 * `WIDTH - 1:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
 
     
 assign Y1_out = Y1_next;assign Y2_out = Y2_next;assign Y3_out = Y3_next;assign Y4_out = Y4_next;assign Y5_out = Y5_next;assign Y6_out = Y6_next;assign Y7_out = Y7_next;
@@ -127,13 +127,13 @@ begin
   
 	X  <= X1_in;
 	
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
-    Y2 <= {(2 * `WIDTH - 1){1'b0}};
-    Y3 <= {(2 * `WIDTH - 1){1'b0}};
-    Y4 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
+    Y4 <= {(2 * `WIDTH){1'b0}};
     Y5 <= Y1_in;
     Y6 <= Y2_in;
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
     Y8 <= Y5_in;
     Y9 <= Y6_in;   
        
@@ -154,9 +154,9 @@ begin
     
  	X  <= X2_in;
  	   
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
-    Y2 <= {(2 * `WIDTH - 1){1'b0}};
-    Y3 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y1_in;
     Y5 <= Y2_in;
     Y6 <= Y3_in;
@@ -182,9 +182,9 @@ begin
 
  	X  <= X3_in;
  	    
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
-    Y2 <= {(2 * `WIDTH - 1){1'b0}};
-    Y3 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y2_in;
     Y5 <= Y3_in;
     Y6 <= Y4_in;
@@ -210,15 +210,15 @@ begin
 
  	X  <= X4_in;
  	    
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
-    Y2 <= {(2 * `WIDTH - 1){1'b0}};
-    Y3 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
+    Y2 <= {(2 * `WIDTH){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y3_in;
     Y5 <= Y4_in;
-    Y6 <= {(2 * `WIDTH - 1){1'b0}};
+    Y6 <= {(2 * `WIDTH){1'b0}};
     Y7 <= Y7_in;
     Y8 <= Y8_in;
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
        
 
   end else if (counter == `COUNTER_WIDTH'b0100) begin // 5
@@ -238,13 +238,13 @@ begin
     
  	X  <= X5_in;
  	    
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= Y1_in;
     Y3 <= Y2_in;
-    Y4 <= {(2 * `WIDTH - 1){1'b0}};
+    Y4 <= {(2 * `WIDTH){1'b0}};
     Y5 <= Y5_in;
     Y6 <= Y6_in;
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
     Y8 <= Y9_in;
     Y9 <= Y10_in;
     
@@ -324,13 +324,13 @@ begin
  	
     Y1 <= Y3_in;
     Y2 <= Y4_in;
-    Y3 <= {(2 * `WIDTH - 1){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y7_in;
     Y5 <= Y8_in;
-    Y6 <= {(2 * `WIDTH - 1){1'b0}};
+    Y6 <= {(2 * `WIDTH){1'b0}};
     Y7 <= Y11_in;
     Y8 <= Y12_in;
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
     
     
 
@@ -351,13 +351,13 @@ begin
 
  	X  <= X9_in;
  	    
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= Y5_in;
     Y3 <= Y6_in;
-    Y4 <= {(2 * `WIDTH - 1){1'b0}};
+    Y4 <= {(2 * `WIDTH){1'b0}};
     Y5 <= Y9_in;
     Y6 <= Y10_in;
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
     Y8 <= Y13_in;
     Y9 <= Y14_in;
     
@@ -439,13 +439,13 @@ begin
  	    
     Y1 <= Y7_in;
     Y2 <= Y8_in;
-    Y3 <= {(2 * `WIDTH - 1){1'b0}};
+    Y3 <= {(2 * `WIDTH){1'b0}};
     Y4 <= Y11_in;
     Y5 <= Y12_in;
-    Y6 <= {(2 * `WIDTH - 1){1'b0}};
+    Y6 <= {(2 * `WIDTH){1'b0}};
     Y7 <= Y15_in;
     Y8 <= Y16_in;
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
     
 
   end else if (counter == `COUNTER_WIDTH'b1100) begin // 13
@@ -465,15 +465,15 @@ begin
 
  	X  <= X13_in;
  	    
-    Y1 <= {(2 * `WIDTH - 1){1'b0}};
+    Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= Y9_in;
     Y3 <= Y10_in;
-    Y4 <= {(2 * `WIDTH - 1){1'b0}};
+    Y4 <= {(2 * `WIDTH){1'b0}};
     Y5 <= Y13_in;
     Y6 <= Y14_in;
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
-    Y8 <= {(2 * `WIDTH - 1){1'b0}};
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
+    Y8 <= {(2 * `WIDTH){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
     
 
   end else if (counter == `COUNTER_WIDTH'b1101) begin // 14
@@ -499,9 +499,9 @@ begin
     Y4 <= Y13_in;
     Y5 <= Y14_in;
     Y6 <= Y15_in;
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
-    Y8 <= {(2 * `WIDTH - 1){1'b0}};
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
+    Y8 <= {(2 * `WIDTH){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
     
     
 
@@ -528,9 +528,9 @@ begin
     Y4 <= Y14_in;
     Y5 <= Y15_in;
     Y6 <= Y16_in;
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
-    Y8 <= {(2 * `WIDTH - 1){1'b0}};
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
+    Y8 <= {(2 * `WIDTH){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
     
 
   end else if (counter == `COUNTER_WIDTH'b1111) begin // 16
@@ -555,10 +555,10 @@ begin
     Y3 <= `WIDTH'b0;
     Y4 <= Y15_in;
     Y5 <= Y16_in;
-    Y6 <= {(2 * `WIDTH - 1){1'b0}};
-    Y7 <= {(2 * `WIDTH - 1){1'b0}};
-    Y8 <= {(2 * `WIDTH - 1){1'b0}};
-    Y9 <= {(2 * `WIDTH - 1){1'b0}};
+    Y6 <= {(2 * `WIDTH){1'b0}};
+    Y7 <= {(2 * `WIDTH){1'b0}};
+    Y8 <= {(2 * `WIDTH){1'b0}};
+    Y9 <= {(2 * `WIDTH){1'b0}};
     
   end
   counter = counter + `COUNTER_WIDTH'b1;
@@ -598,21 +598,21 @@ onebyone u1(
 .U8(U8[`WIDTH - 1:0]),
 .U9(U9[`WIDTH - 1:0]),
 
-.Y1(Y1[2 * `WIDTH - 2:0]),
-.Y2(Y2[2 * `WIDTH - 2:0]),
-.Y3(Y3[2 * `WIDTH - 2:0]),
-.Y4(Y4[2 * `WIDTH - 2:0]),
-.Y5(Y5[2 * `WIDTH - 2:0]),
-.Y6(Y6[2 * `WIDTH - 2:0]),
-.Y7(Y7[2 * `WIDTH - 2:0]),
-.Y8(Y8[2 * `WIDTH - 2:0]),
-.Y9(Y9[2 * `WIDTH - 2:0]),
+.Y1(Y1[2 * `WIDTH - 1:0]),
+.Y2(Y2[2 * `WIDTH - 1:0]),
+.Y3(Y3[2 * `WIDTH - 1:0]),
+.Y4(Y4[2 * `WIDTH - 1:0]),
+.Y5(Y5[2 * `WIDTH - 1:0]),
+.Y6(Y6[2 * `WIDTH - 1:0]),
+.Y7(Y7[2 * `WIDTH - 1:0]),
+.Y8(Y8[2 * `WIDTH - 1:0]),
+.Y9(Y9[2 * `WIDTH - 1:0]),
 
 .I(I[`WIDTH - 1:0]),
 
-.Xout(X_onebyoneout[2 * `WIDTH - 2:0]),
-.Yout(Y_onebyoneout[2 * `WIDTH - 2:0]),
-.X(X[2 * `WIDTH - 2:0])
+.Xout(X_onebyoneout[2 * `WIDTH - 1:0]),
+.Yout(Y_onebyoneout[2 * `WIDTH - 1:0]),
+.X(X[2 * `WIDTH - 1:0])
 
 );
 

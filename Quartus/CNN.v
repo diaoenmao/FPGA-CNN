@@ -9,8 +9,8 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	wire signed [`WIDTH - 1:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
 	wire signed [`WIDTH - 1:0] I;
-	wire signed [2 * `WIDTH - 2:0] Initial_X;
-	output wire signed [2 * `WIDTH - 2:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
+	wire signed [2 * `WIDTH - 1:0] Initial_X;
+	output wire signed [2 * `WIDTH - 1:0] Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out, Y11_out, Y12_out, Y13_out, Y14_out, Y15_out, Y16_out;
 //Value type is {signed, 2^3, 2^2, 2^1, 2^0, 2^-1...}
 assign A1 = `WIDTH'b0;
 assign A2 = `WIDTH'b0;
@@ -51,7 +51,7 @@ assign U16_in = `WIDTH'b0;
 
 assign I = `WIDTH'b110110000;
 
-assign Initial_X = {(2 * `WIDTH - 1){1'b0}};
+assign Initial_X = {(2 * `WIDTH){1'b0}};
 
 fourbyfour u1(
 
@@ -94,26 +94,26 @@ fourbyfour u1(
 .U15_in(U15_in[`WIDTH - 1:0]),
 .U16_in(U16_in[`WIDTH - 1:0]),
 
-.Y1_out(Y1_out[2 * `WIDTH - 2:0]),
-.Y2_out(Y2_out[2 * `WIDTH - 2:0]),
-.Y3_out(Y3_out[2 * `WIDTH - 2:0]),
-.Y4_out(Y4_out[2 * `WIDTH - 2:0]),
-.Y5_out(Y5_out[2 * `WIDTH - 2:0]),
-.Y6_out(Y6_out[2 * `WIDTH - 2:0]),
-.Y7_out(Y7_out[2 * `WIDTH - 2:0]),
-.Y8_out(Y8_out[2 * `WIDTH - 2:0]),
-.Y9_out(Y9_out[2 * `WIDTH - 2:0]),
-.Y10_out(Y10_out[2 * `WIDTH - 2:0]),
-.Y11_out(Y11_out[2 * `WIDTH - 2:0]),
-.Y12_out(Y12_out[2 * `WIDTH - 2:0]),
-.Y13_out(Y13_out[2 * `WIDTH - 2:0]),
-.Y14_out(Y14_out[2 * `WIDTH - 2:0]),
-.Y15_out(Y15_out[2 * `WIDTH - 2:0]),
-.Y16_out(Y16_out[2 * `WIDTH - 2:0]),
+.Y1_out(Y1_out[2 * `WIDTH - 1:0]),
+.Y2_out(Y2_out[2 * `WIDTH - 1:0]),
+.Y3_out(Y3_out[2 * `WIDTH - 1:0]),
+.Y4_out(Y4_out[2 * `WIDTH - 1:0]),
+.Y5_out(Y5_out[2 * `WIDTH - 1:0]),
+.Y6_out(Y6_out[2 * `WIDTH - 1:0]),
+.Y7_out(Y7_out[2 * `WIDTH - 1:0]),
+.Y8_out(Y8_out[2 * `WIDTH - 1:0]),
+.Y9_out(Y9_out[2 * `WIDTH - 1:0]),
+.Y10_out(Y10_out[2 * `WIDTH - 1:0]),
+.Y11_out(Y11_out[2 * `WIDTH - 1:0]),
+.Y12_out(Y12_out[2 * `WIDTH - 1:0]),
+.Y13_out(Y13_out[2 * `WIDTH - 1:0]),
+.Y14_out(Y14_out[2 * `WIDTH - 1:0]),
+.Y15_out(Y15_out[2 * `WIDTH - 1:0]),
+.Y16_out(Y16_out[2 * `WIDTH - 1:0]),
 
 .I(I[`WIDTH - 1:0]),
 
-.Initial_X_in(Initial_X[2 * `WIDTH - 2:0])
+.Initial_X_in(Initial_X[2 * `WIDTH - 1:0])
 );
 
 endmodule
