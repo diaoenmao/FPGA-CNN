@@ -1,5 +1,5 @@
 `define WIDTH 9
-`define COUNTER_WIDTH 4
+`define COUNTER_WIDTH_FOUR_BY_FOUR 4
 module fourbyfour (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
     
@@ -32,7 +32,7 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	
 
 
-	reg [`COUNTER_WIDTH - 1:0] counter = `COUNTER_WIDTH'b0;
+	reg [`COUNTER_WIDTH_FOUR_BY_FOUR - 1:0] counter = `COUNTER_WIDTH_FOUR_BY_FOUR'b0;
 	wire signed [2 * `WIDTH - 1:0] X_onebyoneout;
 	wire signed [2 * `WIDTH - 1:0] Y_onebyoneout;
 	reg initial_flag = 1'b1;
@@ -54,7 +54,7 @@ assign Y14_out = Y14_next;assign Y15_out = Y15_next;assign Y16_out = Y16_next;
 
 always  @ (posedge clk)
 begin
-  if (counter == `COUNTER_WIDTH'b0000) begin // 1	    
+  if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0000) begin // 1	    
 	
 	if (initial_flag == 1'b0) begin
 	    
@@ -137,7 +137,7 @@ begin
     Y8 <= Y5_in;
     Y9 <= Y6_in;   
        
-  end else if (counter == `COUNTER_WIDTH'b0001) begin // 2
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0001) begin // 2
     
     Y1_next <= Y_onebyoneout; 
     X1_next <= X_onebyoneout;
@@ -165,7 +165,7 @@ begin
     Y9 <= Y7_in; 
            
 
-  end else if (counter == `COUNTER_WIDTH'b0010) begin // 3
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0010) begin // 3
   
     Y2_next <= Y_onebyoneout; 
     X2_next <= X_onebyoneout;
@@ -193,7 +193,7 @@ begin
     Y9 <= Y8_in;
       
 
-  end else if (counter == `COUNTER_WIDTH'b0011) begin // 4
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0011) begin // 4
   
     Y3_next <= Y_onebyoneout;
     X3_next <= X_onebyoneout;
@@ -221,7 +221,7 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
        
 
-  end else if (counter == `COUNTER_WIDTH'b0100) begin // 5
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0100) begin // 5
   
     Y4_next <= Y_onebyoneout;
     X4_next <= X_onebyoneout;
@@ -249,7 +249,7 @@ begin
     Y9 <= Y10_in;
     
     
-  end else if (counter == `COUNTER_WIDTH'b0101) begin // 6
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0101) begin // 6
   
     Y5_next <= Y_onebyoneout;  
     X5_next <= X_onebyoneout;
@@ -277,7 +277,7 @@ begin
     Y9 <= Y11_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b0110) begin // 7
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0110) begin // 7
   
     Y6_next <= Y_onebyoneout;
     X6_next <= X_onebyoneout;
@@ -305,7 +305,7 @@ begin
     Y9 <= Y12_in;
     
     
-  end else if (counter == `COUNTER_WIDTH'b0111) begin // 8
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0111) begin // 8
 
     Y7_next <= Y_onebyoneout;
     X7_next <= X_onebyoneout;
@@ -334,7 +334,7 @@ begin
     
     
 
-  end else if (counter == `COUNTER_WIDTH'b1000) begin // 9
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1000) begin // 9
  
     Y8_next <= Y_onebyoneout;
     X8_next <= X_onebyoneout;
@@ -363,7 +363,7 @@ begin
     
     
  
-  end else if (counter == `COUNTER_WIDTH'b1001) begin // 10
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1001) begin // 10
 
     Y9_next <= Y_onebyoneout;
     X9_next <= X_onebyoneout;
@@ -391,7 +391,7 @@ begin
     Y9 <= Y15_in;
     
 
-  end else if (counter == `COUNTER_WIDTH'b1010) begin // 11
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1010) begin // 11
 
     Y10_next <= Y_onebyoneout;
     X10_next <= X_onebyoneout;
@@ -420,7 +420,7 @@ begin
     
     
 
-  end else if (counter == `COUNTER_WIDTH'b1011) begin // 12
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1011) begin // 12
 
     Y11_next <= Y_onebyoneout;
     X11_next <= X_onebyoneout;
@@ -448,7 +448,7 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
     
 
-  end else if (counter == `COUNTER_WIDTH'b1100) begin // 13
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1100) begin // 13
 
     Y12_next <= Y_onebyoneout;
     X12_next <= X_onebyoneout;
@@ -476,7 +476,7 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
     
 
-  end else if (counter == `COUNTER_WIDTH'b1101) begin // 14
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1101) begin // 14
 
     Y13_next <= Y_onebyoneout;
     X13_next <= X_onebyoneout;
@@ -505,7 +505,7 @@ begin
     
     
 
-  end else if (counter == `COUNTER_WIDTH'b1110) begin // 15
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1110) begin // 15
  
     Y14_next <= Y_onebyoneout;
     X14_next <= X_onebyoneout;
@@ -533,7 +533,7 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
     
 
-  end else if (counter == `COUNTER_WIDTH'b1111) begin // 16
+  end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1111) begin // 16
 
     Y15_next <= Y_onebyoneout;
     X15_next <= X_onebyoneout;
@@ -561,7 +561,7 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
     
   end
-  counter = counter + `COUNTER_WIDTH'b1;
+  counter = counter + `COUNTER_WIDTH_FOUR_BY_FOUR'b1;
 end
 
 
