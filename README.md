@@ -1,6 +1,6 @@
 # FPGA-CNN
 FPGA implementation of Cellular neural network (CNN)
-##Default
+###Default Algorithm
 CornerDetection  
 
     
