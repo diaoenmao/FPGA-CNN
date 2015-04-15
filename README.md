@@ -2,7 +2,7 @@
 FPGA implementation of Cellular neural network (CNN)
 ##Default
 CornerDetection<br />
-<code>A = [0 0 0    B = [-1 -1 -1    I = -1  
+<code><p>A = [0 0 0    B = [-1 -1 -1    I = -1
      0 1 0         -1  4 -1  
-     0 0 0]        -1 -1 -1]<code>  
+     0 0 0]        -1 -1 -1]</p></code>  
      
