@@ -1,6 +1,7 @@
 # FPGA-CNN
 
-FPGA implementation of [Cellular Neural Network](http://www.scholarpedia.org/article/Cellular_neural_network) (CNN)
+FPGA implementation of [Cellular Neural Network](http://www.scholarpedia.org/article/Cellular_neural_network) (CNN)  
+![CNN formula](https://github.com/dem123456789/FPGA-CNN/blob/master/Fomula.PNG "CNN")
 
 ## Initialization
 #### CNN 
