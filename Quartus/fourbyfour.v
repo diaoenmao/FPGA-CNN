@@ -1,3 +1,6 @@
+// The fourbyfour module takes in the A template, B template, I template, input, initial x and clock.
+// This module gives out the output of 4x4 matrix.
+
 `define WIDTH 9
 `define COUNTER_WIDTH_FOUR_BY_FOUR 4
 module fourbyfour (
@@ -37,6 +40,8 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	wire signed [2 * `WIDTH - 1:0] Y_onebyoneout;
 	reg initial_flag = 1'b1;
 
+// Setting X_next and Y_next to 0 as that would be the initial values.
+
 	reg signed [2 * `WIDTH - 1:0] X1_next = 0, X2_next = 0, X3_next = 0, X4_next = 0, X5_next = 0, X6_next = 0;
 	reg signed [2 * `WIDTH - 1:0] X7_next = 0, X8_next = 0, X9_next = 0, X10_next = 0, X11_next = 0, X12_next = 0, X13_next = 0;
 	reg signed [2 * `WIDTH - 1:0] X14_next = 0, X15_next = 0, X16_next = 0;	
@@ -55,7 +60,8 @@ assign Y14_out = Y14_next;assign Y15_out = Y15_next;assign Y16_out = Y16_next;
 always  @ (posedge clk)
 begin
   if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0000) begin // 1	    
-	
+
+// when the initial flag is 0 then set all Y and X to next value of Y and X. if it is 1, set X to initial X.
 	if (initial_flag == 1'b0) begin
 	    
 		Y16_next = Y_onebyoneout;
@@ -114,7 +120,9 @@ begin
 		X16_in = Initial_X_in;
 		initial_flag = 1'b0;
 	end
-	
+
+// Each Input matrix is definied. The boundaries will be 0. For examples, around location 2, the inputs will be 0,0,0,U1, U2, U3, U4, U5, U6 and the counter_width
+// will be 1
     U1 <= `WIDTH'b0;
 	U2 <= `WIDTH'b0;
 	U3 <= `WIDTH'b0;
@@ -561,11 +569,14 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
     
   end
+
+//Increment the counter at the end of each iteration
   counter = counter + `COUNTER_WIDTH_FOUR_BY_FOUR'b1;
 end
 
 
 
+// Once the inputs are set, they are given to the onebyone module which then does the computation of the outputs.
 
 onebyone u1(
 .A1(A1[`WIDTH - 1:0]),
