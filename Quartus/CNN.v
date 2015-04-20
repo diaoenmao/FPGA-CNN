@@ -1,3 +1,5 @@
+// The CNN module takes in the clock and give out the output matrix. 
+
 `define WIDTH 9
 module CNN (
 clk,
@@ -20,6 +22,9 @@ Y225_out, Y226_out, Y227_out, Y228_out, Y229_out, Y230_out, Y231_out, Y232_out, 
 Y241_out, Y242_out, Y243_out, Y244_out, Y245_out, Y246_out, Y247_out, Y248_out, Y249_out, Y250_out, Y251_out, Y252_out, Y253_out, Y254_out, Y255_out, Y256_out
 
   );
+
+// This module initializes all the inputs and gives it to the sixteenbysixteen module.
+// It can similaly be given to onebyone or fourbyfour modules with respective lengths.
 	input wire clk;
 	wire signed [`WIDTH - 1:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
 	wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
