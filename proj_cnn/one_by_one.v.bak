@@ -1,8 +1,6 @@
-// Module onebyone takes in the A template, B template, input, initial Y, I template and initial X 
-// Output of the equation is Xout (output of eq1 module) and Yout (output of eq2)
-
 `define WIDTH 9
 module onebyone (
+clk, 
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
     
 B1, B2, B3, B4, B5, B6, B7, B8, B9,
@@ -13,32 +11,27 @@ Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9,
 	
 I,
 
-clk,
+Initial_X,
 
-X,
+eq1out,
 
-Xout,
-
-Yout,
-
-fin_flag
+out
   );
-  
+	
+	
+	input clk;
+	
 	input wire signed [`WIDTH - 1:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
-	input wire signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
+	input wire signed [`WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
 	input wire signed [`WIDTH - 1:0] I;
-	input wire clk;
-	input wire signed [2 * `WIDTH - 1:0] X;
-	output wire signed [2 * `WIDTH - 1:0] Xout;
-	output wire signed [2 * `WIDTH - 1:0] Yout;
-	output wire fin_flag;
-
-// In A1(A1[`WIDTH - 1:0]), the first A1 is the A1 in eq1 module and the second A1 is the one in this module
-// This section is assigning the inputs from onebyone module to the respective inputs in other moudles
+	input wire signed [`WIDTH - 1:0] Initial_X;
+	output wire signed [`WIDTH - 1:0] eq1out;
+	output wire signed [`WIDTH - 1:0] out;
 	
-eq1oneunit u1(
+equation1 u1(
+.clk(clk),
 .A1(A1[`WIDTH - 1:0]),
 .A2(A2[`WIDTH - 1:0]),
 .A3(A3[`WIDTH - 1:0]),
@@ -69,30 +62,30 @@ eq1oneunit u1(
 .U8(U8[`WIDTH - 1:0]),
 .U9(U9[`WIDTH - 1:0]),
 
-.Y1(Y1[2 * `WIDTH - 1:0]),
-.Y2(Y2[2 * `WIDTH - 1:0]),
-.Y3(Y3[2 * `WIDTH - 1:0]),
-.Y4(Y4[2 * `WIDTH - 1:0]),
-.Y5(Y5[2 * `WIDTH - 1:0]),
-.Y6(Y6[2 * `WIDTH - 1:0]),
-.Y7(Y7[2 * `WIDTH - 1:0]),
-.Y8(Y8[2 * `WIDTH - 1:0]),
-.Y9(Y9[2 * `WIDTH - 1:0]),
+.Y1(Y1[`WIDTH - 1:0]),
+.Y2(Y2[`WIDTH - 1:0]),
+.Y3(Y3[`WIDTH - 1:0]),
+.Y4(Y4[`WIDTH - 1:0]),
+.Y5(Y5[`WIDTH - 1:0]),
+.Y6(Y6[`WIDTH - 1:0]),
+.Y7(Y7[`WIDTH - 1:0]),
+.Y8(Y8[`WIDTH - 1:0]),
+.Y9(Y9[`WIDTH - 1:0]),
 
 .I(I[`WIDTH - 1:0]),
 
-.clk(clk),
-
-.fin_flag(fin_flag),
-
-.out(Xout[2 * `WIDTH - 1:0])
+.out(eq1out[`WIDTH - 1:0])
 
 );
 
-eq2 u2(
-.X(X[2 * `WIDTH - 1:0]),
+equation2 u2(
 
-.out(Yout[2 * `WIDTH - 1:0])
+.dX(eq1out[`WIDTH - 1:0]),
+
+.Initial_X(Initial_X[`WIDTH - 1:0]),
+
+.out(out[`WIDTH - 1:0])
 );
 
 endmodule
+

@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/72/quartus/proj1
+vadder_unit
+Z0 !s110 1428283481
+!i10b 1
+!s100 kZP9l[<8U4m92c`R[bi]82
+Iai2NF9SG`o9T@dei0eg1O0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/altera/72/quartus/proj_cnn
+w1428216561
+8C:/altera/72/quartus/proj_cnn/adder_unit.v
+FC:/altera/72/quartus/proj_cnn/adder_unit.v
+L0 2
+Z3 OP;L;10.4;61
+r1
+!s85 0
+31
+!s108 1428283481.874000
+!s107 C:/altera/72/quartus/proj_cnn/adder_unit.v|
+!s90 -reportprogress|300|-work|cnn|-stats=none|C:/altera/72/quartus/proj_cnn/adder_unit.v|
+!s101 -O0
+!i113 1
+Z4 o-work cnn -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vconvolution
+!s110 1430513901
+!i10b 1
+!s100 7AEoZ4;6dFjz_18bzn8132
+I2Q4TcC25fz0:i9I^h?CVQ1
+R1
+R2
+w1428523874
+8C:/altera/72/quartus/proj_cnn/convolution.v
+FC:/altera/72/quartus/proj_cnn/convolution.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1430513901.424000
+!s107 C:/altera/72/quartus/proj_cnn/convolution.v|
+!s90 -reportprogress|300|-work|cnn|-stats=none|C:/altera/72/quartus/proj_cnn/convolution.v|
+!s101 -O0
+!i113 1
+R4
+veq1
+!s110 1428216927
+!i10b 1
+!s100 hBO5BE2DL[7FRV6M=HMzH1
+IJM3hoDa1A9RXKz;?2J@UW2
+R1
+R2
+w1428216587
+Z5 8C:/altera/72/quartus/proj_cnn/equation1.v
+Z6 FC:/altera/72/quartus/proj_cnn/equation1.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1428216927.727000
+Z7 !s107 C:/altera/72/quartus/proj_cnn/equation1.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/altera/72/quartus/proj_cnn/equation1.v|
+!s101 -O0
+!i113 1
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vequation1
+Z10 !s110 1428283482
+!i10b 1
+!s100 Ubg8GdmMSfOQi;XY3TK;j3
+IFPCmCo4;C3OTzD?O9EG1]2
+R1
+R2
+w1428280640
+R5
+R6
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1428283482.394000
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+vequation2
+R10
+!i10b 1
+!s100 ac[]0Wn?P9V>k<?ZiL96;0
+I<eLW9MTfYTVb_7G;cc]h43
+R1
+R2
+w1428216913
+8C:/altera/72/quartus/proj_cnn/equation2.v
+FC:/altera/72/quartus/proj_cnn/equation2.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1428283482.541000
+!s107 C:/altera/72/quartus/proj_cnn/equation2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/altera/72/quartus/proj_cnn/equation2.v|
+!s101 -O0
+!i113 1
+R9
+vfour_by_four
+!s110 1430514926
+!i10b 1
+!s100 Wm:hQ2acA9zMlhh=7W2@J2
+IEkDG4efFIIC7`CoVNNN]@1
+R1
+R2
+w1430514923
+Z11 8C:/altera/72/quartus/proj_cnn/four_by_four.v
+Z12 FC:/altera/72/quartus/proj_cnn/four_by_four.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1430514926.043000
+!s107 C:/altera/72/quartus/proj_cnn/four_by_four.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/altera/72/quartus/proj_cnn/four_by_four.v|
+!s101 -O0
+!i113 1
+R9
+vfourbyfour
+R10
+!i10b 1
+!s100 9CSD3mD^ZX<ZXX8n6DVT12
+IU>eezRL3BQ5KAhY=`[OeD3
+R1
+R2
+w1428283479
+R11
+R12
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1428283482.292000
+!s107 C:/altera/72/quartus/proj_cnn/four_by_four.v|
+R13
+!s101 -O0
+!i113 1
+R9
+vmultiplier_unit
+R0
+!i10b 1
+!s100 h2JnPDcXP>n2fiQmC3::H1
+II4NZP[ZfID00V?^?4CBNd0
+R1
+R2
+w1428213373
+8C:/altera/72/quartus/proj_cnn/multiplier_unit.v
+FC:/altera/72/quartus/proj_cnn/multiplier_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1428283481.942000
+!s107 C:/altera/72/quartus/proj_cnn/multiplier_unit.v|
+!s90 -reportprogress|300|-work|cnn|-stats=none|C:/altera/72/quartus/proj_cnn/multiplier_unit.v|
+!s101 -O0
+!i113 1
+R4
+vone_by_one
+!s110 1430514394
+!i10b 1
+!s100 bcSTj614n0Raf?0@SWQWz1
+IHf6d8DR`=4o=BeF9EZNf@3
+R1
+R2
+w1430514390
+Z14 8C:/altera/72/quartus/proj_cnn/one_by_one.v
+Z15 FC:/altera/72/quartus/proj_cnn/one_by_one.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1430514394.824000
+Z16 !s107 C:/altera/72/quartus/proj_cnn/one_by_one.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/altera/72/quartus/proj_cnn/one_by_one.v|
+!s101 -O0
+!i113 1
+R9
+vonebyone
+!s110 1430514327
+!i10b 1
+!s100 Md7_F<`kSU`eg<9;ZUm2i0
+IB5`m5gziPGd?gjIm_Q45`2
+R1
+R2
+w1430514182
+R14
+R15
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1430514327.324000
+R16
+R17
+!s101 -O0
+!i113 1
+R9

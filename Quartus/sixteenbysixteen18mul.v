@@ -1,6 +1,6 @@
 `define WIDTH 9
 `define COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN 8
-module sixteenbysixteen (
+module sixteenbysixteen18mul (
 
 U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in,
 U17_in, U18_in, U19_in, U20_in, U21_in, U22_in, U23_in, U24_in, U25_in, U26_in, U27_in, U28_in, U29_in, U30_in, U31_in, U32_in,
@@ -51,7 +51,6 @@ clk
 	input wire clk;
 	input wire signed [`WIDTH - 1:0] I;
 	input wire signed [2 * `WIDTH - 1:0] Initial_X_in;
-	wire fin_flag;
 	wire signed [2 * `WIDTH - 1:0] X_onebyoneout;
 	wire signed [2 * `WIDTH - 1:0] Y_onebyoneout;
 	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
@@ -59,7 +58,7 @@ clk
 	reg [`COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN - 1:0] counter = `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b0;
 	reg initial_flag = 1'b1;
 	reg signed [2 * `WIDTH - 1:0] X;
-	
+
 
 	input wire signed [`WIDTH - 1:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
@@ -7476,9 +7475,7 @@ X249_in = Initial_X_in;X250_in = Initial_X_in;X251_in = Initial_X_in;X252_in = I
     Y9 <= {(2 * `WIDTH){1'b0}};
 
     end
-    if(fin_flag == 1) begin
-		counter = counter + `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b1;
-	end
+  counter = counter + `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b1;
 end
 
 onebyone u1(
@@ -7523,9 +7520,6 @@ onebyone u1(
 .Y9(Y9[2 * `WIDTH - 1:0]),
 
 .I(I[`WIDTH - 1:0]),
-
-.clk(clk),
-.fin_flag(fin_flag),
 
 .Xout(X_onebyoneout[2 * `WIDTH - 1:0]),
 .Yout(Y_onebyoneout[2 * `WIDTH - 1:0]),

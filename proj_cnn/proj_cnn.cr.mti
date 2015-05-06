@@ -1,0 +1,50 @@
+C:/altera/72/quartus/proj_cnn/equation2.v {1 {vlog -work work -stats=none C:/altera/72/quartus/proj_cnn/equation2.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module equation2
+
+Top level modules:
+	equation2
+
+} {} {}} C:/altera/72/quartus/proj_cnn/convolution.v {1 {vlog -work cnn -stats=none C:/altera/72/quartus/proj_cnn/convolution.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module convolution
+
+Top level modules:
+	convolution
+
+} {} {}} C:/altera/72/quartus/proj_cnn/one_by_one.v {1 {vlog -work work -stats=none C:/altera/72/quartus/proj_cnn/one_by_one.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module one_by_one
+
+Top level modules:
+	one_by_one
+
+} {} {}} C:/altera/72/quartus/proj_cnn/four_by_four.v {1 {vlog -work work -stats=none C:/altera/72/quartus/proj_cnn/four_by_four.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module four_by_four
+
+Top level modules:
+	four_by_four
+
+} {} {}} C:/altera/72/quartus/proj_cnn/multiplier_unit.v {1 {vlog -work cnn -stats=none C:/altera/72/quartus/proj_cnn/multiplier_unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module multiplier_unit
+
+Top level modules:
+	multiplier_unit
+
+} {} {}} C:/altera/72/quartus/proj_cnn/adder_unit.v {1 {vlog -work cnn -stats=none C:/altera/72/quartus/proj_cnn/adder_unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_unit
+
+Top level modules:
+	adder_unit
+
+} {} {}} C:/altera/72/quartus/proj_cnn/equation1.v {1 {vlog -work work -stats=none C:/altera/72/quartus/proj_cnn/equation1.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module equation1
+
+Top level modules:
+	equation1
+
+} {} {}}
