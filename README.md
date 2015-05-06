@@ -9,7 +9,7 @@ FPGA implementation of [Cellular Neural Network](http://www.scholarpedia.org/art
 `SixteenbySixteen.java` generates Verilog code for 16x16 layer module [sixteenbysixteen.v](https://github.com/dem123456789/FPGA-CNN/blob/master/Quartus/sixteenbysixteen.v)
 #### Default 
 [CornerDetection](http://en.wikipedia.org/wiki/Corner_detection)  
-Other available templates in [Template_library_v3.1.pdf](https://github.com/dem123456789/FPGA-CNN/blob/master/Template_library_v3.1.pdf)
+Other available templates in [here](https://github.com/dem123456789/FPGA-CNN/blob/master/Template_library_v3.1.pdf)
  
 ## Usage
 
