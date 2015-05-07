@@ -21,125 +21,134 @@ out
 	input wire signed [`WIDTH - 1:0] B1, B2, B3, B4, B5, B6, B7, B8, B9;
 	input wire signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	input wire signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
-	reg signed [2 * `WIDTH - 1:0] outY;
 	input wire signed [`WIDTH - 1:0] I;
 	output wire fin_flag;	
 	output wire signed [2 * `WIDTH - 1:0] out;
+	reg signed [2 * `WIDTH - 1:0] outY;
+	
+	reg signed [2 * `WIDTH - 1:0] adda;
+	reg signed [2 * `WIDTH - 1:0] addb;
+	wire signed [2 * `WIDTH - 1:0] data_out;
+
 	reg signed [`WIDTH - 1 : 0] dataa;
-	reg signed [2 * `WIDTH - 1 : 0] datab;
-	reg signed [2 * `WIDTH - 1 : 0] mult_out;
-	wire signed [2 * `WIDTH - 1 : 0] mult_out_wire;
-	reg signed [2 * `WIDTH - 1 : 0] sum;
-	wire signed [2 * `WIDTH - 1 : 0] add_out;
-	reg flag = 1'b0;
-	reg [4:0] counter;
+	reg signed [2 * `WIDTH - 1:0] datab;
+	wire signed [2 * `WIDTH - 1:0] mult_out;
+	reg signed [2 * `WIDTH - 1:0] sum = {(2 * `WIDTH){1'b0}};
+	wire signed [2 * `WIDTH - 1:0] add_out;
+	
+	reg flag = 1'b1;
+	reg [4:0] counter = 5'b11111;
 	//assign outY = (A1 * Y1)+ (A2 * Y2) + (A3 * Y3) + (A4 * Y4) + (A5 * Y5) + (A6 * Y6) + (A7 * Y7) + (A8 * Y8) + (A9 * Y9);
 	//assign outU = (B1 * U1)+ (B2 * U2) + (B3 * U3) + (B4 * U4) + (B5 * U5) + (B6 * U6) + (B7 * U7) + (B8 * U8) + (B9 * U9);
-
-assign out = (add_out)?(flag == 1):{(2 * `WIDTH){1'b0}};
 assign fin_flag = flag;
+assign out = (flag == 1)?(data_out):{(2 * `WIDTH){1'b0}};
 always @ (posedge clk)
 begin
-	if (counter != 18 || counter != 19) begin
-		mult_out <= mult_out_wire;
-	end
-	if (counter == 0) begin  
+	if (counter == 5'b11111) begin 
+		// let Y value be assigned
+		// this clock cycle is idle
+			flag <= 1'b0;
+	end else if (counter == 5'b00000) begin  
 			dataa <= A1;			
 			datab <= Y1;
-			sum <= 0;
-			flag <= 0;
-	end else if (counter == 1) begin
+			sum <= {(2 * `WIDTH){1'b0}};
+	end else if (counter == 5'b00001) begin
 			dataa <= A2;			
 			datab <= Y2;
 			sum <= add_out;
-	end else if (counter == 2) begin
+	end else if (counter == 5'b00010) begin
 			dataa <= A3;			
 			datab <= Y3;
 			sum <= add_out;
-	end else if (counter == 3) begin
+	end else if (counter == 5'b00011) begin
 			dataa <= A4;			
 			datab <= Y4;
 			sum <= add_out;
-	end else if (counter == 4) begin
+	end else if (counter == 5'b00100) begin
 			dataa <= A5;			
 			datab <= Y5;
 			sum <= add_out;
-	end else if (counter == 5) begin
+	end else if (counter == 5'b00101) begin
 			dataa <= A6;			
 			datab <= Y6;
 			sum <= add_out;
-	end else if (counter == 6) begin
+	end else if (counter == 5'b00110) begin
 			dataa <= A7;			
 			datab <= Y7;
 			sum <= add_out;
-	end else if (counter == 7) begin
+	end else if (counter == 5'b00111) begin
 			dataa <= A8;			
 			datab <= Y8;
 			sum <= add_out;
-	end else if (counter == 8) begin
+	end else if (counter == 5'b01000) begin
 			dataa <= A9;			
 			datab <= Y9;
 			sum <= add_out;
-	end else if (counter == 9) begin
+	end else if (counter == 5'b01001) begin
 			outY <= add_out;
 			dataa <= B1;			
 			datab <= U1;
-			sum <= 0;
-	end else if (counter == 10) begin
+			sum <= {(2 * `WIDTH){1'b0}};
+	end else if (counter == 5'b01010) begin
 			dataa <= B2;			
 			datab <= U2;	
 			sum <= add_out;
-	end else if (counter == 11) begin
+	end else if (counter == 5'b01011) begin
 			dataa <= B3;			
 			datab <= U3;
 			sum <= add_out;
-	end else if (counter == 12) begin
+	end else if (counter == 5'b01100) begin
 			dataa <= B4;			
 			datab <= U4;
 			sum <= add_out;
-	end else if (counter == 13) begin
+	end else if (counter == 5'b01101) begin
 			dataa <= B5;			
 			datab <= U5;
 			sum <= add_out;
-	end else if (counter == 14) begin
+	end else if (counter == 5'b01110) begin
 			dataa <= B6;			
 			datab <= U6;
 			sum <= add_out;
-	end else if (counter == 15) begin
+	end else if (counter == 5'b01111) begin
 			dataa <= B7;			
 			datab <= U7;
 			sum <= add_out;
-	end else if (counter == 16) begin
+	end else if (counter == 5'b10000) begin
 			dataa <= B8;			
 			datab <= U8;
 			sum <= add_out;
-	end else if (counter == 17) begin
+	end else if (counter == 5'b10001) begin
 			dataa <= B9;			
 			datab <= U9;
 			sum <= add_out;
-	end else if (counter == 18) begin
-			mult_out <= outY;
-			sum <= add_out;
-	end else if (counter == 19) begin
-			mult_out <= I;
-			sum <= add_out;
-			flag <= 1;
-	end else begin
-		counter <= 0;
+	end else if (counter == 5'b10010) begin
+			adda <= outY;
+			addb <= add_out;
+	end else if (counter == 5'b10011) begin
+			adda <= I;
+			addb <= data_out;
+			flag <= 1'b1;
+			counter = 5'b11110;
 	end
-	counter <= counter + 5'b1;
+	counter = counter + 5'b1;
 end
 
 multiplier u1(
 .dataa(dataa[`WIDTH - 1:0]),
 .datab(datab[2 * `WIDTH - 1:0]),
-.dataout(mult_out_wire[2 * `WIDTH - 1:0])
+.dataout(mult_out[2 * `WIDTH - 1:0])
 );
 
 adder u2(
 .dataa(mult_out[2 * `WIDTH - 1:0]),
 .datab(sum[2 * `WIDTH - 1:0]),
 .dataout(add_out[2 * `WIDTH - 1:0])
+);
+
+adder u3(
+.dataa(adda[2 * `WIDTH - 1:0]),
+.datab(addb[2 * `WIDTH - 1:0]),
+.dataout(data_out[2 * `WIDTH - 1:0])
 );
 
 endmodule

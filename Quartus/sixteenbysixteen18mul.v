@@ -7478,7 +7478,7 @@ X249_in = Initial_X_in;X250_in = Initial_X_in;X251_in = Initial_X_in;X252_in = I
   counter = counter + `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b1;
 end
 
-onebyone u1(
+onebyone18mul u1(
 .A1(A1[`WIDTH - 1:0]),
 .A2(A2[`WIDTH - 1:0]),
 .A3(A3[`WIDTH - 1:0]),
