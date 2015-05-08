@@ -21,7 +21,9 @@ Xout,
 
 Yout,
 
-fin_flag
+fin_flag,
+
+counter_flag
   );
   
 	input wire signed [`WIDTH - 1:0] A1, A2, A3, A4, A5, A6, A7, A8, A9;
@@ -34,6 +36,7 @@ fin_flag
 	output wire signed [2 * `WIDTH - 1:0] Xout;
 	output wire signed [2 * `WIDTH - 1:0] Yout;
 	output wire fin_flag;
+	output wire counter_flag;
 
 // In A1(A1[`WIDTH - 1:0]), the first A1 is the A1 in eq1 module and the second A1 is the one in this module
 // This section is assigning the inputs from onebyone module to the respective inputs in other moudles
@@ -84,6 +87,7 @@ eq1oneunit u1(
 .clk(clk),
 
 .fin_flag(fin_flag),
+.counter_flag(counter_flag),
 
 .out(Xout[2 * `WIDTH - 1:0])
 

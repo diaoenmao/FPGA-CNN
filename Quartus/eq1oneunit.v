@@ -13,6 +13,7 @@ Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9,
 I,
 
 fin_flag,
+counter_flag,
 
 out
 );
@@ -22,8 +23,9 @@ out
 	input wire signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	input wire signed [2 * `WIDTH - 1:0] Y1, Y2, Y3, Y4, Y5, Y6, Y7, Y8, Y9;
 	input wire signed [`WIDTH - 1:0] I;
-	output wire fin_flag;	
-	output wire signed [2 * `WIDTH - 1:0] out;
+	output wire fin_flag;
+	output wire counter_flag;	
+	output reg signed [2 * `WIDTH - 1:0] out = 0;
 	reg signed [2 * `WIDTH - 1:0] outY;
 	
 	reg signed [2 * `WIDTH - 1:0] adda;
@@ -37,18 +39,21 @@ out
 	wire signed [2 * `WIDTH - 1:0] add_out;
 	
 	reg flag = 1'b1;
+	reg c_flag = 1'b0;
 	reg [4:0] counter = 5'b11111;
 	//assign outY = (A1 * Y1)+ (A2 * Y2) + (A3 * Y3) + (A4 * Y4) + (A5 * Y5) + (A6 * Y6) + (A7 * Y7) + (A8 * Y8) + (A9 * Y9);
 	//assign outU = (B1 * U1)+ (B2 * U2) + (B3 * U3) + (B4 * U4) + (B5 * U5) + (B6 * U6) + (B7 * U7) + (B8 * U8) + (B9 * U9);
 assign fin_flag = flag;
-assign out = (flag == 1)?(data_out):{(2 * `WIDTH){1'b0}};
+assign counter_flag = c_flag;
 always @ (posedge clk)
 begin
 	if (counter == 5'b11111) begin 
 		// let Y value be assigned
 		// this clock cycle is idle
+		    out = data_out;
+		    c_flag = 1'b0;
+	end else if (counter == 5'b00000) begin
 			flag <= 1'b0;
-	end else if (counter == 5'b00000) begin  
 			dataa <= A1;			
 			datab <= Y1;
 			sum <= {(2 * `WIDTH){1'b0}};
@@ -127,6 +132,7 @@ begin
 	end else if (counter == 5'b10011) begin
 			adda <= I;
 			addb <= data_out;
+			c_flag <= 1'b1;
 			flag <= 1'b1;
 			counter = 5'b11110;
 	end

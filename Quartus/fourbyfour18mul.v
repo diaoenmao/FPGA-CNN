@@ -3,7 +3,7 @@
 
 `define WIDTH 9
 `define COUNTER_WIDTH_FOUR_BY_FOUR 4
-module fourbyfour (
+module fourbyfour18mul (
 A1, A2, A3, A4, A5, A6, A7, A8, A9,
     
 B1, B2, B3, B4, B5, B6, B7, B8, B9,
@@ -24,8 +24,6 @@ Y1_out, Y2_out, Y3_out, Y4_out, Y5_out, Y6_out, Y7_out, Y8_out, Y9_out, Y10_out,
 	input wire signed [`WIDTH - 1:0] U1_in, U2_in, U3_in, U4_in, U5_in, U6_in, U7_in, U8_in, U9_in, U10_in, U11_in, U12_in, U13_in, U14_in, U15_in, U16_in;
 	input wire signed [`WIDTH - 1:0] I;
 	input wire signed [2 * `WIDTH - 1:0] Initial_X_in;
-	wire fin_flag;
-	wire counter_flag;
 	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;
 	
 	reg signed [2 * `WIDTH - 1:0] X1_in = 0, X2_in = 0, X3_in = 0, X4_in = 0, X5_in = 0, X6_in = 0, X7_in = 0;
@@ -61,11 +59,6 @@ assign Y14_out = Y14_next;assign Y15_out = Y15_next;assign Y16_out = Y16_next;
 
 always  @ (posedge clk)
 begin
-  if (fin_flag == 1'b1) begin
-  	if(counter_flag == 1) begin
-		//Increment the counter at the end of each iteration
-		counter = counter + `COUNTER_WIDTH_FOUR_BY_FOUR'b1;
-	end
   if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0000) begin // 1	    
 
 // when the initial flag is 0 then set all Y and X to next value of Y and X. if it is 1, set X to initial X.
@@ -125,6 +118,7 @@ begin
 		X14_in = Initial_X_in;
 		X15_in = Initial_X_in;
 		X16_in = Initial_X_in;
+		initial_flag = 1'b0;
 	end
 
 // Each Input matrix is definied. The boundaries will be 0. For examples, around location 2, the inputs will be 0,0,0,U1, U2, U3, U4, U5, U6 and the counter_width
@@ -138,9 +132,9 @@ begin
 	U7 <= `WIDTH'b0;
 	U8 <= U5_in;
 	U9 <= U6_in;
-   if(counter_flag == 0) begin 
-		X  <= X1_in;
-	end	
+  
+	X  <= X1_in;
+	
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
@@ -152,8 +146,7 @@ begin
     Y9 <= Y6_in;   
        
   end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0001) begin // 2
-  
-  	initial_flag = 1'b0;  
+    
     Y1_next <= Y_onebyoneout; 
     X1_next <= X_onebyoneout;
          
@@ -166,9 +159,9 @@ begin
     U7 <= U5_in;
     U8 <= U6_in;
     U9 <= U7_in;
-   if(counter_flag == 0) begin     
+    
  	X  <= X2_in;
-	end
+ 	   
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
@@ -194,9 +187,9 @@ begin
     U7 <= U6_in;
     U8 <= U7_in;
     U9 <= U8_in;
-   if(counter_flag == 0) begin 
+
  	X  <= X3_in;
-	end
+ 	    
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
@@ -222,9 +215,9 @@ begin
     U7 <= U7_in;
     U8 <= U8_in;
     U9 <= `WIDTH'b0;
-   if(counter_flag == 0) begin 
+
  	X  <= X4_in;
- 	end    
+ 	    
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= {(2 * `WIDTH){1'b0}};
     Y3 <= {(2 * `WIDTH){1'b0}};
@@ -250,9 +243,9 @@ begin
     U7 <= `WIDTH'b0;
     U8 <= U9_in;
     U9 <= U10_in;
-   if(counter_flag == 0) begin     
+    
  	X  <= X5_in;
- 	end    
+ 	    
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= Y1_in;
     Y3 <= Y2_in;
@@ -278,9 +271,9 @@ begin
     U7 <= U9_in;
     U8 <= U10_in;
     U9 <= U11_in;
-   if(counter_flag == 0) begin 
+
  	X  <= X6_in;
-	end
+ 	    
     Y1 <= Y1_in;
     Y2 <= Y2_in;
     Y3 <= Y3_in;
@@ -306,9 +299,9 @@ begin
     U7 <= U10_in;
     U8 <= U11_in;
     U9 <= U12_in;
-   if(counter_flag == 0) begin 
+
  	X  <= X7_in;
- 	end    
+ 	    
     Y1 <= Y2_in;
     Y2 <= Y3_in;
     Y3 <= Y4_in;
@@ -334,9 +327,9 @@ begin
     U7 <= U11_in;
     U8 <= U12_in;
     U9 <= `WIDTH'b0;
-   if(counter_flag == 0) begin 
+
  	X  <= X8_in;
-   end
+ 	
     Y1 <= Y3_in;
     Y2 <= Y4_in;
     Y3 <= {(2 * `WIDTH){1'b0}};
@@ -363,9 +356,9 @@ begin
     U7 <= `WIDTH'b0;
     U8 <= U13_in;
     U9 <= U14_in;
-   if(counter_flag == 0) begin 
+
  	X  <= X9_in;
- 	end    
+ 	    
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= Y5_in;
     Y3 <= Y6_in;
@@ -392,9 +385,9 @@ begin
     U7 <= U13_in;
     U8 <= U14_in;
     U9 <= U15_in;
-   if(counter_flag == 0) begin 
+
  	X  <= X10_in;
- 	end 
+ 	 
     Y1 <= Y5_in;
     Y2 <= Y6_in;
     Y3 <= Y7_in;
@@ -420,9 +413,9 @@ begin
     U7 <= U14_in;
     U8 <= U15_in;
     U9 <= U16_in;
-   if(counter_flag == 0) begin 
+
  	X  <= X11_in;
- 	end  
+ 	  
     Y1 <= Y6_in;
     Y2 <= Y7_in;
     Y3 <= Y8_in;
@@ -449,9 +442,9 @@ begin
     U7 <= U15_in;
     U8 <= U16_in;
     U9 <= `WIDTH'b0;
-   if(counter_flag == 0) begin 
+
  	X  <= X12_in;
- 	end    
+ 	    
     Y1 <= Y7_in;
     Y2 <= Y8_in;
     Y3 <= {(2 * `WIDTH){1'b0}};
@@ -477,9 +470,9 @@ begin
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
-   if(counter_flag == 0) begin 
+
  	X  <= X13_in;
- 	end    
+ 	    
     Y1 <= {(2 * `WIDTH){1'b0}};
     Y2 <= Y9_in;
     Y3 <= Y10_in;
@@ -505,9 +498,9 @@ begin
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
-   if(counter_flag == 0) begin 
+
  	X  <= X14_in;
- 	end    
+ 	    
     Y1 <= Y9_in;
     Y2 <= Y10_in;
     Y3 <= Y11_in;
@@ -534,9 +527,9 @@ begin
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
-   if(counter_flag == 0) begin 
+
  	X  <= X15_in;
- 	end    
+ 	    
     Y1 <= Y10_in;
     Y2 <= Y11_in;
     Y3 <= Y12_in;
@@ -562,9 +555,9 @@ begin
     U7 <= `WIDTH'b0;
     U8 <= `WIDTH'b0;
     U9 <= `WIDTH'b0;
-    if(counter_flag == 0) begin   
+    
  	X  <= X16_in;
- 	end
+ 	
     Y1 <= Y11_in;
     Y2 <= Y12_in;
     Y3 <= `WIDTH'b0;
@@ -576,14 +569,16 @@ begin
     Y9 <= {(2 * `WIDTH){1'b0}};
     
   end
-  end
+
+//Increment the counter at the end of each iteration
+  counter = counter + `COUNTER_WIDTH_FOUR_BY_FOUR'b1;
 end
 
 
 
 // Once the inputs are set, they are given to the onebyone module which then does the computation of the outputs.
 
-onebyone u1(
+onebyone18mul u1(
 .A1(A1[`WIDTH - 1:0]),
 .A2(A2[`WIDTH - 1:0]),
 .A3(A3[`WIDTH - 1:0]),
@@ -625,10 +620,6 @@ onebyone u1(
 .Y9(Y9[2 * `WIDTH - 1:0]),
 
 .I(I[`WIDTH - 1:0]),
-
-.clk(clk),
-.fin_flag(fin_flag),
-.counter_flag(counter_flag),
 
 .Xout(X_onebyoneout[2 * `WIDTH - 1:0]),
 .Yout(Y_onebyoneout[2 * `WIDTH - 1:0]),

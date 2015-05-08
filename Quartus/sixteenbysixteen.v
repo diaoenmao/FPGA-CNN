@@ -326,7 +326,7 @@ X233_in = Initial_X_in;X234_in = Initial_X_in;X235_in = Initial_X_in;X236_in = I
 X241_in = Initial_X_in;X242_in = Initial_X_in;X243_in = Initial_X_in;X244_in = Initial_X_in;X245_in = Initial_X_in;X246_in = Initial_X_in;X247_in = Initial_X_in; X248_in = Initial_X_in;
 X249_in = Initial_X_in;X250_in = Initial_X_in;X251_in = Initial_X_in;X252_in = Initial_X_in;X253_in = Initial_X_in;X254_in = Initial_X_in;X255_in = Initial_X_in; X256_in = Initial_X_in;
 
-		initial_flag = 1'b0;
+
 	end
 
     U1 <= `WIDTH'b0;
@@ -353,6 +353,7 @@ X249_in = Initial_X_in;X250_in = Initial_X_in;X251_in = Initial_X_in;X252_in = I
 
   end else if (counter == `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b1) begin // 2
 
+	initial_flag = 1'b0;
     Y1_next <= Y_onebyoneout;
     X1_next <= X_onebyoneout;
 
