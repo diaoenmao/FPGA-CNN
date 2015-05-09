@@ -153,7 +153,6 @@ begin
        
   end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b0001) begin // 2
   
-  	initial_flag = 1'b0;  
     Y1_next <= Y_onebyoneout; 
     X1_next <= X_onebyoneout;
          
@@ -550,6 +549,7 @@ begin
 
   end else if (counter == `COUNTER_WIDTH_FOUR_BY_FOUR'b1111) begin // 16
 
+	initial_flag = 1'b0;
     Y15_next <= Y_onebyoneout;
     X15_next <= X_onebyoneout;
           

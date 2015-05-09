@@ -41,6 +41,8 @@ public class SixteenbySixteenGenerator
 		System.out.println("	input wire clk;"
 		+ "\n	input wire signed [`WIDTH - 1:0] I;"
 		+ "\n	input wire signed [2 * `WIDTH - 1:0] Initial_X_in;"
+		+ "\n	wire fin_flag;"
+		+ "\n	wire counter_flag;"
 		+ "\n	wire signed [2 * `WIDTH - 1:0] X_onebyoneout;"
 		+ "\n	wire signed [2 * `WIDTH - 1:0] Y_onebyoneout;"
 		+ "\n	reg signed [`WIDTH - 1:0] U1, U2, U3, U4, U5, U6, U7, U8, U9;"
@@ -131,6 +133,10 @@ public class SixteenbySixteenGenerator
 			// four corners
 			if(i==1) { // top left
 				System.out.println("always  @ (posedge clk)\nbegin"
+				+ "\n  if (fin_flag == 1'b1) begin"
+				+ "\n    if(counter_flag == 1) begin"
+				+ "\n		counter = counter + `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b1;"
+				+ "\n	end"
 				+ "\n  if (counter == `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b"+Integer.toBinaryString(i-1)+") begin // "+ i + "\n"
 				+ "\n	if (initial_flag == 1'b0) begin\n"
 				+ "\n		Y"+(size*size)+"_next <= Y_onebyoneout;"
@@ -173,15 +179,15 @@ public class SixteenbySixteenGenerator
 					+ "X"+(a+6)+"_in = Initial_X_in;"
 					+" X"+(a+7)+"_in = Initial_X_in;");
 				}
-				System.out.println("\n		initial_flag = 1'b0;\n	end\n"
+				System.out.println("\n\n	end\n"
 				+ "\n    U1 <= `WIDTH'b0;"
 				+ "\n    U2 <= `WIDTH'b0;" + "\n    U3 <= `WIDTH'b0;"
 				+ "\n    U4 <= `WIDTH'b0;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= U"+(i+1)+"_in;" + "\n    U7 <= `WIDTH'b0;"
 				+ "\n    U8 <= U"+(i+size)+"_in;" + "\n    U9 <= U"+(i+size+1)+"_in;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-				
+				+ "\n   if(counter_flag == 0) begin"
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"
 				+ "\n    Y1 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y2 <= {(2 * `WIDTH){1'b0}};" + "\n    Y3 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y4 <= {(2 * `WIDTH){1'b0}};" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -196,9 +202,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= U"+(i-1)+"_in;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= `WIDTH'b0;" + "\n    U7 <= U"+(i+size-1)+"_in;"
 				+ "\n    U8 <= U"+(i+size)+"_in;" + "\n    U9 <= `WIDTH'b0;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y2 <= {(2 * `WIDTH){1'b0}};" + "\n    Y3 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y4 <= Y"+(i-1)+"_in;" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -213,9 +219,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= `WIDTH'b0;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= U"+(i+1)+"_in;" + "\n    U7 <= `WIDTH'b0;"
 				+ "\n    U8 <= `WIDTH'b0;" + "\n    U9 <= `WIDTH'b0;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y2 <= Y"+(i-size)+"_in;" + "\n    Y3 <= Y"+(i-size+1)+"_in;"
 				+ "\n    Y4 <= {(2 * `WIDTH){1'b0}};" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -223,6 +229,7 @@ public class SixteenbySixteenGenerator
 				+ "\n    Y8 <= {(2 * `WIDTH){1'b0}};" + "\n    Y9 <= {(2 * `WIDTH){1'b0}};\n");				
 			}else if(i==size*size) { // bottom right
 				System.out.println("\n  end else if (counter == `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b"+Integer.toBinaryString(i-1)+") begin // "+ i + "\n"
+				+ "\n    initial_flag = 1'b0;"
 				+ "\n    Y"+(i-1)+"_next <= Y_onebyoneout;"
 				+ "\n    X"+(i-1)+"_next <= X_onebyoneout;\n"				
 				+ "\n    U1 <= U"+(i-size-1)+"_in;"
@@ -230,15 +237,15 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= U"+(i-1)+"_in;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= `WIDTH'b0;" + "\n    U7 <= `WIDTH'b0;"
 				+ "\n    U8 <= `WIDTH'b0;" + "\n    U9 <= `WIDTH'b0;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= Y"+(i-size-1)+"_in;"
 				+ "\n    Y2 <= Y"+(i-size)+"_in;" + "\n    Y3 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y4 <= Y"+(i-1)+"_in;" + "\n    Y5 <= Y"+(i)+"_in;"
 				+ "\n    Y6 <= {(2 * `WIDTH){1'b0}};" + "\n    Y7 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y8 <= {(2 * `WIDTH){1'b0}};" + "\n    Y9 <= {(2 * `WIDTH){1'b0}};\n"
-				+ "\n    end\n  counter = counter + `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b1;\nend");	
+				+ "\n    end\n  end\nend");	
 			// four boundaries except corners
 			} else if(i>=2&i<=size-1) { // top 
 				System.out.println("\n  end else if (counter == `COUNTER_WIDTH_SIXTEEN_BY_SIXTEEN'b"+Integer.toBinaryString(i-1)+") begin // "+ i + "\n"
@@ -249,9 +256,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= U"+(i-1)+"_in;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= U"+(i+1)+"_in;" + "\n    U7 <= U"+(i+size-1)+"_in;"
 				+ "\n    U8 <= U"+(i+size)+"_in;" + "\n    U9 <= U"+(i+size+1)+"_in;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y2 <= {(2 * `WIDTH){1'b0}};" + "\n    Y3 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y4 <= Y"+(i-1)+"_in;" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -266,9 +273,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= U"+(i-1)+"_in;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= U"+(i+1)+"_in;" + "\n    U7 <= `WIDTH'b0;"
 				+ "\n    U8 <= `WIDTH'b0;" + "\n    U9 <= `WIDTH'b0;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= Y"+(i-size-1)+"_in;"
 				+ "\n    Y2 <= Y"+(i-size)+"_in;" + "\n    Y3 <= Y"+(i-size+1)+"_in;"
 				+ "\n    Y4 <= Y"+(i-1)+"_in;" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -283,9 +290,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= `WIDTH'b0;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= U"+(i+1)+"_in;" + "\n    U7 <= `WIDTH'b0;"
 				+ "\n    U8 <= U"+(i+size)+"_in;" + "\n    U9 <= U"+(i+size+1)+"_in;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y2 <= Y"+(i-size)+"_in;" + "\n    Y3 <= Y"+(i-size+1)+"_in;"
 				+ "\n    Y4 <= {(2 * `WIDTH){1'b0}};" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -300,9 +307,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= U"+(i-1)+"_in;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= `WIDTH'b0;" + "\n    U7 <= U"+(i+size-1)+"_in;"
 				+ "\n    U8 <= U"+(i+size)+"_in;" + "\n    U9 <= `WIDTH'b0;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= Y"+(i-size-1)+"_in;"
 				+ "\n    Y2 <= Y"+(i-size)+"_in;" + "\n    Y3 <= {(2 * `WIDTH){1'b0}};"
 				+ "\n    Y4 <= Y"+(i-1)+"_in;" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -317,9 +324,9 @@ public class SixteenbySixteenGenerator
 				+ "\n    U4 <= U"+(i-1)+"_in;" + "\n    U5 <= U"+(i)+"_in;"
 				+ "\n    U6 <= U"+(i+1)+"_in;" + "\n    U7 <= U"+(i+size-1)+"_in;"
 				+ "\n    U8 <= U"+(i+size)+"_in;" + "\n    U9 <= U"+(i+size+1)+"_in;\n"
-				
-				+ "\n    X <= X"+i+"_in;\n"
-								
+				+ "\n   if(counter_flag == 0) begin"				
+				+ "\n    X <= X"+i+"_in;"
+				+ "\n	end\n"								
 				+ "\n    Y1 <= Y"+(i-size-1)+"_in;"
 				+ "\n    Y2 <= Y"+(i-size)+"_in;" + "\n    Y3 <= Y"+(i-size+1)+"_in;"
 				+ "\n    Y4 <= Y"+(i-1)+"_in;" + "\n    Y5 <= Y"+(i)+"_in;"
@@ -344,6 +351,9 @@ public class SixteenbySixteenGenerator
 			System.out.println(".Y"+a+"(Y"+a+"[2 * `WIDTH - 1:0]),");
 		}
 		System.out.println("\n.I(I[`WIDTH - 1:0]),\n");
+		System.out.println(".clk(clk),");
+		System.out.println(".fin_flag(fin_flag),");
+		System.out.println(".counter_flag(counter_flag),\n");
 		System.out.println(".Xout(X_onebyoneout[2 * `WIDTH - 1:0]),");
 		System.out.println(".Yout(Y_onebyoneout[2 * `WIDTH - 1:0]),");
 		System.out.println(".X(X[2 * `WIDTH - 1:0])\n");
