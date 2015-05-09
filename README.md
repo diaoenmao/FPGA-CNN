@@ -11,13 +11,20 @@ FPGA implementation of [Cellular Neural Network](http://www.scholarpedia.org/art
 [CornerDetection](http://en.wikipedia.org/wiki/Corner_detection)  
 Other available templates in [here](https://github.com/dem123456789/FPGA-CNN/blob/master/Template_library_v3.1.pdf)
  
-## Usage
+## Instruction
 
-Change the `size` variable in SixteenbySixteen can generate different dimension module  
-Contain a 4x4 layer module [fourbyfour.v](https://github.com/dem123456789/FPGA-CNN/blob/master/Quartus/fourbyfour.v)
+1. Change the `size` variable in SixteenbySixteen can generate different dimension module  
+2. Contain a 4x4 layer module [fourbyfour.v](https://github.com/dem123456789/FPGA-CNN/blob/master/Quartus/fourbyfour.v)  
+3. fourbyfour.v and sixteenbysixteen.v use one multiplier and two adders in calculation of equation 1  
+4. Any files ended with 18mul are associated with the version using 18 multipliers and finishing equation 1 calculation in one clock cycle  
+5. Top level design CNN.v and CNNfourbyfour.v is shared with both versions  
+6. Change the module link, for example, sixteenbysixteen u1 to sixteenbysixteen18mul u1  
+will change to the version which does equation 1 calculation in one clock cycle
+7. Eq1 Initial folder contains the work by Sangeetha J. who completes using one multiplier and one adder to calculate template A times output Y or template B times input U. The default version which using one multiplier and two adders in calcualtion of equation 1 is based on her contribution
+
 #### Default 
-`size = 16;`
-
+`size = 16;`  
+CNN.v is using sixteenbysixteen.v
 ## Contributing
 
 1. Fork
